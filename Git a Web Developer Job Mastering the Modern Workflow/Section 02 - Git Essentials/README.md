@@ -23,7 +23,7 @@ Git 是目前世界上最受歡迎的 **版本控制系統（Version Control Sys
 
 ### Version Control Hosting
 
-- `Git` 和 `Github` 是截然不同的東西。
+- `Git` 和 `GitHub` 是截然不同的東西。
 - 透過 `git push` 可以將本地的目錄推送到版本託管網站上
 
 ## [Lecture] Git Your Hands Dirty
@@ -41,7 +41,7 @@ $ git commit -m <commit>
 
 ## [Lecture] Setup Your GitHub
 
-這一小節有兩個主要的目的：創建 Github 帳號和創建課程項目的版本倉庫。創建帳號的過程不在這裡贅述，創建好帳號之後在 Github 上創建一個版本倉庫供課程項目使用，然後按照下面的內容從講師的倉庫中下載初始化檔案，並關聯到遠端版本庫：
+這一小節有兩個主要的目的：創建 GitHub 帳號和創建課程項目的版本倉庫。創建帳號的過程不在這裡贅述，創建好帳號之後在 GitHub 上創建一個版本倉庫供課程項目使用，然後按照下面的內容從講師的倉庫中下載初始化檔案，並關聯到遠端版本庫：
 
 ```bash
 # Clone the starter files from Brad's Repo
