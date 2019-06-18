@@ -12,6 +12,7 @@
   - [Discord | The Web Developer Bootcamp](https://discord.gg/CUga7jX)
   - [YouTube | Colt Steele](https://www.youtube.com/channel/UCrqAGUPPMOdo0jfQ6grikZw)
   - [YouTube | Ian Schoonover](https://www.youtube.com/c/ianschoonover)
+  - [Slides](https://drive.google.com/drive/folders/0B7qHXcyKO8LKWGdpcXQtM2liUjQ)
 
 # Course Content
 

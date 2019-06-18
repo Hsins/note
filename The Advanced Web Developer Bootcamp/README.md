@@ -8,6 +8,7 @@
 - **Length**: 34 hr
 - **Link**: https://www.udemy.com/the-advanced-web-developer-bootcamp/
 - **Resources**: 
+  - [GitHub | rithmschool/udemy_course_exercises](https://github.com/rithmschool/udemy_course_exercises/tree/master/react)
 
 # Course Content
 

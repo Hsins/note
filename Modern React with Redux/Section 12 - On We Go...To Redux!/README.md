@@ -21,10 +21,11 @@
 
 在 Redux 中常見以下術語：
 
-- State: 描述整個應用程式中的全部狀態，所有需要控制的狀態都應設計到 `state` 物件中
-- Action: 用來描述行為，並存入相應的訊息，是應用程式和 `store` 進行通訊的整合對象
-- Reducers: 由於已經使用了 `action` 來定義發生了什麼，需要透過 `reducer` 來處理 `action`。定義 `reducers` 時必須接收兩個參數：當前 `state` 和 `action` 並返回更新後的狀態
-- Dispatch: 用來觸發動作（action），是唯一可以用來修改 `store` 中 `state` 的方法
+- Store: 保存資料的地方，可以是做一個容器。整個應用程式只能有一個 `store`。
+- State: 描述整個應用程式中的全部狀態，所有需要控制的狀態都應設計到 `state` 物件中。
+- Action: 用來描述行為，並存入相應的訊息，是應用程式和 `store` 進行通訊的整合對象。
+- Reducers: 由於已經使用了 `action` 來定義發生了什麼，需要透過 `reducer` 來處理 `action`。定義 `reducers` 時必須接收兩個參數：當前 `state` 和 `action` 並返回更新後的狀態。
+- Dispatch: 用來觸發動作（action），是唯一可以用來修改 `store` 中 `state` 的方法。
 
 ## [Note] A Example of Redux
 
