@@ -2,51 +2,111 @@
 
 ## Table of Contents
 
-- [Section 12 - On We Go...To Redux!](#section-12---on-we-goto-redux)
-  - [Table of Contents](#table-of-contents)
-  - [[Lecture] Introduction to Redux](#lecture-introduction-to-redux)
-  - [[Lecture] Redux by Analogy](#lecture-redux-by-analogy)
-  - [[Lecture] A Bit More Analogy](#lecture-a-bit-more-analogy)
-  - [[Lecture] Finishing the Analogy](#lecture-finishing-the-analogy)
-  - [[Lecture] Mapping the Analogy to Redux](#lecture-mapping-the-analogy-to-redux)
-  - [[Lecture] Modeling with Redux](#lecture-modeling-with-redux)
-  - [[Lecture] Creating Reducers](#lecture-creating-reducers)
-  - [[Lecture] Rules of Reducers](#lecture-rules-of-reducers)
-  - [[Lecture] Testing Our Example](#lecture-testing-our-example)
-  - [[Lecture] Important Redux Notes](#lecture-important-redux-notes)
+- [Section 12 - On We Go...To Redux!](#Section-12---On-We-GoTo-Redux)
+  - [Table of Contents](#Table-of-Contents)
+  - [[Note] What is Redux?](#Note-What-is-Redux)
+  - [[Note] Action, Dispatch, Reducers and State](#Note-Action-Dispatch-Reducers-and-State)
+  - [[Note] A Example of Redux](#Note-A-Example-of-Redux)
 
-## [Lecture] Introduction to Redux
+## [Note] What is Redux?
 
-從這一單元開始將介紹狀態管理庫 [Redux](https://redux.js.org/)，首先必須知道的一些特性：
-
-> Redux is a predictable state container for JavaScript apps
+[Redux](https://redux.js.org/) 是一個開源的 JavaScript 函數庫，提供可預測的應用程式狀態管理：
 
 - Redux 是狀態管理庫（State Management Library）
-- 可以更簡單地創建複雜的應用
-- 不需要去創建 React 應用就能夠使用
+- 應用程式的狀態，統一存放在 `store` 中。
+- 應用程式的狀態，只能夠透過發出 `action` 來進行更動。
+- 應用程式的狀態，更動前後交由純函數（pure function） `reducer` 處理。它會取得當前的 `state` 和一個 `action`，並回傳下一個 `state`。
 
-## [Lecture] Redux by Analogy
+## [Note] Action, Dispatch, Reducers and State
 
-首先要介紹的是 Redux Cycle，在查找相關資料不論是官方文件或是部落格文章，會常見到下面的術語：
+在 Redux 中常見以下術語：
 
-1. Action Creator
-2. Action: 用來描述行為，並存入相應的訊息，是應用程式和 `store` 進行通訊的整合對象
-3. Dispatch: 用來觸發動作（action），唯一可以用來修改 store 中 state 的方法
-4. Reducers: 由於已經使用了 `action` 來定義發生了什麼，需要透過 `reducer` 來處理 `action`，定義時接收兩個參數：當前狀態和 `action` 並返回更新後的狀態
-5. State: 描述一整個應用程式中的全部狀態，所有需要控制的狀態都應設計到 `state` 對象中
+- State: 描述整個應用程式中的全部狀態，所有需要控制的狀態都應設計到 `state` 物件中
+- Action: 用來描述行為，並存入相應的訊息，是應用程式和 `store` 進行通訊的整合對象
+- Reducers: 由於已經使用了 `action` 來定義發生了什麼，需要透過 `reducer` 來處理 `action`。定義 `reducers` 時必須接收兩個參數：當前 `state` 和 `action` 並返回更新後的狀態
+- Dispatch: 用來觸發動作（action），是唯一可以用來修改 `store` 中 `state` 的方法
 
-## [Lecture] A Bit More Analogy
+## [Note] A Example of Redux
 
-## [Lecture] Finishing the Analogy
+```javascript
+console.clear();
 
-## [Lecture] Mapping the Analogy to Redux
+// People dropping off a form (Actoin Creators)
+const createPolicy = (name, amount) => {
+  return { // Action (a form in our analogy)
+    type: 'CREATE_POLICY',
+    paylove: {
+      name: name,
+      amount: amount
+    }
+  };
+};
 
-## [Lecture] Modeling with Redux
+const deletePolicy = (name) => {
+  return {
+    type: 'DELETE_POLICY',
+    payload: {
+      name: name
+    }
+  };
+};
 
-## [Lecture] Creating Reducers
+const createClaim = (name, amountOfMoneyToCollect) => {
+  return {
+    type: 'CREATE_CLAIM',
+    payload: {
+      name: name,
+      amountOfMoneyToCollect: amountOfMoneyToCollect
+    }
+  };
+};
 
-## [Lecture] Rules of Reducers
+// Reducers (Departmetns!)
+const claimsHistory = (oldListOfClaims = [], action) => {
+  if (action.type === 'CREATE_CLAIM') {
+    // We care about this action (FORM!)
+    return [...oldListOfClaims, action.payload];
+  }
 
-## [Lecture] Testing Our Example
+  // We dont't care about this action (FORM!)
+  return oldListOfClaims;
+}
 
-## [Lecture] Important Redux Notes
+const account = (BagOfMoney = 100, action) => {
+  if (action.type === 'CREATE_CLAIM') {
+    return BagOfMoney - action.payload.amountOfMoneyToCollect;
+  } else (action.type === 'CREATE_POLICY') {
+    return BagOfMoney + action.payload.amount;
+  }
+
+  return BagOfMoney;
+}
+
+const policies = (listOfPolicies = [], action) => {
+  if (action.type === 'CREATE_POLICY"') {
+    return [...listOfPolicies, action.payload.name];
+  } else if (action.type === 'DELETE_POLICY') {
+    return listOfPolicies.filter(name => name !== action.payload.name);
+  }
+
+  return listOfPolicies;
+}
+
+const { createStore, combineReducers } = Redux;
+
+const ourDepartments = combineReducers({
+  accounting: accounting,
+  claimsHistory: claimsHistory,
+  polices: polices
+})
+
+const store = createStore(ourDepartments);
+
+store.dispatch(createPolicy('Alex', 20));
+store.dispatch(createPolicy('John', 30));
+store.dispatch(createPolicy('Bob', 40));
+store.dispatch(createClaim('John', 50));
+store.dispatch(deletePolicy('Bob'));
+
+console.log(store.getState());
+```

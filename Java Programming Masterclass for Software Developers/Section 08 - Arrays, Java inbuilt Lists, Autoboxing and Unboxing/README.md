@@ -1,10 +1,11 @@
 # Section 08 - Arrays, Java inbuilt Lists, Autoboxing and Unboxing
 
-- [Section 08 - Arrays, Java inbuilt Lists, Autoboxing and Unboxing](#section-08---arrays-java-inbuilt-lists-autoboxing-and-unboxing)
-  - [[Note] Array](#note-array)
-  - [[Note] Reference Types and Value Types](#note-reference-types-and-value-types)
-  - [[Note] ArrayList](#note-arraylist)
-  - [[Note] Autoboxing and Unboxing](#note-autoboxing-and-unboxing)
+- [Section 08 - Arrays, Java inbuilt Lists, Autoboxing and Unboxing](#Section-08---Arrays-Java-inbuilt-Lists-Autoboxing-and-Unboxing)
+  - [[Note] Array](#Note-Array)
+  - [[Note] Reference Types and Value Types](#Note-Reference-Types-and-Value-Types)
+  - [[Note] ArrayList](#Note-ArrayList)
+  - [[Note] Autoboxing and Unboxing](#Note-Autoboxing-and-Unboxing)
+  - [[Note] Linked List](#Note-Linked-List)
 
 ## [Note] Array
 
@@ -19,3 +20,5 @@
 - ArrayList is a resizable-array.
 
 ## [Note] Autoboxing and Unboxing
+
+## [Note] Linked List
