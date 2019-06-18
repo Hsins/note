@@ -2,70 +2,52 @@
 
 ## Table of Contents
 
-- [Section 03 - Building a Strong Foundation](#section-03---building-a-strong-foundation)
-  - [Table of Contents](#table-of-contents)
-  - [[Lecture] What is STL ?](#lecture-what-is-stl)
-  - [[Lecture] Time is Your Single Competitor](#lecture-time-is-your-single-competitor)
-  - [[Lecture] Global/Local Variables: Part One](#lecture-globallocal-variables-part-one)
-  - [[Lecture] Global/Local Variables: Part Two](#lecture-globallocal-variables-part-two)
-  - [[Lecture] How to Prepare for Competitive Programming ?](#lecture-how-to-prepare-for-competitive-programming)
-  - [[Lecture] Global/Local Variables: Part Three](#lecture-globallocal-variables-part-three)
-  - [[Lecture] Lessons from My CS Degree](#lecture-lessons-from-my-cs-degree)
-  - [[Lecture] How Debug Effectively](#lecture-how-debug-effectively)
-  - [[Lecture] Algorithms Complexity](#lecture-algorithms-complexity)
-  - [[Lecture] Appearance Array](#lecture-appearance-array)
-  - [[Lecture] PRACTICAL EXERCISE - Counting Sort](#lecture-practical-exercise---counting-sort)
-  - [[Lecture] Stack](#lecture-stack)
-  - [[Lecture] PRACTICAL EXERCISE: Check Parenthesis Expression](#lecture-practical-exercise-check-parenthesis-expression)
-  - [[Lecture] Queue](#lecture-queue)
-  - [[Lecture] PRACTICAL EXERCISE](#lecture-practical-exercise)
-  - [[Lecture] How to Prepare for the Coding Interview?](#lecture-how-to-prepare-for-the-coding-interview)
-  - [[Lecture] Binary Search](#lecture-binary-search)
-  - [[Lecture] GOLD trick: Mars Trickery](#lecture-gold-trick-mars-trickery)
-  - [[Lecture] Finding First or Last Occurrence of a Number](#lecture-finding-first-or-last-occurrence-of-a-number)
-  - [[Lecture] PRACTICAL EXERCISE](#lecture-practical-exercise-1)
-  - [[Lecture] PRACTICAL EXERCISE - Number of Occurrences](#lecture-practical-exercise---number-of-occurrences)
-  - [[Lecture] Basic Sorting](#lecture-basic-sorting)
-  - [[Lecture] Fast Sorting: Sort from STL](#lecture-fast-sorting-sort-from-stl)
-  - [[Lecture] PRACTICAL EXERCISE: Majority Element](#lecture-practical-exercise-majority-element)
-  - [[Lecture] Data Structures: Part one](#lecture-data-structures-part-one)
-  - [[Lecture] Data Structures: Part two](#lecture-data-structures-part-two)
-  - [[Lecture] Constructors: Part one](#lecture-constructors-part-one)
-  - [[Lecture] Constructors: Part two](#lecture-constructors-part-two)
-  - [[Lecture] Sorting Structures](#lecture-sorting-structures)
+- [Section 03 - Building a Strong Foundation](#Section-03---Building-a-Strong-Foundation)
+  - [Table of Contents](#Table-of-Contents)
+  - [[Note] What is STL?](#Note-What-is-STL)
+    - [Sort](#Sort)
+    - [Swaping](#Swaping)
+    - [Max](#Max)
+  - [[Note] How to Prepare for Competitive Programming ?](#Note-How-to-Prepare-for-Competitive-Programming)
+  - [[Note] Algorithms Complexity](#Note-Algorithms-Complexity)
+  - [[Note] Appearance Array](#Note-Appearance-Array)
+  - [[Note] Counting Sort](#Note-Counting-Sort)
+  - [[Note] Check Parenthesis Expression](#Note-Check-Parenthesis-Expression)
+  - [[Note] How to Prepare for the Coding Interview?](#Note-How-to-Prepare-for-the-Coding-Interview)
+  - [[Note] Binary Search](#Note-Binary-Search)
 
-## [Lecture] What is STL ?
+## [Note] What is STL?
 
 C 語言和 C++ 語言之間有個巨大的差異在於後者提供了 **標準模板庫（STL, Standard Template Library）**，標準模板庫中有著一系列的模板可以使撰寫代碼更簡潔俐落，我們可以透過 `#include <bits/stdc++.h>` 來引入。
 
-舉例來說，如果我們要對一個數列進行排序：
+### Sort
 
 ```cpp
 // Without STL
 void MergeSort(int st, int dr) {
-    if (st < dr) {
-        int m = st + rand () % (dr - st + 1);
-        MergeSort(st, m);
-        MergeSort(m + 1, dr);
-        int i = st, j = m + 1, k = 0;
-        while (i <= m && j <= dr)
-            if (v[i] < v[j]) tmp[++k] = v[i++];
-                        else tmp[++k] = v[j++];
-        while (i <= m)
-            tmp[++k] = v[i++];
-        while (j <= dr)
-            tmp[++k] = v[j++];
-        
-        for (i = st, j = 1; i <= dr; i++, j++)
-            v[i] = tmp[j];
-    }
+  if (st < dr) {
+    int m = st + rand () % (dr - st + 1);
+    MergeSort(st, m);
+    MergeSort(m + 1, dr);
+    int i = st, j = m + 1, k = 0;
+    while (i <= m && j <= dr)
+        if (v[i] < v[j]) tmp[++k] = v[i++];
+                    else tmp[++k] = v[j++];
+    while (i <= m)
+        tmp[++k] = v[i++];
+    while (j <= dr)
+        tmp[++k] = v[j++];
+    
+    for (i = st, j = 1; i <= dr; i++, j++)
+        v[i] = tmp[j];
+  }
 }
 
 // With STL
 sort(a+1, a+n+1);
 ```
 
-如果我們要進行變數的互換：
+### Swaping
 
 ```cpp
 // Without STL
@@ -77,7 +59,7 @@ b = aux;
 swap(a, b);
 ```
 
-如果我們要找出兩數中的最大值：
+### Max
 
 ```cpp
 // Without STL
@@ -88,16 +70,7 @@ if (a > b) maximum = a;
 maximum = max(a, b);
 ```
 
-
-## [Lecture] Time is Your Single Competitor
-
-對於參加程式競賽的人，通常有個誤解是自己的對手來自其他人，但實際上的對手應該是自己和時間。
-
-## [Lecture] Global/Local Variables: Part One
-
-## [Lecture] Global/Local Variables: Part Two
-
-## [Lecture] How to Prepare for Competitive Programming ?
+## [Note] How to Prepare for Competitive Programming ?
 
 講師撰寫了一篇文章 [Medium | How to prepare for competitive programming?](https://medium.com/@andreimargeloiu/how-to-prepare-for-competitive-programming-396d557e0c12) 來說明自己怎麼準備程式競賽的，其中大致上提到了幾點：
 
@@ -110,135 +83,40 @@ maximum = max(a, b);
     - [TopCoder | Competitive Programming Tutorials](http://www.topcoder.com/community/competitive-programming/tutorials/)
 - 刻意並持續地練習，在作者準備程式競賽的八個月中，每天至少練習五個小時以上。
 
-## [Lecture] Global/Local Variables: Part Three
+## [Note] Algorithms Complexity
 
-## [Lecture] Lessons from My CS Degree
+一個程序的運行時間通常會取決處理器的核心數目、記憶體的讀寫速度、作業系統的位元數和輸入的資料數量…等。通常會使用 **大 O 記號（The Big O Notation）** 來表示時間複雜度，如果要以此記號方式來表示程式運行的時間複雜度，有一些原則必須遵守：
 
-[Medium | The lessons from my CS degree](https://medium.com/@andreimargeloiu/the-lessons-from-my-cs-degree-f5cb3d98cde4)
+- 捨棄較小的次方項。
+- 捨棄常數項的乘法係數。
 
-## [Lecture] How Debug Effectively
-
-## [Lecture] Algorithms Complexity
-
-一個程序的運行時間通常會取決：
-
-- 處理器的核心數目
-- 記憶體的讀寫速度
-- 作業系統的位元數
-- 輸入的資料數量
-
-我們透過 **大 O 記號（The Big O Notation）** 來表示時間複雜度，如果要以此記號方式來表示程式運行的時間複雜度，有一些原則必須遵守：
-
-1. 捨棄較小的次方項。
-2. 捨棄常數項的乘法係數。
-
-## [Lecture] Appearance Array
+## [Note] Appearance Array
 
 如果給定一個數列，如何判斷某個數字是否在數列中存在？數字在數列中重複了幾次？我們可以創建 Appearance Array：
 
 <p align="center">
-  <img src="https://i.imgur.com/dfAD3V4.png">
+  <img src="../src/AppearanceArray.png">
 </p>
 
-如上圖所示，若已知數字的範圍，可以建立一個大小與數字範圍相等的陣列，逐一讀取數列中的數字，並存取對應的陣列索引值。若數列中的數字共有 n 個，則這個做法的時間複雜度為 O(n)。再更深入一些，倘若今天數列中的數字包含負整數呢？由於陣列的索引值不可能為負，所以我們必須進行平移的動作，假設今天數列中最小的數字為 `-10`，則以索引 `0` 的位置表示 `-10` 即可。
+如上圖所示，若已知數字的範圍，可以建立一個大小與數字範圍相等的陣列，逐一讀取數列中的數字，並存取對應的陣列索引值。若數列中的數字共有 $n$ 個，則這個做法的時間複雜度為 $O(n)$。再更深入一些，倘若今天數列中的數字包含負整數呢？由於陣列的索引值不可能為負，所以我們必須進行平移的動作，假設今天數列中最小的數字為 `-10`，則以索引 `0` 的位置表示 `-10` 即可。
 
-實作代碼如下：
+## [Note] Counting Sort
 
-```cpp
-// We have used numbers from [-10, 10]
-// If you don't know the interval of the input numbers, find the minimum number in the input
-// and add it to all numbers (instead of 10 used in this source)
-
-# include <bits/stdc++.h>
-using namespace std;
-
-ifstream f("data.in");
-ofstream g("data.out");
-
-int A[100], n;
-int main () {
-    f >> n;
-    for (int i = 1; i <= n; ++i) {
-        int x;
-        f >> x;
-        x = x + 10;
-        ++A[x];
-    }
-    if (A[3] > 0) g << "YES, it appears";
-             else g << "NO, it's not";
-
-    return 0;
-}
-```
-
-## [Lecture] PRACTICAL EXERCISE - Counting Sort
-
-[計數排序（Counting Sort）](https://en.wikipedia.org/wiki/Counting_sort) 是一種穩定的線性時間排序演算法，計數排序使用上一小節所提到的 Appearance Array，此陣列 A[i] 的第 i 個元素是待排序陣列中數值等於索引值 i 的元素的個數。演算法的步驟如下：
+[計數排序（Counting Sort）](https://en.wikipedia.org/wiki/Counting_sort) 是一種穩定的線性時間排序演算法，計數排序使用 Appearance Array 來記錄元素出現的次數，此陣列 `A[i]` 的第 `i` 個元素是待排序陣列中數值等於索引值 `i` 的元素的個數。演算法的步驟如下：
 
 1. 找出待排序陣列中最大和最小的元素
-2. 循序累計陣列中每個值為 i 的元素出現的次數，並存入陣列 Appearance Array 中的第  i 項
-3. 對所有的計數進行累加（從 Appearance Array 中的第一個元素開始，每一項和前一項相加）
-4. 反向填充目標陣列：將每個元素 i 放在新陣列的第 i 項，每放一個元素就將 i 的數值減去 1。
+2. 循序累計陣列中每個值為 `i` 的元素出現的次數，並存入計數陣列中的第 `i` 項
+3. 對所有的計數進行累加（從計數陣列中的第一個元素開始，每一項和前一項相加）
+4. 反向填充目標陣列：將每個元素 `i` 放在新陣列的第 `i` 項，每放一個元素就將 `i` 的數值減去 1。
 
-代碼實作：
+## [Note] Check Parenthesis Expression
 
-```cpp
-#include <bits/stdc++.h>
-using namespace std;
+1. 由左至右讀入陣列
+2. 遇到左括號 `[` `(` `{` 時，推入堆疊中
+3. 遇到右括號 `]` `]` `}` 時，彈出堆疊頂部元素
+4. 若最後堆疊為空，表示括號成對
 
-ifstream f("data.in");
-ofstream g("data.out");
-
-int A[101], X, n;       // Supposed that we have numbers from 0 to 100
-int maximum;
-
-int main () {
-    f >> n;             // Get the number of elements
-    for (int i = 1; i <= n; ++i) {
-        f >> X;         // a new number
-        ++A[X];         // increasing the appearance array
-
-        maximum = max(maximum, X);
-    }
-
-    for (int i = 0; i <= maximum; ++i) {
-        if (A[i] > 0) {
-            for (int j = 1; j <= A[i]; ++j)
-                cout << i << " ";
-        }
-    }
-
-    return 0;
-}
-```
-
-## [Lecture] Stack
-
-## [Lecture] PRACTICAL EXERCISE: Check Parenthesis Expression
-
-## [Lecture] Queue
-
-## [Lecture] PRACTICAL EXERCISE
-
-Given an array (indexed from 1) of N elements on which we make M queries: `add(Left, Right, X)`, all the elements between the position Left and Right (1 <= Left <= Right <= N) are raising their values with X.
-
-After all the operations are completed, print the array.
-
-**Input**:
-
-```
-1 1 1 4 5 6
-(1, 5, 2)
-(2, 3, 10)
-```
-
-**Output**:
-
-```
-3 13 13 6 7 6
-```
-
-## [Lecture] How to Prepare for the Coding Interview?
+## [Note] How to Prepare for the Coding Interview?
 
 講師寫了一篇文章 [Microsoft Faculty Connection | The definitive guide to the coding interview](https://blogs.msdn.microsoft.com/uk_faculty_connection/2017/07/20/the-definitive-guide-to-the-coding-interview/) 說明如何準備軟體面試。
 
@@ -266,73 +144,6 @@ After all the operations are completed, print the array.
 
 在文章的後半部，作者模擬了當他實際在面試現場被問到問題時，該如何去拆解與回答，十分建議可以看一下影片中的內容。
 
-## [Lecture] Binary Search
+## [Note] Binary Search
 
-使用 [二分搜索演算法](https://en.wikipedia.org/wiki/Binary_search_algorithm) 在一個已排序的陣列中查找指定的數值時，複雜度是 `O(log(n))`，二分搜索每次搜索時先從陣列中間的元素開始查找，根據比較所得的結果來丟棄不必要的部分，反覆更新查找範圍直至找到元素或無法找到元素為止。
-
-<p align="center">
-  <img src="https://i.imgur.com/WTkQkqH.png">
-</p>
-
-代碼實作：
-
-```cpp
-#include <bits/stdc++.h>
-using namespace std;
-
-ifstream f("data.in");
-ofstream g("data.out");
-
-int A[1000], numberElements;
-
-int BinarySearch (int X) {
-    int Left = 1,
-    int Right = numberElements;
-    int mid;
-
-    while (Left <= Right) {
-        mid = (Left + Right) / 2;
-
-        if (X == A[mid]) return mid;            // We have found X
-        else if (X < A[mid]) Right = mid - 1;   // We discard the second half of the array and the middle element
-                        else Left = mid+1;      // We discard the first half of the array and the middle element
-    }
-    return -1;
-}
-
-int main () {
-    f >> numberElements;
-    // Array A is in ascending order
-    for (int i = 1; i <= numberElements; ++i)
-        f >> A[i];
-
-    cout << BinarySearch(21);
-
-    return 0;
-}
-```
-
-## [Lecture] GOLD trick: Mars Trickery
-
-## [Lecture] Finding First or Last Occurrence of a Number
-
-## [Lecture] PRACTICAL EXERCISE
-
-## [Lecture] PRACTICAL EXERCISE - Number of Occurrences
-
-## [Lecture] Basic Sorting
-
-## [Lecture] Fast Sorting: Sort from STL
-
-## [Lecture] PRACTICAL EXERCISE: Majority Element
-
-## [Lecture] Data Structures: Part one
-
-## [Lecture] Data Structures: Part two
-
-## [Lecture] Constructors: Part one
-
-## [Lecture] Constructors: Part two
-
-## [Lecture] Sorting Structures
-
+使用 [二分搜索演算法](https://en.wikipedia.org/wiki/Binary_search_algorithm) 在一個已排序的陣列中查找指定的數值時，複雜度是 $O(\log(n))$，二分搜索每次搜索時先從陣列中間的元素開始查找，根據比較所得的結果來丟棄不必要的部分，反覆更新查找範圍直至找到元素或無法找到元素為止。

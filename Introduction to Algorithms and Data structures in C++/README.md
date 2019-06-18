@@ -1,6 +1,6 @@
-<div align="center">
-  <img src="https://i.imgur.com/1aqnlGj.png">
-</div>
+<p align="center">
+  <img height="200" src="./src/logo.png">
+</p>
 
 # Introduction to Algorithms and Data structures in C++
 
