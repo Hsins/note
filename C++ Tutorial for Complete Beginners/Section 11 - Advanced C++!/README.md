@@ -1,10 +1,7 @@
 # Section 11 - Advanced C++!
 
-## Table of Contents
-
-- [Section 11 - Advanced C++!](#section-11---advanced-c)
-  - [Table of Contents](#table-of-contents)
-  - [[Lecture] Congratulations, and an Advanced C++ Course](#lecture-congratulations-and-an-advanced-c-course)
+- [Section 11 - Advanced C++!](#Section-11---Advanced-C)
+  - [[Lecture] Congratulations, and an Advanced C++ Course](#Lecture-Congratulations-and-an-Advanced-C-Course)
 
 ## [Lecture] Congratulations, and an Advanced C++ Course
 
