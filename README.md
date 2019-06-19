@@ -32,7 +32,7 @@ I'm a really a big fan of Udemy, the most popular online learning and teaching p
 - ![Progress](http://progressed.io/bar/100) [Git a Web Developer Job: Mastering the Modern Workflow](./Git%20a%20Web%20Developer%20Job%20Mastering%20the%20Modern%20Workflow)
 - ![Progress](http://progressed.io/bar/100) [The Complete Web Developer Course 2.0]()
 - ![Progress](http://progressed.io/bar/100) [The Web Developer Bootcamp](./The%20Web%20Developer%20Bootcamp)
-- ![Progress](http://progressed.io/bar/30) [The Advanced Web Developer Bootcamp](./The%20Advanced%20Web%20Developer%20Bootcamp)
+- ![Progress](http://progressed.io/bar/80) [The Advanced Web Developer Bootcamp](./The%20Advanced%20Web%20Developer%20Bootcamp)
 - ![Progress](http://progressed.io/bar/100) [Modern React with Redux](./Modern%20React%20with%20Redux)
 - ![Progress](http://progressed.io/bar/71) [Node with React: Fullstack Web Development](./Node%20with%20React%2C%20Fullstack%20Web%20Development)
 - ![Progress](http://progressed.io/bar/24) [The Complete React Web Developer Course (with Redux)](./The%20Complete%20React%20Web%20Developer%20Course%20(with%20Redux))

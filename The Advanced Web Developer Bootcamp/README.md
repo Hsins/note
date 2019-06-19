@@ -12,12 +12,12 @@
 
 # Course Content
 
-- Section 01 - Course Introduction
+- [Section 01 - Course Introduction](./Section%2001%20-%20Course%20Introduction)
 - Section 02 - CSS Animations: Transforms and Transitions
 - Section 03 - CSS Animations: Keyframes
 - Section 04 - Advanced CSS: Layout With Flexbox
 - Section 05 - Project: Building A Startup Site
-- Section 06 - Async Foundations
+- [Section 06 - Async Foundations](./Section%2006%20-%20Async%20Foundations)
 - Section 07 - AJAX Part 1: XHR and Fetch
 - Section 08 - AJAX Part 2: jQuery and Axios
 - Section 09 - Testing With Jasmine
@@ -36,9 +36,9 @@
 - Section 22 - Intermediate D3
 - Section 23 - D3 Odds and Ends, and Advanced Graph Types
 - Section 24 - Project: Building a Data Dashboard with D3
-- Section 25 - Introduction To React and JSX
-- Section 26 - Create React App and Props
-- Section 27 - State
+- [Section 25 - Introduction To React and JSX](./Section%2025%20-%20Introduction%20To%20React%20and%20JSX)
+- [Section 26 - Create React App and Props](./Section%2026%20-%20Create%20React%20App%20and%20Props)
+- [Section 27 - State](./Section%2027%20-%20State)
 - Section 28 - The Virtual DOM, Events, and Forms
 - Section 29 - Component Lifecycle Methods
 - Section 30 - Building A Full-Stack App With React
