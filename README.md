@@ -1,17 +1,55 @@
-# note-book
-使用 atom + vuepress + markdown 记录笔记的大杂烩仓库
+<p align="center">
+  <img src="https://i.imgur.com/uNDQCAW.png">
+</p>
 
-用来记录工作和学习过程中的笔记，汇总成册方便查阅，类容涵盖各类技术
+# Introduction
 
-如：java、git、elasticsearch、mycat、设计模式、gradle、vue
+I'm a really a big fan of Udemy, the most popular online learning and teaching platform. This is the repository I store my notes. All the note I took in [Markdown](https://daringfireball.net/projects/markdown/syntax) `(.md)` format. I used to take and share my notes with [HackMD](https://hackmd.io/) but it rendering slowly when the files size get bigger.
 
-在线阅读：https://zq99299.github.io/note-book/
+> I am working in process to transfer all my notes from HackMD to this repository. There is a defect on GitHub markdown render engine that it doesn't support the MathJax or KaTeX to render math equations.
 
-## 运行方式
+# Programming Languages
 
-- 写作预览：
+- ![Progress](http://progressed.io/bar/92) [C++ Tutorial for Complete Beginners](./C%2B%2B%20Tutorial%20for%20Complete%20Beginners)
+- ![Progress](http://progressed.io/bar/22) [Learn Advanced C++ Programming](./Learn%20Advanced%20C%2B%2B%20Programming)
+- ![Progress](http://progressed.io/bar/29) [Java Programming Masterclass for Software Developers](./Java%20Programming%20Masterclass%20for%20Software%20Developers)
+- ![Progress](http://progressed.io/bar/100) [Complete Python Bootcamp: Go from zero to hero in Python 3](./Complete%20Python%20Bootcamp%2C%20Go%20from%20zero%20to%20hero%20in%20Python%203)
+- ![Progress](http://progressed.io/bar/100) [ES6 Javascript: The Complete Developer's Guide](./ES6%20Javascript%2C%20The%20Complete%20Developer's%20Guide)
+- ![Progress](http://progressed.io/bar/100) [JavaScript: Understanding the Weird Parts](./JavaScript%2C%20Understanding%20the%20Weird%20Parts)
+- ![Progress](http://progressed.io/bar/100) [Go, The Complete Developer's Guide](./Go%2C%20The%20Complete%20Developer's%20Guide)
 
-  yarn docs:dev
-- 打包发布：
+# Data Structures and Algorithms
 
-  yarn docs:build
+- ![Progress](http://progressed.io/bar/100) [Introduction to Algorithms and Data structures in C++](./Introduction%20to%20Algorithms%20and%20Data%20structures%20in%20C%2B%2B)
+- ![Progress](http://progressed.io/bar/100) [JavaScript Algorithms and Data Structures Masterclass](./JavaScript%20Algorithms%20and%20Data%20Structures%20Masterclass)
+
+# Data and Analytics
+
+- ![Progress](http://progressed.io/bar/45) [Artificial Intelligence A-Z™: Learn How To Build An AI](./Artificial%20Intelligence%20A-Z™%2C%20Learn%20How%20To%20Build%20An%20AI)
+
+# Web Development
+
+- ![Progress](http://progressed.io/bar/100) [Git a Web Developer Job: Mastering the Modern Workflow](./Git%20a%20Web%20Developer%20Job%20Mastering%20the%20Modern%20Workflow)
+- ![Progress](http://progressed.io/bar/100) [The Complete Web Developer Course 2.0]()
+- ![Progress](http://progressed.io/bar/100) [The Web Developer Bootcamp](./The%20Web%20Developer%20Bootcamp)
+- ![Progress](http://progressed.io/bar/80) [The Advanced Web Developer Bootcamp](./The%20Advanced%20Web%20Developer%20Bootcamp)
+- ![Progress](http://progressed.io/bar/100) [Modern React with Redux](./Modern%20React%20with%20Redux)
+- ![Progress](http://progressed.io/bar/71) [Node with React: Fullstack Web Development](./Node%20with%20React%2C%20Fullstack%20Web%20Development)
+- ![Progress](http://progressed.io/bar/24) [The Complete React Web Developer Course (with Redux)](./The%20Complete%20React%20Web%20Developer%20Course%20(with%20Redux))
+
+# Web Scraping
+
+- ![Progress](http://progressed.io/bar/100) [Learn Web Scraping with NodeJs, The Crash Course](./Learn%20Web%20Scraping%20with%20NodeJs%2C%20The%20Crash%20Course)
+
+# Databases
+
+- ![Progress](http://progressed.io/bar/53) [The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert](./The%20Ultimate%20MySQL%20Bootcamp%2C%20Go%20from%20SQL%20Beginner%20to%20Expert)
+
+# Development Tools
+
+- ![Progress](http://progressed.io/bar/100) [Vim Masterclass](./Vim%20Masterclass)
+
+# Photography
+
+- ![Progress](http://progressed.io/bar/3) [Photography Masterclass: A Complete Guide to Photography](./Photography%20Masterclass%2C%20A%20Complete%20Guide%20to%20Photography)
+- ![Progress](http://progressed.io/bar/0) [Night Photography: You Can Shoot Stunning Night Photos](./Night%20Photography%2C%20You%20Can%20Shoot%20Stunning%20Night%20Photos)

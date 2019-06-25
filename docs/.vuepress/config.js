@@ -130,30 +130,5 @@ module.exports = {
         ]
       }
     ]
-  },
-  plugins: [
-    ['@vuepress/back-to-top', true],
-    [
-      '@vuepress/pwa',
-      {
-        serviceWorker: true,
-        updatePopup: {
-          message: 'New content is available.',
-          buttonText: 'Refresh'
-        }
-      }
-    ],
-    [
-      '@vuepress/medium-zoom',
-      {
-        selector: '.theme-default-content img'
-      }
-    ],
-    [
-      '@vuepress/search',
-      {
-        searchMaxSuggestions: 10
-      }
-    ]
-  ]
+  }
 };
