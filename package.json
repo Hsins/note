@@ -1,0 +1,26 @@
+{
+  "name": "udemy-notes",
+  "version": "1.0.0",
+  "description": "This is the repository I store all the notes from Udemy courses.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hsins/Udemy-Notes.git"
+  },
+  "author": "Hsins <hsinspeng@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hsins/Udemy-Notes/issues"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.2",
+    "@vuepress/plugin-medium-zoom": "^1.0.2",
+    "@vuepress/plugin-pwa": "^1.0.2",
+	  "vuepress": "^1.0.2"
+  }
+}
