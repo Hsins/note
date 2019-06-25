@@ -43,11 +43,12 @@ module.exports = {
           },
           {
             text: 'Complete Python Bootcamp: Go from zero to hero in Python 3',
-            link: '/language/japanese'
+            link:
+              '/Complete%20Python%20Bootcamp,%20Go%20from%20zero%20to%20hero%20in%20Python%203/'
           },
           {
             text: "ES6 Javascript: The Complete Developer's Guide",
-            link: '/language/japanese'
+            link: "/ES6%20Javascript,%20The%20Complete%20Developer's%20Guide/"
           },
           {
             text: 'JavaScript: Understanding the Weird Parts',
@@ -69,7 +70,7 @@ module.exports = {
           },
           {
             text: 'The Complete Web Developer Course 2.0',
-            link: '/language/japanese'
+            link: '/The%20Complete%20Web%20Developer%20Course%202.0/'
           },
           {
             text: 'The Web Developer Bootcamp',
@@ -81,15 +82,16 @@ module.exports = {
           },
           {
             text: 'Modern React with Redux',
-            link: '/language/japanese'
+            link: '/Modern%20React%20with%20Redux/'
           },
           {
             text: 'Node with React: Fullstack Web Development',
-            link: '/language/japanese'
+            link: '/Node%20with%20React,%20Fullstack%20Web%20Development/'
           },
           {
             text: 'The Complete React Web Developer Course (with Redux)',
-            link: '/language/japanese'
+            link:
+              '/The%20Complete%20React%20Web%20Developer%20Course%20(with%20Redux)/'
           }
         ]
       },
