@@ -1,5 +1,6 @@
 <template>
   <div class="note-list">
+    <!-- C++ Tutorial for Complete Beginners -->
     <div class="single-member effect-2">
       <div class="member-image">
         <img src="./logo/CTFCB.png" alt="Member">
@@ -9,12 +10,29 @@
         <h5>C++ Tutorial for Complete Beginners</h5>
         <p>John Purcell</p>
         <div class="social-touch">
-          <a href="/C++%20Tutorial%20for%20Complete%20Beginners/">
+          <a href="./C++%20Tutorial%20for%20Complete%20Beginners/">
             More...
           </a>
         </div>
       </div>
     </div>
+    <!-- Learn Advanced C++ Programming -->
+    <div class="single-member effect-2">
+      <div class="member-image">
+        <img src="./logo/LACP.jpg" alt="Member">
+      </div>
+      <div class="member-info">
+        <h3>Programming Languages</h3>
+        <h5>C++ Tutorial for Complete Beginners</h5>
+        <p>John Purcell</p>
+        <div class="social-touch">
+          <a href="./Learn%20Advanced%20C++%20Programming/">
+            More...
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- The Web Developer Bootcamp -->
     <div class="single-member effect-2">
       <div class="member-image">
         <img src="./logo/TWDB.png" alt="Member">
@@ -24,7 +42,7 @@
         <h5>The Web Developer Bootcamp</h5>
         <p>Colt Steele</p>
         <div class="social-touch">
-          <a href="/The%20Web%20Developer%20Bootcamp/">
+          <a href="./The%20Web%20Developer%20Bootcamp/">
             More...
           </a>
         </div>
@@ -37,7 +55,7 @@
   export default {
     data() {
       return {
-        msg: 'Hello this is <demo-1>'
+        msg: 'TEST <demo-1>'
       }
     }
   }
@@ -65,7 +83,7 @@
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: normal;
   margin: 10px 0 0;
   text-transform: uppercase;
