@@ -74,7 +74,7 @@
   background-color: #fff;
   text-align: center;
   position: relative;
-  display inline-block
+  display: inline-block;
 }
 
 .member-image img {
