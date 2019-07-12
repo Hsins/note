@@ -20,36 +20,36 @@ I'm a really a big fan of Udemy, the most popular online learning and teaching p
 
 # Data Structures and Algorithms
 
-- ![Progress](http://progressed.io/bar/100) [Introduction to Algorithms and Data structures in C++](./Introduction%20to%20Algorithms%20and%20Data%20structures%20in%20C%2B%2B)
-- ![Progress](http://progressed.io/bar/100) [JavaScript Algorithms and Data Structures Masterclass](./JavaScript%20Algorithms%20and%20Data%20Structures%20Masterclass)
+- ![Progress](http://progressed.io/bar/100) [Introduction to Algorithms and Data structures in C++](./docs/Introduction%20to%20Algorithms%20and%20Data%20structures%20in%20C%2B%2B/)
+- ![Progress](http://progressed.io/bar/100) [JavaScript Algorithms and Data Structures Masterclass](./docs/JavaScript%20Algorithms%20and%20Data%20Structures%20Masterclass/)
 
 # Data and Analytics
 
-- ![Progress](http://progressed.io/bar/45) [Artificial Intelligence A-Z™: Learn How To Build An AI](./Artificial%20Intelligence%20A-Z™%2C%20Learn%20How%20To%20Build%20An%20AI)
+- ![Progress](http://progressed.io/bar/45) [Artificial Intelligence A-Z™: Learn How To Build An AI](./docs/Artificial%20Intelligence%20A-Z™%2C%20Learn%20How%20To%20Build%20An%20AI/)
 
 # Web Development
 
-- ![Progress](http://progressed.io/bar/100) [Git a Web Developer Job: Mastering the Modern Workflow](./Git%20a%20Web%20Developer%20Job%20Mastering%20the%20Modern%20Workflow)
+- ![Progress](http://progressed.io/bar/100) [Git a Web Developer Job: Mastering the Modern Workflow](./docs/Git%20a%20Web%20Developer%20Job%20Mastering%20the%20Modern%20Workflow/)
 - ![Progress](http://progressed.io/bar/100) [The Complete Web Developer Course 2.0]()
-- ![Progress](http://progressed.io/bar/100) [The Web Developer Bootcamp](./The%20Web%20Developer%20Bootcamp)
-- ![Progress](http://progressed.io/bar/80) [The Advanced Web Developer Bootcamp](./The%20Advanced%20Web%20Developer%20Bootcamp)
-- ![Progress](http://progressed.io/bar/100) [Modern React with Redux](./Modern%20React%20with%20Redux)
-- ![Progress](http://progressed.io/bar/71) [Node with React: Fullstack Web Development](./Node%20with%20React%2C%20Fullstack%20Web%20Development)
-- ![Progress](http://progressed.io/bar/24) [The Complete React Web Developer Course (with Redux)](./The%20Complete%20React%20Web%20Developer%20Course%20(with%20Redux))
+- ![Progress](http://progressed.io/bar/100) [The Web Developer Bootcamp](./docs/The%20Web%20Developer%20Bootcamp/)
+- ![Progress](http://progressed.io/bar/80) [The Advanced Web Developer Bootcamp](./docs/The%20Advanced%20Web%20Developer%20Bootcamp/)
+- ![Progress](http://progressed.io/bar/100) [Modern React with Redux](./docs/Modern%20React%20with%20Redux/)
+- ![Progress](http://progressed.io/bar/71) [Node with React: Fullstack Web Development](./docs/Node%20with%20React%2C%20Fullstack%20Web%20Development/)
+- ![Progress](http://progressed.io/bar/100) [The Complete React Web Developer Course (with Redux)](./docs/The%20Complete%20React%20Web%20Developer%20Course%20(with%20Redux)/)
 
 # Web Scraping
 
-- ![Progress](http://progressed.io/bar/100) [Learn Web Scraping with NodeJs, The Crash Course](./Learn%20Web%20Scraping%20with%20NodeJs%2C%20The%20Crash%20Course)
+- ![Progress](http://progressed.io/bar/100) [Learn Web Scraping with NodeJs, The Crash Course](./docs/Learn%20Web%20Scraping%20with%20NodeJs%2C%20The%20Crash%20Course/)
 
 # Databases
 
-- ![Progress](http://progressed.io/bar/53) [The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert](./The%20Ultimate%20MySQL%20Bootcamp%2C%20Go%20from%20SQL%20Beginner%20to%20Expert)
+- ![Progress](http://progressed.io/bar/100) [The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert](./docs/The%20Ultimate%20MySQL%20Bootcamp%2C%20Go%20from%20SQL%20Beginner%20to%20Expert/)
 
 # Development Tools
 
-- ![Progress](http://progressed.io/bar/100) [Vim Masterclass](./Vim%20Masterclass)
+- ![Progress](http://progressed.io/bar/100) [Vim Masterclass](./docs/Vim%20Masterclass/)
 
 # Photography
 
-- ![Progress](http://progressed.io/bar/3) [Photography Masterclass: A Complete Guide to Photography](./Photography%20Masterclass%2C%20A%20Complete%20Guide%20to%20Photography)
-- ![Progress](http://progressed.io/bar/0) [Night Photography: You Can Shoot Stunning Night Photos](./Night%20Photography%2C%20You%20Can%20Shoot%20Stunning%20Night%20Photos)
+- ![Progress](http://progressed.io/bar/3) [Photography Masterclass: A Complete Guide to Photography](./docs/Photography%20Masterclass%2C%20A%20Complete%20Guide%20to%20Photography/)
+- ![Progress](http://progressed.io/bar/0) [Night Photography: You Can Shoot Stunning Night Photos](./docs/Night%20Photography%2C%20You%20Can%20Shoot%20Stunning%20Night%20Photos/)
