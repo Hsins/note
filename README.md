@@ -44,6 +44,7 @@ I'm a really a big fan of Udemy, the most popular online learning and teaching p
 # Databases
 
 - ![Progress](http://progressed.io/bar/100) [The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert](./docs/The%20Ultimate%20MySQL%20Bootcamp%2C%20Go%20from%20SQL%20Beginner%20to%20Expert/)
+- - ![Progress](http://progressed.io/bar/20) [The Complete Developers Guide to MongoDB](./docs/The%20Complete%20Developers%20Guide%20to%20MongoDB/)
 
 # Development Tools
 
