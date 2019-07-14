@@ -10,8 +10,8 @@ module.exports = {
   themeConfig: {
     docsDir: 'docs',
     sidebar: 'auto',
-    sidebarDepth: 2,
-    lastUpdated: 'Last Updated: ',
+    sidebarDepth: 1,
+    lastUpdated: 'Last Updated',
     repoLabel: 'GitHub',
     docsDir: 'docs',
     docsBranch: 'master',
