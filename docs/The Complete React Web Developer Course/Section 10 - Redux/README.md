@@ -17,7 +17,7 @@
 
 ## [Note] Redux 101: Setup Store and State
 
-在接下來的內容將會簡單地用簡單地計數器來說明 Redux 的概念，首先要創建 `store`：
+在接下來的內容將會透過建構一個簡單的計數器來說明 Redux 的概念，首先要創建 `store`：
 
 ```javascript
 import {createStore} from 'redux';
