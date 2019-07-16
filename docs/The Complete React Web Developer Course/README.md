@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.imgur.com/btCAxFx.png">
+  <img src="./src/logo.png">
 </div>
 
 # The Complete React Web Developer Course

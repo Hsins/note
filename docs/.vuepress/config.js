@@ -93,9 +93,8 @@ module.exports = {
             link: '/Node%20with%20React,%20Fullstack%20Web%20Development/'
           },
           {
-            text: 'The Complete React Web Developer Course (with Redux)',
-            link:
-              '/The%20Complete%20React%20Web%20Developer%20Course%20(with%20Redux)/'
+            text: 'The Complete React Web Developer Course',
+            link: '/The%20Complete%20React%20Web%20Developer%20Course/'
           }
         ]
       },

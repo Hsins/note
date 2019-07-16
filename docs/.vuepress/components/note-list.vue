@@ -48,6 +48,22 @@
         </div>
       </div>
     </div>
+    <!-- The Web Developer Bootcamp -->
+    <div class="single-member effect-2">
+      <div class="member-image">
+        <img src="./logo/TCRWDC.png" alt="Member">
+      </div>
+      <div class="member-info">
+        <h3>Web Development</h3>
+        <h5>The Complete React Web Developer Course</h5>
+        <p>Andrew Mead</p>
+        <div class="social-touch">
+          <a href="./The%20Complete%20React%20Web%20Developer%20Course/">
+            More...
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
