@@ -4,12 +4,12 @@
 
 關於為什麼要使用 Redux，可以參考 [Daily JS | When do I know I’m ready for Redux?](https://medium.com/dailyjs/when-do-i-know-im-ready-for-redux-f34da253c85f) 這篇文章的內容，總體上來說的話就是：
 
-- React 組件間的資料與狀態傳遞使用 [單向數據流（Unidirectional Data Flow）](https://reactjs.org/docs/state-and-lifecycle.html#the-data-flows-down)，在組件架構並不複雜時採用 [狀態提升（Lifting State Up）](https://reactjs.org/docs/lifting-state-up.html) 的方式將狀態向上傳遞到共同祖先。當組件架構複雜時，這樣的做法成本很高。
+- React 組件間的資料與狀態傳遞使用 [單向數據流（Unidirectional Data Flow）](https://reactjs.org/docs/state-and-lifecycle.html#the-data-flows-down)，在組件架構並不複雜時會採用 [狀態提升（Lifting State Up）](https://reactjs.org/docs/lifting-state-up.html) 的方式將狀態向上傳遞到共同祖先；但當組件架構複雜時，這樣的做法成本很高。
 - 使用 Redux 透過整個應用的狀態統一存放在 `store` 進行管理：
   - 組件可以將行為（action）派發（dispatch）給 `store` 而不用通知其他組件
   - 其他組件透過訂閱 `store` 中的狀態來更新自己的視圖
 
-## [Note] JavaScript ES6: Object Destructuring and Array Destructuring
+## [Note] JavaScript ES6: Object Destructuring
 
 - [[筆記] JavaScript ES6 中的物件解構賦值（object destructuring）](https://pjchender.blogspot.com/2017/01/es6-object-destructuring.html)
 
@@ -175,7 +175,10 @@ store.dispatch(setCount({ count: -100 }));
 
 ## [Note] Redux 101: Reducer
 
-上面已經提到了 `action` 是一個用來描述發生事件的物件，透過 `dispatch` 來傳遞 `action` 到 `store` 中。而在 `store` 中則會根據 `action` 的不同透過純函數（pure function）來更新狀態。在這裡我們要創建 `reducer` 來描述 `action` 如何改變狀態樹：
+上面已經提到了 `action` 是一個用來描述發生事件的物件，我們透過 `dispatch` 來把 `action` 傳遞到 `store` 中。而在 `store` 中則根據傳入的 `action` 的來更新狀態，而描述如何改變狀態樹的就是 `reducer`，他有兩個特性：
+
+1. 必須為純函數（pure function）
+2. 不能變更 `state` 或 `action`
 
 ```javascript
 import { createStore } from 'redux';
