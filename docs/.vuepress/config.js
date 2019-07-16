@@ -3,6 +3,10 @@ module.exports = {
   description:
     'The price of success is hard work, dedication to the job at hand, and the determination that whether we win or lose, we have applied the best of ourselves to the task at hand.',
   base: '/Udemy-Notes/',
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+    ['link', { rel: 'shortcut icon', type: 'image/png', href: '/favicon.png' }]
+  ],
   markdown: {
     lineNumbers: true,
     toc: { includeLevel: [2, 3, 4] }

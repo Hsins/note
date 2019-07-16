@@ -61,7 +61,7 @@ console.log(store.getState());          // Object { count: -1 }
 
 ## [Note] Redux 101: Subscribing and Dynamic Actions
 
-我們透過 `subscribe(listener)` 來訂閱，當 `action` 被 `dispatch` 時呼叫：
+我們透過 `subscribe(listener)` 來訂閱狀態變更，當 `action` 被 `dispatch` 時呼叫：
 
 ```javascript
 import { createStore } from 'redux';
@@ -114,3 +114,57 @@ store.dispatch({
   count: 101
 });
 ```
+
+## [Note] Redux 101: Refactoring with Action Generator
+
+在更進一步，我們使用行為生成器（action generator）來重構前面的代碼。行為生成器（action generator）是一個回傳行為物件的函數：
+
+```javascript
+import { createStore } from 'redux';
+
+// Action Generator: function that return action objects
+const incrementCount = ({ incrementBy = 1 } = {}) => ({ type: 'INCREMENT', incrementBy });
+const decrementCount = ({ decrementBy = 1 } = {}) => ({ type: 'DECREMENT', decrementBy });
+const setCount = ({ count }) => ({ type: 'SET', count });
+const resetCount = () => ({ type: 'RESET' });
+
+// Store
+const store = createStore((state = { count: 0 }, action) => {
+  switch (action.type) {
+    case 'INCREMENT':
+      return { count: state.count + incrementBy };
+    case 'DECREMENT':
+      return { count: state.count - decrementBy };
+    case 'SET':
+      return { count: action.count };
+    case 'RESET':
+      return { count: 0 };
+    default: 
+      return state;
+  }
+});
+
+const unsubcribe = store.subscribe(() => {
+  console.log(store.getState());
+});
+
+// Object { count: 5 }
+store.dispatch(incrementCount({ incrementBy: 5 }));
+
+// Object { count: 6 }
+store.dispatch(incrementCount());
+
+// Object { count: 0 }
+store.dispatch(resetCount());
+
+// Object { count: -1 }
+store.dispatch(decrementCount());
+
+// Object { count: -11 }
+store.dispatch(decrementCount({ decrementBy: 10 }));
+
+// Object { count: -100 }
+store.dispatch(setCount({ count: -100 }));
+```
+
+## [Note] Redux 101: Reducer
