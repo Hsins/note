@@ -11,9 +11,12 @@ I'm a really a big fan of Udemy, the most popular online learning and teaching p
 # Programming Languages
 
 - ![Progress](http://progressed.io/bar/92) [C++ Tutorial for Complete Beginners](./docs/C%2B%2B%20Tutorial%20for%20Complete%20Beginners/)
-- ![Progress](http://progressed.io/bar/22) [Learn Advanced C++ Programming](./docs/Learn%20Advanced%20C%2B%2B%20Programming/)
-- ![Progress](http://progressed.io/bar/29) [Java Programming Masterclass for Software Developers](./docs/Java%20Programming%20Masterclass%20for%20Software%20Developers/)
+- ![Progress](http://progressed.io/bar/50) [Learn Advanced C++ Programming](./docs/Learn%20Advanced%20C%2B%2B%20Programming/)
+- ![Progress](http://progressed.io/bar/100) [Java Programming Masterclass for Software Developers](./docs/Java%20Programming%20Masterclass%20for%20Software%20Developers/)
 - ![Progress](http://progressed.io/bar/100) [Complete Python Bootcamp: Go from zero to hero in Python 3](./docs/Complete%20Python%20Bootcamp%2C%20Go%20from%20zero%20to%20hero%20in%20Python%203/)
+- ![Progress](http://progressed.io/bar/0) [Python 3: Deep Dive (Part 1)]()
+- ![Progress](http://progressed.io/bar/0) [Python 3: Deep Dive (Part 2)]()
+- ![Progress](http://progressed.io/bar/0) [Python 3: Deep Dive (Part 3)]()
 - ![Progress](http://progressed.io/bar/100) [ES6 Javascript: The Complete Developer's Guide](./docs/ES6%20Javascript%2C%20The%20Complete%20Developer's%20Guide/)
 - ![Progress](http://progressed.io/bar/100) [JavaScript: Understanding the Weird Parts](./docs/JavaScript%2C%20Understanding%20the%20Weird%20Parts/)
 - ![Progress](http://progressed.io/bar/100) [Go, The Complete Developer's Guide](./docs/Go%2C%20The%20Complete%20Developer's%20Guide/)
@@ -32,7 +35,7 @@ I'm a really a big fan of Udemy, the most popular online learning and teaching p
 - ![Progress](http://progressed.io/bar/100) [Git a Web Developer Job: Mastering the Modern Workflow](./docs/Git%20a%20Web%20Developer%20Job%20Mastering%20the%20Modern%20Workflow/)
 - ![Progress](http://progressed.io/bar/100) [The Complete Web Developer Course 2.0]()
 - ![Progress](http://progressed.io/bar/100) [The Web Developer Bootcamp](./docs/The%20Web%20Developer%20Bootcamp/)
-- ![Progress](http://progressed.io/bar/80) [The Advanced Web Developer Bootcamp](./docs/The%20Advanced%20Web%20Developer%20Bootcamp/)
+- ![Progress](http://progressed.io/bar/100) [The Advanced Web Developer Bootcamp](./docs/The%20Advanced%20Web%20Developer%20Bootcamp/)
 - ![Progress](http://progressed.io/bar/100) [Modern React with Redux](./docs/Modern%20React%20with%20Redux/)
 - ![Progress](http://progressed.io/bar/71) [Node with React: Fullstack Web Development](./docs/Node%20with%20React%2C%20Fullstack%20Web%20Development/)
 - ![Progress](http://progressed.io/bar/100) [The Complete React Web Developer Course (with Redux)](./docs/The%20Complete%20React%20Web%20Developer%20Course%20(with%20Redux)/)
