@@ -30,7 +30,7 @@ function func() {
 
 在絕大多數的程式中，通常會有一個內建的資料結構來管理函數呼叫，也就是所謂的執行堆疊（The Call Stack）。每當函數被呼叫時，就會將他推入 `push` 執行堆疊的上方，當執行到 `return` 關鍵字時，才將其彈出 `pop` 堆疊。
 
-![The Call Stack](https://user-images.githubusercontent.com/26391143/79163712-2c8a6580-7e12-11ea-9622-3b25acce1bed.png =300x)
+![The Call Stack](https://user-images.githubusercontent.com/26391143/79163712-2c8a6580-7e12-11ea-9622-3b25acce1bed.png =450x)
 
 當我們執行遞迴函數時，每一次遞迴都會將函數推入執行堆疊的上方。
 
