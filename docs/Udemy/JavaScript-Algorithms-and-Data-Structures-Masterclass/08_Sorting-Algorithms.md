@@ -4,6 +4,16 @@ pageClass: udemy
 
 # Sorting Algorithms
 
+## What is Sorting?
+
+排序（Sorting）是將一串資料依照特定順序方式進行重新排列。我們經常需要將資料進行排序：
+
+- 將數字從小排列到大
+- 將名稱按照字母順序排列
+- 將電影依照上映年份進行排序
+
+
+
 ## Bubble Sort
 
 ## Selection Sort

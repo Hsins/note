@@ -19,7 +19,7 @@ pageClass: udemy
 - **Resources**:
   - [Slides | Colt Steele](https://cs.slides.com/colt_steele)
 
-# Course Content
+## Course Content
 
 1. [Introduction](./01_Introduction/)
 2. [Big O Notation](./02_Big-O-Notation/)
@@ -42,10 +42,8 @@ pageClass: udemy
 19. [Dynamic Programming](./29_Dynamic-Programming.md)
 20. [Challenges]()
 
-# Project Demo
-
-# Reference
+## Reference
 
 - [Walkcc | Computer Science Notes: JavaScript](https://walkccc.github.io/CS/JavaScript/)
 
-# Review
+## Review
