@@ -1,0 +1,5 @@
+---
+pageClass: coursera
+---
+
+# Substring Search

@@ -1,0 +1,5 @@
+---
+pageClass: pluralsight
+---
+
+# Efficiently Searching

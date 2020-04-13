@@ -1,0 +1,129 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap')
+
+// Hero
+.hero img
+  height: 180px
+  width: 180px
+
+// Callout
+.callout
+  margin 1rem 0
+  padding .1rem 1.5rem
+  border-radius 0.4rem
+  background-color #255b9f09
+  .title
+    font-weight bold
+
+// Navbar
+.navbar
+  border-bottom none !important
+  box-shadow 0 2px 4px 0 rgba(0,0,0,.05) !important
+
+@media (max-width: 719px)
+  .navbar .home-link .can-hide
+    display: inline-block !important
+
+// Scroll bar
+html
+  overflow scroll
+  overflow-x hidden
+
+::-webkit-scrollbar
+  width 5px
+  opacity 0
+  background transparent
+
+::-webkit-scrollbar-thumb
+  overflow visible
+  border-radius 3px
+  background rgba(0,0,0,.5)
+  opacity 0
+
+// Sidebar
+#app .sidebar
+  width  17rem !important
+  border-right none !important
+  background-color darken($backgroundColor, 60%)
+
+ .sidebar-group:not(.collapsable) .sidebar-heading,
+  .sidebar-heading
+    text-transform uppercase !important
+    letter-spacing 0.13rem !important
+    font-size 12px !important
+    font-weight 800 !important
+    color #C1CDDB !important
+
+  a.sidebar-link
+    color #fff !important
+    border-left 0.125rem solid transparent !important
+
+  a.sidebar-link:hover
+    color #fff !important
+    opacity 0.5 !important
+    border-left-color rgba(255, 255, 255, 0.7) !important
+
+  a.sidebar-link:active
+    color #fff !important
+    opacity 0.7 !important
+    border-left-color $accentColor
+
+  a.sidebar-link.active
+    color #fff !important
+    border-left-color $accentColor
+
+  @media (max-width 959px)
+    .sidebar .nav-links
+      border-bottom 2px solid rgba(255, 255, 255, 0.1)
+
+  @media (max-width 719px)
+    .nav-links a.nav-link, .nav-links a.repo-link, .nav-links .dropdown-title
+      color #fff
+
+// img
+img
+  display block
+  margin auto
+
+// kbd
+kbd
+  background-color #fafbfc
+  border 1px solid #c6cbd1
+  border-bottom-color #959da5
+  border-radius 3px
+  box-shadow inset 0 -1px 0 #959da5
+  color #444d56
+  display inline-block
+  font-size 11px
+  line-height 10px
+  padding 3px 5px
+  vertical-align middle
+
+// CUSTOM
+.udemy .sidebar
+  background-color darken($udemyColor, 60%) !important
+  a.sidebar-link:active
+    border-left-color lighten($udemyColor, 1%) !important
+  a.sidebar-link.active
+    border-left-color lighten($udemyColor, 1%) !important
+
+.coursera .sidebar
+  background-color darken($courseraColor, 60%) !important
+  a.sidebar-link:active
+    border-left-color lighten($courseraColor, 1%) !important
+  a.sidebar-link.active
+    border-left-color lighten($courseraColor, 1%) !important
+
+.lynda .sidebar
+  background-color darken($lyndaColor, 60%) !important
+  a.sidebar-link:active
+    border-left-color lighten($lyndaColor, 1%) !important
+  a.sidebar-link.active
+    border-left-color lighten($lyndaColor, 1%) !important
+
+.geektime .sidebar
+  background-color darken($geektimeColor, 60%) !important
+  a.sidebar-link:active
+    border-left-color lighten($geektimeColor, 1%) !important
+  a.sidebar-link.active
+    border-left-color lighten($geektimeColor, 1%) !important

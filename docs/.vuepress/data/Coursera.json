@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Algorithms, Part 1",
+    "cover": "https://user-images.githubusercontent.com/26391143/77976276-28991680-732f-11ea-93ca-0461222c8954.png",
+    "category": "Algorithms",
+    "instructors": "Kevin Wayne, Robert Sedgewick",
+    "link": "https://www.coursera.org/learn/algorithms-part1/",
+    "pageClass": "coursera",
+    "path": "./Algorithms-Part1/"
+  },
+  {
+    "title": "Algorithms, Part 2",
+    "cover": "https://user-images.githubusercontent.com/26391143/77976276-28991680-732f-11ea-93ca-0461222c8954.png",
+    "category": "Algorithms",
+    "instructors": "Kevin Wayne, Robert Sedgewick",
+    "link": "https://www.coursera.org/learn/algorithms-part2/",
+    "pageClass": "coursera",
+    "path": "./Algorithms-Part2/"
+  },
+  {
+    "title": "Discrete Optimization",
+    "cover": "https://user-images.githubusercontent.com/26391143/78545967-3ff46a00-782f-11ea-8545-fcf10d77087d.png",
+    "category": "Algorithms",
+    "instructors": "Pascal Van Hentenryck, Carleton Coffrin",
+    "link": "https://www.coursera.org/learn/discrete-optimization/",
+    "pageClass": "coursera",
+    "path": "./Discrete-Optimization/"
+  },
+  {
+    "title": "Machine Learning",
+    "cover": "https://user-images.githubusercontent.com/26391143/77976391-757ced00-732f-11ea-9861-7a143294d7dc.png",
+    "category": "Data Science",
+    "instructors": "Andrew Ng",
+    "link": "https://www.coursera.org/learn/machine-learning/",
+    "pageClass": "coursera",
+    "path": "./Machine-Learning/"
+  }
+]

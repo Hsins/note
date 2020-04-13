@@ -1,0 +1,11 @@
+[
+  {
+    "title": "First Look: Rust",
+    "cover": "https://user-images.githubusercontent.com/26391143/77977548-8d09a500-7332-11ea-9c39-81a8a3f9e4ca.png",
+    "category": "Programming Language",
+    "instructors": "Abhiram Ravikumar",
+    "link": "https://www.linkedin.com/learning/first-look-rust",
+    "pageClass": "lynda",
+    "path": "./First-Look-Rust/"
+  }
+]

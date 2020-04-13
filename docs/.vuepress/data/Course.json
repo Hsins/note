@@ -1,0 +1,44 @@
+[
+  {
+    "path": "./NCTU-DCP3362/"
+  },
+  {
+    "title": "作業系統（Operatings Systems）",
+    "cover": "https://user-images.githubusercontent.com/26391143/78984221-4f89f080-7b58-11ea-9bc8-a15b1ed32071.png",
+    "category": "Computer Science",
+    "instructors": "郭大維",
+    "link": "https://www.csie.ntu.edu.tw/~ktw/os.htm",
+    "pageClass": "course",
+    "path": "./NTU-CSIE3310/"
+  },
+  {
+    "path": "./NTU-CSIE7130/"
+  },
+  {
+    "path": "./NTU-CommE5030/"
+  },
+  {
+    "path": "./NTU-CommE5050/"
+  },
+  {
+    "path": "./NTU-EE5184/"
+  },
+  {
+    "path": "./NTU-EE5184/"
+  },
+  {
+    "path": "./NTU-IE5009/"
+  },
+  {
+    "path": "./NTU-IE7020/"
+  },
+  {
+    "path": "./NTU-IE7039/"
+  },
+  {
+    "path": "./NTU-ME5147/"
+  },
+  {
+    "path": "./USB-CS188/"
+  }
+]

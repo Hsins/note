@@ -1,0 +1,335 @@
+[
+  {
+    "title": "Advanced JavaScript Concepts",
+    "cover": "https://user-images.githubusercontent.com/26391143/76150621-5f409000-60e7-11ea-9ea3-882ac4d81570.png",
+    "category": "Programming Language",
+    "instructors": "Andrei Neagoie",
+    "link": "https://www.udemy.com/course/advanced-javascript-concepts/",
+    "pageClass": "udemy",
+    "path": "./Advanced-JavaScript-Concepts/"
+  },
+  {
+    "title": "Artificial Intelligence A-Z™: Learn How To Build An AI",
+    "cover": "https://user-images.githubusercontent.com/26391143/76150578-07a22480-60e7-11ea-8db9-e10b1428edc0.png",
+    "category": "Data Science",
+    "instructors": "Andrei Neagoie",
+    "link": "https://www.udemy.com/course/artificial-intelligence-az/",
+    "pageClass": "udemy",
+    "path": "./Artificial-Intelligence-A-Z™-Learn-How-To-Build-An-AI/"
+  },
+  {
+    "title": "C++ Tutorial for Complete Beginners",
+    "cover": "https://user-images.githubusercontent.com/26391143/77968123-1f04b400-7319-11ea-9874-4ddef51b6865.png",
+    "category": "Programming Language",
+    "instructors": "John Purcell",
+    "link": "https://www.udemy.com/free-learn-c-tutorial-beginners/",
+    "pageClass": "udemy",
+    "path": "./C++-Tutorial-for-Complete-Beginners/"
+  },
+  {
+    "title": "Complete Guide to Elasticsearch",
+    "cover": "https://user-images.githubusercontent.com/26391143/78463683-6f618480-7712-11ea-96c3-cada422658c6.png",
+    "category": "Development Tool",
+    "instructors": "Bo Andersen",
+    "link": "https://www.udemy.com/course/elasticsearch-complete-guide/",
+    "pageClass": "udemy",
+    "path": "./Complete-Guide-to-Elasticsearch/"
+  },
+  {
+    "title": "Complete Python Bootcamp: Go from zero to hero in Python 3",
+    "cover": "https://user-images.githubusercontent.com/26391143/77968220-60955f00-7319-11ea-8229-071057581b1e.png",
+    "category": "Programming Language",
+    "instructors": "Jose Portilla",
+    "link": "https://www.udemy.com/complete-python-bootcamp/",
+    "pageClass": "udemy",
+    "path": "./Complete-Python-Bootcamp-Go-from-zero-to-hero-in-Python-3/"
+  },
+  {
+    "title": "Data Science & Deep Learning for Business™ 20 Case Studies",
+    "cover": "https://user-images.githubusercontent.com/26391143/77968397-d5689900-7319-11ea-9b05-b5cf5c45a3a2.png",
+    "category": "Data Science",
+    "instructors": "Rajeev D. Ratan",
+    "link": "https://www.udemy.com/course/data-science-deep-learning-for-business-20-case-studies/",
+    "pageClass": "udemy",
+    "path": "./Data-Science-Deep-Learning-for-Business™-20-Case-Studies/"
+  },
+  {
+    "title": "Data Structures and Algorithms: Deep Dive Using Java",
+    "cover": "https://user-images.githubusercontent.com/26391143/77968563-3c864d80-731a-11ea-9010-9e3d4f4f48e7.png",
+    "category": "Algorithms",
+    "instructors": "Tim Buchalka, Goran Lochert",
+    "link": "https://www.udemy.com/course/data-structures-and-algorithms-deep-dive-using-java/",
+    "pageClass": "udemy",
+    "path": "./Data-Structures-and-Algorithms-Deep-Dive-Using-Java/"
+  },
+  {
+    "title": "Docker and Kubernetes: The Complete Guide",
+    "cover": "https://user-images.githubusercontent.com/26391143/76168072-d4bf6580-61a6-11ea-8d1c-bf36e9108cfd.png",
+    "category": "Development Tool",
+    "instructors": "Stephen Grider",
+    "link": "https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/",
+    "pageClass": "udemy",
+    "path": "./Docker-and-Kubernetes-The-Complete-Guide/"
+  },
+  {
+    "title": "ES6 Javascript: The Complete Developer's Guide",
+    "cover": "https://user-images.githubusercontent.com/26391143/77968800-ccc49280-731a-11ea-9c81-ec2fafb7df7d.png",
+    "category": "Programming Language",
+    "instructors": "Stephen Grider",
+    "link": "https://www.udemy.com/course/javascript-es6-tutorial/",
+    "pageClass": "udemy",
+    "path": "./ES6-Javascript-The-Complete-Developers-Guide/"
+  },
+  {
+    "title": "Git a Web Developer Job: Mastering the Modern Workflow",
+    "cover": "https://user-images.githubusercontent.com/26391143/77968950-262cc180-731b-11ea-93aa-3d2d54e6ad3b.png",
+    "category": "Web Development",
+    "instructors": "Brad Schiff",
+    "link": "https://www.udemy.com/git-a-web-developer-job-mastering-the-modern-workflow/",
+    "pageClass": "udemy",
+    "path": "./Git-a-Web-Developer-Job-Mastering-the-Modern-Workflow/"
+  },
+  {
+    "title": "Go: The Complete Developer's Guide (Golang)",
+    "cover": "https://user-images.githubusercontent.com/26391143/76150086-7a100600-60e1-11ea-8b87-7fd8a1e94b86.png",
+    "category": "Programming Language",
+    "instructors": "Stephen Grider",
+    "link": "https://www.udemy.com/go-the-complete-developers-guide/",
+    "pageClass": "udemy",
+    "path": "./Go-The-Complete-Developers-Guide/"
+  },
+  {
+    "title": "Introduction to Algorithms and Data Structures in C++",
+    "cover": "https://user-images.githubusercontent.com/26391143/77969143-a94e1780-731b-11ea-8111-4585c38d2adb.png",
+    "category": "Algorithms",
+    "instructors": "Andrei Margeloiu",
+    "link": "https://www.udemy.com/introduction-to-algorithms-and-data-structures-in-c/",
+    "pageClass": "udemy",
+    "path": "./Introduction-to-Algorithms-and-Data-structures-in-C++/"
+  },
+  {
+    "title": "Java Interview Guide: 200+ Interview Questions and Answers",
+    "cover": "https://user-images.githubusercontent.com/26391143/76160183-e1ba6580-6162-11ea-9e7a-1531888f60e6.png",
+    "category": "Programming Language",
+    "instructors": "in28Minutes Official",
+    "link": "https://www.udemy.com/course/java-interview-questions-and-answers/",
+    "pageClass": "udemy",
+    "path": "./Java-Interview-Guide-200-Interview-Questions-and-Answers/"
+  },
+  {
+    "title": "Java Programming Masterclass for Software Developers",
+    "cover": "https://user-images.githubusercontent.com/26391143/77969681-d818bd80-731c-11ea-8d2e-4a7e180b7e6a.png",
+    "category": "Programming Language",
+    "instructors": "Tim Buchalka",
+    "link": "https://www.udemy.com/java-the-complete-java-developer-course/",
+    "pageClass": "udemy",
+    "path": "./Java-Programming-Masterclass-for-Software-Developers/"
+  },
+  {
+    "title": "JavaScript Algorithms and Data Structures Masterclass",
+    "cover": "https://user-images.githubusercontent.com/26391143/77969771-1ada9580-731d-11ea-952e-8201ecb5f481.png",
+    "category": "Algorithms",
+    "instructors": "Colt Steele",
+    "link": "https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/",
+    "pageClass": "udemy",
+    "path": "./JavaScript-Algorithms-and-Data-Structures-Masterclass/"
+  },
+  {
+    "title": "JavaScript: Understanding the Weird Parts",
+    "cover": "https://user-images.githubusercontent.com/26391143/76150411-29021100-60e5-11ea-959b-428eedc3ea74.png",
+    "category": "Programming Language",
+    "instructors": "Anthony Alicea",
+    "link": "https://www.udemy.com/understand-javascript/",
+    "pageClass": "udemy",
+    "path": "./JavaScript-Understanding-the-Weird-Parts/"
+  },
+  {
+    "title": "Learn Advanced C++ Programming",
+    "cover": "https://user-images.githubusercontent.com/26391143/77970387-abfe3c00-731e-11ea-84e0-d816e361ba25.png",
+    "category": "Programming Language",
+    "instructors": "John Purcell",
+    "link": "https://www.udemy.com/learn-advanced-c-programming/",
+    "pageClass": "udemy",
+    "path": "./Learn-Advanced-C++-Programming/"
+  },
+  {
+    "title": "Learn Web Scraping with NodeJs - The Crash Course",
+    "cover": "https://user-images.githubusercontent.com/26391143/77970539-06979800-731f-11ea-85b2-d70b592399ed.png",
+    "category": "Web Scraping",
+    "instructors": "Grohs Fabian",
+    "link": "https://www.udemy.com/nodejs-web-scraping/",
+    "pageClass": "udemy",
+    "path": "./Learn-Web-Scraping-with-NodeJs-The-Crash-Course/"
+  },
+  {
+    "title": "Linux Shell Scripting: A Project-Based Approach to Learning",
+    "cover": "https://user-images.githubusercontent.com/26391143/77970653-4b233380-731f-11ea-9f48-ffdf1e97c4da.png",
+    "category": "Linux & Unix",
+    "instructors": "Jason Cannon",
+    "link": "https://www.udemy.com/linux-shell-scripting-projects/",
+    "pageClass": "udemy",
+    "path": "./Linux-Shell-Scripting-A-Project-Based-Approach-to-Learning/"
+  },
+  {
+    "title": "Machine Learning A-Z™: Hands-On Python & R In Data Science",
+    "cover": "https://user-images.githubusercontent.com/26391143/77970760-90dffc00-731f-11ea-8183-1298afcf5c5e.png",
+    "category": "Data Science",
+    "instructors": "Kirill Eremenko, Hadelin de Ponteves",
+    "link": "https://www.udemy.com/course/machinelearning/",
+    "pageClass": "udemy",
+    "path": "./Machine-Learning-A-Z™-Hands-On-Python-R-In-Data-Science/"
+  },
+  {
+    "title": "Modern React with Redux",
+    "cover": "https://user-images.githubusercontent.com/26391143/77970920-01871880-7320-11ea-8c0d-4d4db817c522.png",
+    "category": "Web Development",
+    "instructors": "Stephen Grider",
+    "link": "https://www.udemy.com/react-redux/",
+    "pageClass": "udemy",
+    "path": "./Modern-React-with-Redux/"
+  },
+  {
+    "title": "Night Photography: You Can Shoot Stunning Night Photos",
+    "cover": "https://user-images.githubusercontent.com/26391143/77971003-34311100-7320-11ea-9f62-6f2774d8400d.png",
+    "category": "Photography",
+    "instructors": "Phil Ebiner, William Carnahan, Sam Shimizu-Jones, Video School Online Inc",
+    "link": "https://www.udemy.com/night-photography/",
+    "pageClass": "udemy",
+    "path": "./Night-Photography-You-Can-Shoot-Stunning-Night-Photos/"
+  },
+  {
+    "title": "Node with React: Fullstack Web Development",
+    "cover": "https://user-images.githubusercontent.com/26391143/77971305-e8329c00-7320-11ea-930d-a667342acad5.png",
+    "category": "Web Development",
+    "instructors": "Stephen Grider",
+    "link": "https://www.udemy.com/node-with-react-fullstack-web-development/",
+    "pageClass": "udemy",
+    "path": "./Node-with-React-Fullstack-Web-Development/"
+  },
+  {
+    "title": "Photography Masterclass: A Complete Guide to Photography",
+    "cover": "https://user-images.githubusercontent.com/26391143/77971404-2760ed00-7321-11ea-94d1-67b4d224b717.png",
+    "category": "Photography",
+    "instructors": "Phil Ebiner, William Carnahan, Sam Shimizu-Jones",
+    "link": "https://www.udemy.com/photography-masterclass-complete-guide-to-photography/",
+    "pageClass": "udemy",
+    "path": "./Photography-Masterclass-A-Complete-Guide-to-Photography/"
+  },
+  {
+    "title": "Python 3: Deep Dive (Part 1 - Functional)",
+    "cover": "https://user-images.githubusercontent.com/26391143/77961643-b7e10280-730c-11ea-8c59-e8ed4462bf1f.png",
+    "category": "Programming Language",
+    "instructors": "Fred Baptiste",
+    "link": "https://www.udemy.com/python-3-deep-dive-part-1/",
+    "pageClass": "udemy",
+    "path": "./Python-3-Deep-Dive-Part-1-Functional/"
+  },
+  {
+    "title": "Python 3: Deep Dive (Part 2 - Iteration, Generators)",
+    "cover": "https://user-images.githubusercontent.com/26391143/77972084-ff728900-7322-11ea-9734-3b868a533649.png",
+    "category": "Programming Language",
+    "instructors": "Fred Baptiste",
+    "link": "https://www.udemy.com/python-3-deep-dive-part-2/",
+    "pageClass": "udemy",
+    "path": "./Python-3-Deep-Dive-Part-2-Iteration-Generators/"
+  },
+  {
+    "title": "Python 3: Deep Dive (Part 3 - Hash Maps)",
+    "cover": "https://user-images.githubusercontent.com/26391143/77972169-3b0d5300-7323-11ea-9165-3cc87e773e25.png",
+    "category": "Programming Language",
+    "instructors": "Fred Baptiste",
+    "link": "https://www.udemy.com/course/python-3-deep-dive-part-3/",
+    "pageClass": "udemy",
+    "path": "./Python-3-Deep-Dive-Part-3-Hash-Maps/"
+  },
+  {
+    "title": "Python 3: Deep Dive (Part 4 - OOP)",
+    "cover": "https://user-images.githubusercontent.com/26391143/77972270-7740b380-7323-11ea-86a4-9c0cef87a214.png",
+    "category": "Programming Language",
+    "instructors": "Fred Baptiste",
+    "link": "https://www.udemy.com/course/python-3-deep-dive-part-4/",
+    "pageClass": "udemy",
+    "path": "./Python-3-Deep-Dive-Part-4-OOP/"
+  },
+  {
+    "title": "REST APIs with Flask and Python",
+    "cover": "https://user-images.githubusercontent.com/26391143/78552163-923a8880-7839-11ea-9b23-a521406b750b.png",
+    "category": "Programming Language",
+    "instructors": "Jose Salvatierra",
+    "link": "https://www.udemy.com/course/rest-api-flask-and-python/",
+    "pageClass": "udemy",
+    "path": "./REST-APIs-with-Flask-and-Python/"
+  },
+  {
+    "title": "SQL for Beginners: Learn SQL using MySQL and Database Design",
+    "cover": "https://user-images.githubusercontent.com/26391143/77971540-845ca300-7321-11ea-837f-9692a335da2b.png",
+    "category": "Database",
+    "instructors": "Jon Avis",
+    "link": "https://www.udemy.com/course/sql-for-beginners-course/",
+    "pageClass": "udemy",
+    "path": "./SQL-for-Beginners-Learn-SQL-using-MySQL-and-Database-Design/"
+  },
+  {
+    "title": "The Advanced Web Developer Bootcamp",
+    "cover": "https://user-images.githubusercontent.com/26391143/77971763-1cf32300-7322-11ea-8edf-444c93110288.png",
+    "category": "Web Development",
+    "instructors": "Colt Steele, Elie Schoppik, Tim Garcia, Matt Lane",
+    "link": "https://www.udemy.com/the-advanced-web-developer-bootcamp/",
+    "pageClass": "udemy",
+    "path": "./The-Advanced-Web-Developer-Bootcamp/"
+  },
+  {
+    "title": "The Complete Developers Guide to MongoDB",
+    "cover": "https://user-images.githubusercontent.com/26391143/77972512-3c8b4b00-7324-11ea-893f-b4e466a004a1.png",
+    "category": "Database",
+    "instructors": "Stephen Grider",
+    "link": "https://www.udemy.com/the-complete-developers-guide-to-mongodb/",
+    "pageClass": "udemy",
+    "path": "./The-Complete-Developers-Guide-to-MongoDB/"
+  },
+  {
+    "title": "The Complete React Developer Course (w/ Hooks and Redux)",
+    "cover": "https://user-images.githubusercontent.com/26391143/77972702-b58aa280-7324-11ea-84ec-1ead2bbe3609.png",
+    "category": "Web Development",
+    "instructors": "Andrew Mead",
+    "link": "https://www.udemy.com/course/react-2nd-edition/",
+    "pageClass": "udemy",
+    "path": "./The-Complete-React-Web-Developer-Course/"
+  },
+  {
+    "title": "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert",
+    "cover": "https://user-images.githubusercontent.com/26391143/77971881-7f4c2380-7322-11ea-9d3d-9433b555f2fd.png",
+    "category": "Database",
+    "instructors": "Colt Steele, Ian Schoonover",
+    "link": "https://www.udemy.com/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/",
+    "pageClass": "udemy",
+    "path": "./The-Ultimate-MySQL-Bootcamp-Go-from-SQL-Beginner-to-Expert/"
+  },
+  {
+    "title": "The Web Developer Bootcamp",
+    "cover": "https://user-images.githubusercontent.com/26391143/76166803-56f65c80-619c-11ea-825e-264455099412.png",
+    "category": "Web Development",
+    "instructors": "Colt Steele",
+    "link": "https://www.udemy.com/the-web-developer-bootcamp/",
+    "pageClass": "udemy",
+    "path": "./The-Web-Developer-Bootcamp/"
+  },
+  {
+    "title": "Ultimate JavaScript Interview Course",
+    "cover": "https://user-images.githubusercontent.com/26391143/77970107-f206d000-731d-11ea-8bcb-23e0e2b1a71c.png",
+    "category": "Programming Language",
+    "instructors": "Eric Traub",
+    "link": "https://www.udemy.com/course/ultimate-javascript-interview-course/",
+    "pageClass": "udemy",
+    "path": "./Ultimate-JavaScript-Interview-Course/"
+  },
+  {
+    "title": "Vim Masterclass",
+    "cover": "https://user-images.githubusercontent.com/26391143/76160211-1f1ef300-6163-11ea-8f4e-b5858bea4112.png",
+    "category": "Development Tools",
+    "instructors": "Jason Cannon",
+    "link": "https://www.udemy.com/vim-commands-cheat-sheet/",
+    "pageClass": "udemy",
+    "path": "./Vim-Masterclass/"
+  }
+]
