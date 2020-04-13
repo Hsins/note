@@ -1,6 +1,4 @@
-# Section 07 - The World Of String Functions
-
-## [Lecture] Section 7 Introduction
+# The World Of String Functions
 
 ## [Lecture] Running SQL Files
 

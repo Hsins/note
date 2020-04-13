@@ -1,6 +1,4 @@
-# Section 09 - The Magic of Aggregate Functions
-
-## 136, Section 9 Introduction
+# The Magic of Aggregate Functions
 
 ## 137, The Count Function
 

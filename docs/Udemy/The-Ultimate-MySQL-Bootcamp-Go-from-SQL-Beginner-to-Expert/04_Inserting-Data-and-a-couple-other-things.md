@@ -1,4 +1,4 @@
-# Section 04 - Inserting Data (and a couple other things)
+# Inserting Data (and a couple other things)
 
 ## [Lecture] Section 4 Introduction
 

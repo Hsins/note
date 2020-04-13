@@ -1,6 +1,4 @@
-# Section 11 - The Power of Logical Operators
-
-## 177, Section 11 Introduction
+# The Power of Logical Operators
 
 ## 178, Not Equal
 

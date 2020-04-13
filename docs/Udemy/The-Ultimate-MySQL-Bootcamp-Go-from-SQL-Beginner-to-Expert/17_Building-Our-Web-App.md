@@ -1,4 +1,4 @@
-# Section 17 - Building Our Web App
+# Building Our Web App
 
 ## [Lecture] Section 17 Introduction
 

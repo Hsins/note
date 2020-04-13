@@ -1,6 +1,4 @@
-# Section 16 - Introducing Node
-
-## Section 16 Introduction
+# Introducing Node
 
 從這一單元開始，我們將會使用資料庫來開發一個應用程式，這需要後端程式語言的支持，所以這一單元將會介紹 Node.js。
 

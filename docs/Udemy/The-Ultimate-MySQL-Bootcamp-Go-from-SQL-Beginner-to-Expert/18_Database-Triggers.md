@@ -1,1 +1,1 @@
-# Section 18 - Database Triggers
+# Database Triggers

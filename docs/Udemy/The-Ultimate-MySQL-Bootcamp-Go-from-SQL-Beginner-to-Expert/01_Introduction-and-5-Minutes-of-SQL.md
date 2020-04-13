@@ -1,4 +1,4 @@
-# Section 01 - Introduction and 5 Minutes of SQL
+# Introduction and 5 Minutes of SQL
 
 ## [Note] First Try of SQL
 

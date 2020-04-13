@@ -1,4 +1,4 @@
-# Section 08 - Refining Our Selections
+# Refining Our Selections
 
 ## 120, Section 8 Introduction
 

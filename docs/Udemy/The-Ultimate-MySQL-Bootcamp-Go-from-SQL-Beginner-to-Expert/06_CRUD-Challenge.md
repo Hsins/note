@@ -1,4 +1,4 @@
-# Section 06 - CRUD Challenge Section
+# CRUD Challenge Section
 
 ## [Lecture] Section 6 Introduction
 

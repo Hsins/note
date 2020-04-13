@@ -1,4 +1,4 @@
-# Section 05 - CRUD commmands
+# CRUD commmands
 
 ## [Lecture] Introduction to CRUD
 

@@ -1,4 +1,4 @@
-# Section 10 - Revisiting Data Types
+# Revisiting Data Types
 
 ## 154, Section 10 Introduction
 

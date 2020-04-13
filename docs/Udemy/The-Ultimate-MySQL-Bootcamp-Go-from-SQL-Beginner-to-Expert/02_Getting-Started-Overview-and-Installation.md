@@ -1,8 +1,8 @@
-# Section 02 - Getting Started: Overview and Installation
+# Getting Started: Overview and Installation
 
-## [Note] What Is a Database?
+## What Is a Database?
 
-講師給了一個例子是電話簿，電話簿中存放了電話號碼和號碼持有人資料，除了存放資料之外還提供了按照字母的降序排列來查找持有人和電話。簡單地來說，所謂的 **資料庫（Database）** 有兩個主要的功能：
+一個例子是電話簿，電話簿中存放了電話號碼和號碼持有人資料，除了存放資料之外還提供了按照字母的降序排列來查找持有人和電話。簡單地來說，所謂的 **資料庫（Database）** 有兩個主要的功能：
 
 - 存放資料
 - 操作資料

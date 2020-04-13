@@ -1,6 +1,4 @@
-# Section 14 - Instagram Database Clone
-
-## Section 14 Introduction
+# Instagram Database Clone
 
 ## Introduction To Instagram Clone Schema
 

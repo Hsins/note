@@ -1,4 +1,4 @@
-# Section 03 - Creating Databases and Tables
+# Creating Databases and Tables
 
 ## [Lecture] Section 3 Introduction
 
