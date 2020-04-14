@@ -1,7 +1,6 @@
 const utils = require('./libs/utils.js')
 
 module.exports = {
-  test: 'here',
   base: '/Udemy-Notes/',
   title: 'Course Notes',
   description: '',
@@ -27,6 +26,10 @@ module.exports = {
     ],
     sidebar: utils.sidebars,
     lastUpdated: 'Last Updated',
+    Host: 'https://hsins.github.io/',
+    social: {
+      LikerID: 'hsins59417',
+    }
   },
 
   markdown: {

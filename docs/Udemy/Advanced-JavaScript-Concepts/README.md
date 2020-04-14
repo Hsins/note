@@ -9,14 +9,7 @@ pageClass: udemy
 
 # Advanced JavaScript Concepts
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/26391143/76150621-5f409000-60e7-11ea-9ea3-882ac4d81570.png" />
-</p>
-
-- **Instructors**: Andrei Neagoie
-- **Length**: 24.5 hr
-- **Link**: [Advanced JavaScript Concepts](https://www.udemy.com/course/advanced-javascript-concepts/)
-- **Resources**:
+<Macbook></Macbook>
 
 ## Course Content
 
