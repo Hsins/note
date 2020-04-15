@@ -1,8 +1,9 @@
 # Building a Strong Foundation
 
-## [Note] What is STL?
+## What is STL?
 
-C 語言和 C++ 語言之間有個巨大的差異在於後者提供了 **標準模板庫（STL, Standard Template Library）**，標準模板庫中有著一系列的模板可以使撰寫代碼更簡潔俐落，我們可以透過 `#include <bits/stdc++.h>` 來引入。
+
+C 語言和 C++ 語言之間有個巨大的差異在於後者提供了 **標準模板庫（STL, Standard Template Library）**。在 C++ 標準模板庫中提供了一系列的模板可以使代碼更加簡潔俐落，透過 `#include <bits/stdc++.h>` 來引入。
 
 ### Sort
 
@@ -11,16 +12,18 @@ C 語言和 C++ 語言之間有個巨大的差異在於後者提供了 **標準�
 void MergeSort(int st, int dr) {
   if (st < dr) {
     int m = st + rand () % (dr - st + 1);
+
     MergeSort(st, m);
     MergeSort(m + 1, dr);
+
     int i = st, j = m + 1, k = 0;
+
     while (i <= m && j <= dr)
       if (v[i] < v[j]) tmp[++k] = v[i++];
       else tmp[++k] = v[j++];
-    while (i <= m)
-      tmp[++k] = v[i++];
-    while (j <= dr)
-      tmp[++k] = v[j++];
+
+    while (i <= m)   tmp[++k] = v[i++];
+    while (j <= dr)  tmp[++k] = v[j++];
 
     for (i = st, j = 1; i <= dr; i++, j++)
       v[i] = tmp[j];
@@ -54,27 +57,27 @@ if (a > b) maximum = a;
 maximum = max(a, b);
 ```
 
-## [Note] How to Prepare for Competitive Programming ?
+## How to Prepare for Competitive Programming?
 
 講師撰寫了一篇文章 [How to prepare for competitive programming?](https://medium.com/@andreimargeloiu/how-to-prepare-for-competitive-programming-396d557e0c12) 來說明自己怎麼準備程式競賽的，其中大致上提到了幾點：
 
 - 選擇一門適當的程式語言。因為 STL 有效地簡化開發過程，這部分極為建議採用 C++ 作為主力語言；而 Java 運行速度較慢可能超出題目的時間限制。
 - 透過 Online Judge 網站進行練習，這裡建議可以使用 [Sphere Online Judge (SPOJ)](https://www.spoj.com/)，至少先解完裡面的前 250 道題。
-- 找到屬於自己的 Coding Style，這有利於開發、調試與閱讀。
+- 找到屬於自己的代碼風格，這將有利於開發、調試與閱讀。
 - 熟練經典的資料結構與演算法，推薦的資源：
-    - [Udemy | Introduction to Algorithms and Data structures in C++](https://www.udemy.com/introduction-to-algorithms-and-data-structures-in-c/)
-    - [GeeksforGeeks | Top 10 Algorithms and Data Structures for Competitive Programming](https://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/)
-    - [TopCoder | Competitive Programming Tutorials](http://www.topcoder.com/community/competitive-programming/tutorials/)
+  - [Udemy | Introduction to Algorithms and Data structures in C++](https://www.udemy.com/introduction-to-algorithms-and-data-structures-in-c/)
+  - [GeeksforGeeks | Top 10 Algorithms and Data Structures for Competitive Programming](https://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/)
+  - [TopCoder | Competitive Programming Tutorials](http://www.topcoder.com/community/competitive-programming/tutorials/)
 - 刻意並持續地練習，在作者準備程式競賽的八個月中，每天至少練習五個小時以上。
 
-## [Note] Algorithms Complexity
+## Algorithms Complexity
 
 一個程序的運行時間通常會取決處理器的核心數目、記憶體的讀寫速度、作業系統的位元數和輸入的資料數量…等。通常會使用 **大 O 記號（The Big O Notation）** 來表示時間複雜度，如果要以此記號方式來表示程式運行的時間複雜度，有一些原則必須遵守：
 
 - 捨棄較小的次方項。
 - 捨棄常數項的乘法係數。
 
-## [Note] Appearance Array
+## Appearance Array
 
 如果給定一個數列，如何判斷某個數字是否在數列中存在？數字在數列中重複了幾次？我們可以創建 Appearance Array：
 
