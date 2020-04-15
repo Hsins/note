@@ -2,7 +2,7 @@ const utils = require('./libs/utils.js')
 
 module.exports = {
   base: '/Udemy-Notes/',
-  title: 'Course Notes',
+  title: 'Learn',
   description: '',
   head: [
     ['link', { rel: 'stylesheet', href: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" }],
