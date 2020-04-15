@@ -12,8 +12,6 @@ pageClass: udemy
 - 將名稱按照字母順序排列
 - 將電影依照上映年份進行排序
 
-
-
 ## Bubble Sort
 
 ## Selection Sort
@@ -57,6 +55,23 @@ function selectionSort(arr) {
 - 不穩定排序
 
 ## Insertion Sort
+
+### Implementation
+
+```javascript
+function insertionSort(arr) {
+  for (let i = 1; i < arr.length; i++) {
+    let curr = arr[i];
+    for (let j = i - 1; j >= 0 && arr[j] > curr; j--) {
+      arr[j + 1] = arr[j];
+    }
+    arr[j + 1] = curr;
+  }
+  return arr;
+}
+
+insertionSort([1, 2, 9, 76, 4])
+```
 
 ## Merge Sort
 
