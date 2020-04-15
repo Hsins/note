@@ -67,7 +67,7 @@ $$
 $$
 \begin{aligned}
   \text{dp[N]} &= \text{Number of different ways to write the number N as the sum of 1 and 2} \\
-               &= \text{dp[N-1]} + \text{dp[N-2]
+               &= \text{dp[N-1]} + \text{dp[N-2]}
 \end{aligned}
 $$
 
