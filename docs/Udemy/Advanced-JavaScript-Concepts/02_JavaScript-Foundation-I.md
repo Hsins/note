@@ -36,7 +36,12 @@ pageClass: udemy
 
 ## Writing Optimized Code
 
-理解了上述的概念之後，可以幫助我們寫出更加優化的代碼，在這邊介紹相關的優化技術如：隱藏類別（Hidden Class）和內聯緩存（Inline Cache），關於詳細的內容可以參考 [Javascript Hidden Classes and Inline Caching in V8](https://richardartoul.github.io/jekyll/update/2015/04/26/hidden-classes.html) 和 [Optimization Killers](https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments) 兩篇文章。
+理解了上述的概念之後，可以幫助我們寫出更加優化的代碼，在這邊介紹兩個相關的優化技術：
+
+- 隱藏類別（Hidden Class）
+- 內聯緩存（Inline Cache）
+
+關於更詳細的內容可以參考 [Javascript Hidden Classes and Inline Caching in V8](https://richardartoul.github.io/jekyll/update/2015/04/26/hidden-classes.html) 和 [Optimization Killers](https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments) 這兩篇文章。
 
 ### Hidden Classes
 
