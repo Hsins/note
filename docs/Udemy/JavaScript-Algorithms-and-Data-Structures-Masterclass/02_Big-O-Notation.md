@@ -4,24 +4,11 @@ pageClass: udemy
 
 # Big O Notation
 
-We have multiple implementations of the same function. How can we determine which one is the best? eg: "Write a function that accepts a string input and returns a reversed copy".
-
-There are more than 10 implementations.
-
-- Its' important to have a precise vocabulary to talk about how our code performs.
-- Useful for discussing trade-offs between different approaches
-- When your code slows down or crashes, identifying parts of the code that are inefficient can help us find pain points in out applications.
-- It comes up in interviews.
-
-But what does better mean?
-
-- Faster?
-- Less memory-intensive?
-- More readable?
+## What Does Better Mean?
 
 ## Timing Our Code
 
-Suppose we want to write a function that calculates the sum of all numbers from 1 up tp (and including) some number n.
+同一個函數，我們會有好幾種不同的實做方式，那要如何去比較哪一個實做是最佳的呢？一個較為直觀的方式是直接比較不同函數的執行時間。在 JavaScript 中，我們可以在調用函數前後使用 `performance.now()` 來取得當前的時間，藉由計算兩者的差值來獲得函數運行的時間：
 
 ```javascript
 // Solution 1
@@ -40,17 +27,20 @@ function addUpTo(n) {
 }
 
 let time1 = performance.now();
+addUpTo(100);
 let time2 = performance.now();
 console.log(`Time Elapsed: ${(time2 - time1) / 1000} seconds.`);
 ```
 
-- Different machines will record different times.
-- The same machine will record different times.
-- For fast algorithms, speed measurements may not be precise enough.
+然而使用函數的運行時間來判斷效能，有其侷限性：
+
+- 不同的機器，由於硬體配置狀況不一樣，函數的運行時間也就不一樣
+- 同一台機器，由於運行函數當下的記憶體和系統狀況不一樣，在不同時間點所得到的結果也不一致
+- 對於速度較快的演算法來說，不容易獲取到精確的運行時間
 
 ## Counting Operations
 
-Let's count the number of simple operations the computer has to perform.
+換個方式，我們還可以計算函數運行的過程中，進行了多少次的賦值、四則運算…等的「基本操作」：
 
 ```javascript
 // 3 simple operations
@@ -58,7 +48,7 @@ function addUpTo(n) {
   return (n * (n + 1)) / 2;
 }
 
-// n operations
+// n simple operations
 function addUpTo(n) {
   let total = 0;
   for (let i = 1; i <= n; i++) {
@@ -68,45 +58,41 @@ function addUpTo(n) {
 }
 ```
 
-Counting is hard!! It depends on what we are counting, the number of operations can be as low as $2n$ or as high as $5n + 2$.
-
-But regardless of the exact number, the number of operations grows roughly proportionally with $n$.
-
-## Visualizing Time Complexities
-
-[Performance Tracker](https://rithmschool.github.io/function-timer-demo/)
-
 ## Big O Notation
 
-Big O Notation is a way to formalize fuzzy counting. It allows us to talk formally about how the runtime of an algorithm grows as the inputs grow. We won't care about the details, only the trends.
+### Time Complexity
 
-We say that an algorithms is $O(f(n))$ if the number of simple operations the computer has to do is eventually less than a constant times $f(n)$ as $n$ increases.
+在計算機科學中，我們使用時間複雜度（Time Complexity）來描述一個演算法的執行時間，在 [Performance Tracker](https://rithmschool.github.io/function-timer-demo/) 中，提供了時間複雜度的視覺化圖表，可以顯示運行時間和輸入規模的關係圖。
 
-$f(n)$ could be:
+通常會以大 O 記號（Big O Notation）來表示一個演算法的時間複雜度。如果我們說一個演算法是 $O(g(n))$ 的時間複雜度，代表這個演算法的基本操作次數 $f(n)$ 隨著輸入規模 $n$ 的增長，最終會以 $cg(n)$ 為上界（Upper Bound）：
 
-- Linear: $f(n) = n$
-- Quadratic: $f(n) = n^2$
-- Constant: $f(n) = 1$
+![Asymptotic Notation](https://user-images.githubusercontent.com/26391143/79453735-a8f09480-801c-11ea-9f05-6ac935155fef.png)
+
+其中常見的 $g(n)$ 可以是:
+
+- 線性（Linear）: $g(n) = n$
+- 平方（Quadratic）: $g(n) = n^2$
+- 常數（Constant）: $g(n) = 1$
 - ...
 
-## Simplifying Big O Expressions
+### Simplifying Big O Expressions
 
-### Rules
+對於估算時間複雜度，有以下規則可以用來簡化 Big O Notation 的表示方式：
 
-- Arithmetic Operations are constant
-- Variable Assignment is constant
-- Accessing elements in an array (by index) or object (by key) is constant
+1. 乘法常數係數可忽略
+   - $O(2n) \rightarrow O(n)$
+   - $O(500) \rightarrow O(1)$
+   - $O(13n^2) \rightarrow O(n^2)$
+2. 較小的次方項可忽略
+   - $O(n + 10) \rightarrow O(n)$
+   - $O(1000n + 50) \rightarrow O(n)$
+   - $O(n^2 + 5n + 8) \rightarrow O(n^2)$
 
-### Constants Don't Matter
+除此之外，在 JavaScript 中：
 
-- $O(2n) \rightarrow O(n)$
-- $O(500) \rightarrow O(1)$
-- $O(13n^2) \rightarrow O(n^2)$
-
-### Smaller Terms Don't Matter
-
-- $O(n + 10) \rightarrow O(n)$
-- $O(1000n + 50) \rightarrow O(n)$
-- $O(n^2 + 5n + 8) \rightarrow O(n^2)$
+- 算術運算為常數時間
+- 變數賦值為常數時間
+- 透過索引存取陣列為常數時間
+- 透過鍵值存取物件為常數時間
 
 ## Space Complexity
