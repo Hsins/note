@@ -23,9 +23,9 @@ pageClass: udemy
 
 1. [Getting Started](./01_Getting-Started/)
 2. [Basic Syntax](./02_Basic-Syntax/)
-3. [Subroutines: Reusable Blocks of Code](./03_Subroutines-Blocks-of-Code/)
+3. [Subroutine](./03_Subroutine/)
 4. [Object Oriented Coding](./04_Object-Oriented-Coding/)
-5. [Pointers and Memory]()
+5. [Pointer and Memory]()
 6. [Inheritance]()
 7. [Odds and Ends: Twos Complement and Static Variables]()
 8. [Developing a Program: The Particle Fire Simulation](./08_Developing-a-Program-The-Particle-Fire-Simulation.md)

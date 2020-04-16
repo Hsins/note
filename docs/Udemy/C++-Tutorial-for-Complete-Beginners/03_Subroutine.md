@@ -2,11 +2,11 @@
 pageClass: udemy
 ---
 
-# Subroutines
+# Subroutine
 
-## Functions
+## Function
 
-當要實踐的功能越來越多，程式也會越來越複雜，因此我們不可能將所有程式都寫在 `main()` 區塊中。為了更為有效率地進行程式的開發與管理，誕生了各式各樣的編成範式（Programming Paradigm），比如：物件導向程式設計、函數式程式設計、過程式程式設計…等。
+當要實踐的功能越來越多時，程式也會越來越複雜，因此我們不可能將所有程式都寫在 `main()` 區塊中。為了更為有效率地進行程式的開發與管理，誕生了各式各樣的編成範式（Programming Paradigm），比如：物件導向程式設計、函數式程式設計、過程式程式設計…等。
 
 其中，過程式程式設計（Procedural Programming）主要採取的方式是透過程式呼叫（procedure call）或函數呼叫（function call）的方式來進行流程控制。也就是將一個功能拆分放到各個子程式（subroutines）中，在程式執行的任何一個時間點，都可以呼叫特定的函數來完成任務。
 

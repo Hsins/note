@@ -1,8 +1,44 @@
+---
+pageClass: udemy
+---
+
 # Object Oriented Coding
 
 ## [Lecture] Classes
 
 **類別（Class）** 是物件導向程式設計的基礎，暫且先將他想像成是我們可以自定義的資料型態，他有著自己的資料和函數。在這一小節我們將創建一個 `Cat` 類別：
+
+:::: tabs
+
+::: tab title
+__markdown content__
+:::
+
+
+::: tab javascript
+``` javascript
+() => {
+  console.log('Javascript code example')
+}
+```
+:::
+
+::: tab Cat.h
+```cpp
+#ifndef CLASSES_CAT_H
+#define CLASSES_CAT_H
+
+class Cat {
+ public:
+  void speak();
+  void jump();
+};
+
+#endif //CLASSES_CAT_H
+```
+:::
+
+::::
 
 ```cpp
 // Name: Cat.h

@@ -76,7 +76,8 @@ module.exports = {
     ['vuepress-plugin-container', {
       type: 'callout',
       before: info => `<div class="callout"><p class="title">${info}</p>`,
-      after: '</div>'}]
+      after: '</div>'}],
+    ['tabs']
   ]
 };
 
