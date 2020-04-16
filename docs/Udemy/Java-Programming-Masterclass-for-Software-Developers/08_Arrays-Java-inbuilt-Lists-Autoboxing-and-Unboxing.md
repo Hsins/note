@@ -1,4 +1,4 @@
-# Section 08 - Arrays, Java inbuilt Lists, Autoboxing and Unboxing
+# Arrays, Java inbuilt Lists, Autoboxing and Unboxing
 
 ## Array
 
