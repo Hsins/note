@@ -4,8 +4,6 @@ pageClass: udemy
 
 # Big O Notation
 
-## What Does Better Mean?
-
 ## Timing Our Code
 
 同一個函數，我們會有好幾種不同的實做方式，那要如何去比較哪一個實做是最佳的呢？一個較為直觀的方式是直接比較不同函數的執行時間。在 JavaScript 中，我們可以在調用函數前後使用 `performance.now()` 來取得當前的時間，藉由計算兩者的差值來獲得函數運行的時間：
@@ -90,9 +88,20 @@ function addUpTo(n) {
 
 除此之外，在 JavaScript 中：
 
-- 算術運算為常數時間
-- 變數賦值為常數時間
-- 透過索引存取陣列為常數時間
-- 透過鍵值存取物件為常數時間
+- 算術運算為 $O(1)$
+- 變數賦值為 $O(1)$
+- 透過索引存取陣列為 $O(1)$
+- 透過鍵值存取物件為 $O(1)$
 
 ## Space Complexity
+
+除了時間複雜度之外，Big O Notation 也能夠用來描述空間複雜度（Space Complexity），實際上一個演算法所使用到的空間包含了輸入資料的儲存空間和運算時額外或用來暫時存儲的輔助空間（auxiliary space）。如果沒有特別標明的話，一般談論的空間複雜度指的就是輔助空間複雜度（auxiliary space complexity）。
+
+在 JavaScript 中要考慮空間複雜度時：
+
+- 基本類型（Primitive Types）
+  - `boolean`, `number`, `undefine`, `null` 為 $O(1)$
+  - `string` 為 $O(n)$（其中 $n$ 為字串長度）
+- 參考類型（reference type）
+  - `array` 為 $O(n)$（其中 $n$ 為陣列長度）
+  - `object` 為 $O(n)$（其中 $n$ 為鍵值數目）
