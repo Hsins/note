@@ -1,11 +1,20 @@
 [
   {
-    "title": "Linux 性能優化實戰（Linux Performance）",
+    "title": "Linux 性能優化實戰",
     "cover": "https://user-images.githubusercontent.com/26391143/78612768-baa79e80-789c-11ea-9bf7-f431d1b94bd6.png",
     "category": "Programming Language",
     "instructors": "倪朋飛",
     "link": "https://time.geekbang.org/column/intro/140/",
     "pageClass": "geektime",
     "path": "./Linux-Performance/"
+  },
+  {
+    "title": "現代C++實戰30講",
+    "cover": "https://user-images.githubusercontent.com/26391143/79502970-fbed3a80-8062-11ea-82f9-8d2a1b2a74fd.png",
+    "category": "Programming Language",
+    "instructors": "吳詠煒",
+    "link": "https://time.geekbang.org/column/intro/256",
+    "pageClass": "geektime",
+    "path": "./Modern-C++/"
   }
 ]

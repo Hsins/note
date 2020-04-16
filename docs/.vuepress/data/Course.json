@@ -1,5 +1,14 @@
 [
   {
+    "title": "Introduction to Algorithms",
+    "cover": "https://user-images.githubusercontent.com/26391143/78984221-4f89f080-7b58-11ea-9bc8-a15b1ed32071.png",
+    "category": "Computer Science",
+    "instructors": "郭大維",
+    "link": "https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb",
+    "pageClass": "course",
+    "path": "./MIT-6006/"
+  },
+  {
     "path": "./NCTU-DCP3362/"
   },
   {
