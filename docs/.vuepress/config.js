@@ -11,6 +11,7 @@ module.exports = {
     ['link', { rel: "icon", type: "image/svg+xml", size: "any", href: "/favicon.svg" }]
   ],
 
+  theme: 'antdocs',
   themeConfig: {
     logo: '/favicon.svg',
     nav: [
