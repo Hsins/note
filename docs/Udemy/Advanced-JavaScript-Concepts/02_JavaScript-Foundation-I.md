@@ -51,8 +51,8 @@ function Point(x,y) {
 }
 ​
 // 到目前為止，obj1 和 obj2 共享同一個隱藏類別
-var obj1 = new Point(1,2);
-var obj2 = new Point(3,4);
+let obj1 = new Point(1,2);
+letr obj2 = new Point(3,4);
 ​
 // 由於屬性 a 和屬性 b 按照相反的順序添加
 // 最終 obj1 和 obj2 由於遵循不同轉換路徑而具有不同的隱藏類別
@@ -174,7 +174,7 @@ button.removeEventListener('click', onClick);
 
 起初的 JavaScript 只是用於操作瀏覽器中的 DOM 元素，實現頁面的互動效果，因此被設計為單執行緒程式語言（single threaded language），也就是說在同一個時間點只有一個任務被同步（Synchronous）地執行，不能夠平行地執行代碼。一個用來判斷單執行緒程式語言的方式，就是在運行的過程中，他只有一個呼叫堆疊和一個記憶體堆。
 
-這樣順序地執行代碼或許乍看之下並沒有什麼缺陷，但當一個任務所耗費的時間較長時，便會延宕後面的任務執行，也就是所謂的堵塞（blocking）現象。在目前的網頁應用中，由於 [AJAX](https://www.wikiwand.com/en/Ajax_(programming)) 的開發技術應用得很廣，經常會需要等待服務器返回資料的任務，因此需要能夠進行異步操作
+這樣順序地執行代碼或許乍看之下並沒有什麼缺陷，但當一個任務所耗費的時間較長時，便會延宕後面的任務執行，也就是所謂的堵塞（blocking）現象。在目前的網頁應用中，由於 [AJAX](https://www.wikiwand.com/en/Ajax_(programming)) 的開發技術應用得很廣，經常會需要等待服務器返回資料的任務，因此需要能夠進行異步操作。
 
 ## JavaScript Runtime
 
@@ -182,7 +182,7 @@ button.removeEventListener('click', onClick);
 
 ![JavaScript Runtime Visualized](https://user-images.githubusercontent.com/26391143/78592102-1eb76c00-7877-11ea-818d-de712c1ef7e8.gif)
 
-如同以上的動畫所示，所謂的 Web APIs 是由瀏覽器或 Node.js 所提供，而並不存在於 JavaScript 原始碼中的函數與方法，比如 `setTimeout()` 和 `setInterval` 方法，這些 Web API 會交由瀏覽器或 Node.js 進行調用而不影響到執行堆疊，此時 JavaScript 引擎可以繼續完成任務，而 Web APIs 中的執行結果將被存放在回調貯列中，事件循環機制會隨時檢查當前的執行堆疊是否為空，若為空時就從等待中的貯列中取出回調函數放入執行堆疊中。
+如以上的動畫所示，所謂的 Web APIs 是由瀏覽器或 Node.js 所提供，而並不存在於 JavaScript 原始碼中的函數與方法，比如 `setTimeout()` 和 `setInterval` 方法，這些 Web API 會交由瀏覽器或 Node.js 進行調用而不影響到執行堆疊，此時 JavaScript 引擎可以繼續完成任務，而 Web APIs 中的執行結果將被存放在回調貯列中，事件循環機制會隨時檢查當前的執行堆疊是否為空，若為空時就從等待中的貯列中取出回調函數放入執行堆疊中。
 
 相關的說明可以觀看 Philip Roberts 的演講 [What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ) 並搭配 [Loupe](http://latentflip.com/loupe/?code=ZnVuY3Rpb24gcHJpbnRIZWxsbygpIHsNCiAgICBjb25zb2xlLmxvZygnSGVsbG8gZnJvbSBiYXonKTsNCn0NCg0KZnVuY3Rpb24gYmF6KCkgew0KICAgIHNldFRpbWVvdXQocHJpbnRIZWxsbywgMzAwMCk7DQp9DQoNCmZ1bmN0aW9uIGJhcigpIHsNCiAgICBiYXooKTsNCn0NCg0KZnVuY3Rpb24gZm9vKCkgew0KICAgIGJhcigpOw0KfQ0KDQpmb28oKTs%3D!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D) 網站來將整個過程視覺化。
 
@@ -224,9 +224,7 @@ const list = new Array(60000).join('1.1').split('.');
 
 function removeItemsFromList() {
   var item = list.pop();
-  if (item) {
-    removeItemsFromList();
-  }
+  if (item) removeItemsFromList();
 };
 
 removeItemsFromList();
@@ -241,9 +239,7 @@ const list = new Array(60000).join('1.1').split('.');
 
 function removeItemsFromList() {
   var item = list.pop();
-  if (item) {
-    setTimeout(removeItemsFromList, 0);
-  }
+  if (item) setTimeout(removeItemsFromList, 0);
 };
 
 removeItemsFromList();
