@@ -9,15 +9,7 @@ pageClass: udemy
 
 # JavaScript Algorithms and Data Structures Masterclass
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/26391143/77969771-1ada9580-731d-11ea-952e-8201ecb5f481.png" />
-</p>
-
-- **Instructors**: Colt Steele
-- **Length**: 21.5 hr
-- **Link**: [JavaScript Algorithms and Data Structures Masterclass](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/)
-- **Resources**:
-  - [Slides | Colt Steele](https://cs.slides.com/colt_steele)
+<Macbook></Macbook>
 
 ## Course Content
 
