@@ -17,7 +17,7 @@ pageClass: udemy
 
 ```javascript
 function func() {
-  if (...) {      // 達到中止條件
+  if (...) {      // 達到終止條件
     BASECASE;
     return ...;
   } else {        // 執行遞迴呼叫

@@ -6,7 +6,9 @@ pageClass: udemy
 
 ## Timing Our Code
 
-同一個函數，我們會有好幾種不同的實做方式，那要如何去比較哪一個實做是最佳的呢？一個較為直觀的方式是直接比較不同函數的執行時間。在 JavaScript 中，我們可以在調用函數前後使用 `performance.now()` 來取得當前的時間，藉由計算兩者的差值來獲得函數運行的時間：
+同一個函數，我們會有好幾種不同的實做方式，那要如何去比較哪一個實做是最佳的呢？一個較為直觀的方式是直接比較不同函數的執行時間。
+
+在 JavaScript 中，我們可以在調用函數前後使用 `performance.now()` 來取得當前的時間，藉由計算兩者的差值來獲得函數運行的時間：
 
 ```javascript
 // Solution 1
@@ -32,9 +34,9 @@ console.log(`Time Elapsed: ${(time2 - time1) / 1000} seconds.`);
 
 然而使用函數的運行時間來判斷效能，有其侷限性：
 
+- 對於速度較快的演算法來說，不容易獲取到精確的運行時間
 - 不同的機器，由於硬體配置狀況不一樣，函數的運行時間也就不一樣
 - 同一台機器，由於運行函數當下的記憶體和系統狀況不一樣，在不同時間點所得到的結果也不一致
-- 對於速度較快的演算法來說，不容易獲取到精確的運行時間
 
 ## Counting Operations
 
@@ -62,7 +64,7 @@ function addUpTo(n) {
 
 在計算機科學中，我們使用時間複雜度（Time Complexity）來描述一個演算法的執行時間，在 [Performance Tracker](https://rithmschool.github.io/function-timer-demo/) 中，提供了時間複雜度的視覺化圖表，可以顯示運行時間和輸入規模的關係圖。
 
-通常會以大 O 記號（Big O Notation）來表示一個演算法的時間複雜度。如果我們說一個演算法是 $O(g(n))$ 的時間複雜度，代表這個演算法的基本操作次數 $f(n)$ 隨著輸入規模 $n$ 的增長，最終會以 $cg(n)$ 為上界（Upper Bound）：
+我們通常會以大 O 記號（Big O Notation）來表示一個演算法的時間複雜度。如果說一個演算法是 $O(g(n))$ 的時間複雜度，代表這個演算法的基本操作次數 $f(n)$ 隨著輸入規模 $n$ 的增長，最終會以 $cg(n)$ 為上界（Upper Bound）：
 
 ![Asymptotic Notation](https://user-images.githubusercontent.com/26391143/79453735-a8f09480-801c-11ea-9f05-6ac935155fef.png)
 
@@ -95,13 +97,15 @@ function addUpTo(n) {
 
 ## Space Complexity
 
-除了時間複雜度之外，Big O Notation 也能夠用來描述空間複雜度（Space Complexity），實際上一個演算法所使用到的空間包含了輸入資料的儲存空間和運算時額外或用來暫時存儲的輔助空間（auxiliary space）。如果沒有特別標明的話，一般談論的空間複雜度指的就是輔助空間複雜度（auxiliary space complexity）。
+除了時間複雜度之外，Big O Notation 也能夠用來描述空間複雜度（Space Complexity），實際上一個演算法所使用到的空間包含了輸入資料的儲存空間和運算時額外或用來暫時存儲的輔助空間（auxiliary space）。
+
+如果沒有特別標明的話，一般談論的空間複雜度指的就是輔助空間複雜度（auxiliary space complexity）。
 
 在 JavaScript 中要考慮空間複雜度時：
 
 - 基本類型（Primitive Types）
-  - `boolean`, `number`, `undefine`, `null` 為 $O(1)$
-  - `string` 為 $O(n)$（其中 $n$ 為字串長度）
+  - `boolean`、`number`、`undefine` 和 `null` 為 $O(1)$
+  - 字串長度 $n$ 的 `string` 為 $O(n)$
 - 參考類型（reference type）
-  - `array` 為 $O(n)$（其中 $n$ 為陣列長度）
-  - `object` 為 $O(n)$（其中 $n$ 為鍵值數目）
+  - 陣列大小 $n$ 的 `array` 為 $O(n)$
+  - 鍵值數目 $n$ 的`object` 為 $O(n)$
