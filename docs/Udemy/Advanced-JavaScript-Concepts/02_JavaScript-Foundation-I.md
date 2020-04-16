@@ -178,7 +178,7 @@ button.removeEventListener('click', onClick);
 
 ## JavaScript Runtime
 
-實際上 JavaScript 是被運行在 JavaScript 執行環境中的（Runetime），所謂的執行環境是由 JavaScript 引擎（包含呼叫堆疊和記憶體堆）、回調貯列（Callback Queue）和 Web APIs 基於事件循環（Event Loop）機制所實做的並行模型（Concurrency Model）。
+實際上 JavaScript 是被運行在 JavaScript 執行環境（runtime）中的，所謂的執行環境是由 JavaScript 引擎（包含呼叫堆疊和記憶體堆）、回調貯列（Callback Queue）和 Web APIs 基於事件循環（Event Loop）機制所實做的並行模型（Concurrency Model）。
 
 ![JavaScript Runtime Visualized](https://user-images.githubusercontent.com/26391143/78592102-1eb76c00-7877-11ea-818d-de712c1ef7e8.gif)
 
