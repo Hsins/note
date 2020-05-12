@@ -1,4 +1,8 @@
-# Section 03 - Variables, Datatypes and Operators
+---
+pageClass: udemy
+---
+
+# Variables, Datatypes and Operators
 
 ## Primitive Data Types in Java
 
