@@ -8,7 +8,7 @@ pageClass: udemy
 
 從 2017 年起 Oracle 改變了發布 Java 和 JDK 更新的方式，在未來的八年內都將長期支持 Java 11，也就是接下來的八年內 Java 11 都會是長期支援（Long-Term Support, LTS）版本，而 2019 年三月發布的 Java 12 將會每隔六個月就更新一次。鑒於大多數企業項目較為擁腫，並不會快速升級，因此建議採用 Java SE 11 (LTS) 版本。
 
-除此之外，很多人會聽聞 Java 的收費問題；實際上：
+除此之外，很多人會聽聞 Java 的收費問題，實際上：
 
 - Java 是個程式語言，本身沒有收不收費的問題
 - Java Development Kits (JDK) 和 Java Runtime Environments (JRE) 才有授權許可與收費的問題
@@ -18,6 +18,8 @@ pageClass: udemy
 詳細的內容可以參考 [Choosing The Right JDK Vendor and JVM](https://www.youtube.com/watch?v=zf-GOkc3Ht8)。
 
 ## Setup Java Development Kit (JDK)
+
+![Amazon Corretto](https://user-images.githubusercontent.com/26391143/81653862-c96b0d80-9467-11ea-9737-6bcce787d760.png)
 
 根據作業系統到 [Downloads for Amazon Corretto 11](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html) 頁面下載安裝檔。
 
