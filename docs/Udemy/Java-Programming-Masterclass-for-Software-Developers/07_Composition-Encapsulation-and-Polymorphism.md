@@ -1,1 +1,5 @@
-# Section 07 - Composition, Encapsulation, and Polymorphism
+---
+pageClass: udemy
+---
+
+# Composition, Encapsulation, and Polymorphism

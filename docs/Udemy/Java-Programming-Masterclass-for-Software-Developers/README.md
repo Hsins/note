@@ -15,5 +15,6 @@ pageClass: udemy
 
 1. [Introduction](./01_Introduction/)
 2. [Software Tools Setup](./02_Software-Tools-Setup/)
+3. [Variables, Datatypes and Operators](./03_Variables-Datatypes-and-Operators/)
 
 ## Review
