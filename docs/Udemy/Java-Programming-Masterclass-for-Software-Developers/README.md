@@ -13,7 +13,7 @@ pageClass: udemy
 
 ## Course Content
 
-1. [Software Tools Setup](./01_Software-Tools-Setup/)
-2. 
+1. [Introduction](./01_Introduction/)
+2. [Software Tools Setup](./02_Software-Tools-Setup/)
 
 ## Review
