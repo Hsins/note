@@ -1,4 +1,8 @@
-# Section 10 - Redux
+---
+pageClass: udemy
+---
+
+# Redux
 
 ## Why do we need Redux?
 

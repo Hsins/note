@@ -1,4 +1,8 @@
-# Section 02 - Setting up Your Environment
+---
+pageClass: udemy
+---
+
+# Setting up Your Environment
 
 ## Installing Visual Studio Code
 

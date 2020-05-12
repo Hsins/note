@@ -1,4 +1,8 @@
-# Section 11 - React with Redux
+---
+pageClass: udemy
+---
+
+# React with Redux
 
 ## Higher-Order Components (HOC)
 

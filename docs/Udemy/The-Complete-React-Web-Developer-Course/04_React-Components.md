@@ -1,4 +1,8 @@
-# Section 04 - React Components
+---
+pageClass: udemy
+---
+
+# React Components
 
 ## Section Intro: React Components
 
