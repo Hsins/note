@@ -1,5 +1,5 @@
 ---
-title: 'TypeScript: The Complete Developer's Guide'
+title: "TypeScript: The Complete Developer's Guide"
 cover: 'https://user-images.githubusercontent.com/26391143/82649862-6d18a280-9c4c-11ea-937e-3f2f2e6a56bf.png'
 category: 'Programming Language'
 instructors: 'Stephen Grider'
