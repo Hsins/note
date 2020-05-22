@@ -1,7 +1,7 @@
 const utils = require('./libs/utils.js')
 
 module.exports = {
-  base: '/Udemy-Notes/',
+  base: '/Learn/',
   title: 'Learn',
   description: '',
   head: [
