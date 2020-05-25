@@ -1,9 +1,9 @@
 ---
-title: "Git a Web Developer Job: Mastering the Modern Workflow"
-cover: "https://user-images.githubusercontent.com/26391143/77968950-262cc180-731b-11ea-93aa-3d2d54e6ad3b.png"
-category: "Web Development"
-instructors: "Brad Schiff"
-link: "https://www.udemy.com/git-a-web-developer-job-mastering-the-modern-workflow/"
+title: 'Git a Web Developer Job: Mastering the Modern Workflow'
+cover: 'https://user-images.githubusercontent.com/26391143/77968950-262cc180-731b-11ea-93aa-3d2d54e6ad3b.png'
+category: 'Web Development'
+instructors: 'Brad Schiff'
+link: 'https://www.udemy.com/git-a-web-developer-job-mastering-the-modern-workflow/'
 pageClass: udemy
 ---
 
@@ -20,27 +20,27 @@ pageClass: udemy
 
 # Course Content
 
-- [Welcome!](./01_Welcome.md)
-- [Git Essentials](./02_Git-Essentials.md)
-- [Intro to Node.js & NPM](./03_Intro-to-Nodejs-NPM.md)
-- [Gulp Essentials](./04_Gulp-Essentials.md)
-- [CSS Architecture](./05_CSS-Architecture.md)
-- [Gulp Timeout](./06_Gulp-Timeout.md)
-- [Mobile-first Essentials](./07_Mobile-first-Essentials.md)
-- [Let's Build!](./08-Lets-Build.md)
-- [Git Timeout](./09_Git-Timeout.md)
-- [Building "Our Features" Section](./10_Building-Our-Features-Section.md)
-- [Building "Testimonial" Section](./11_Building-Testimonial-Section.md)
-- [Gulp Timeout (Automated Sprites)](./12_Automated-Sprites.md)
-- [Let's Finish Styling our Site](./13_Lets-Finish-Styling-our-Site.md)
-- [JavaScript Organization](./14_JavaScript-Organization.md)
-- [Writing JavaScript for Our Header Menu](./15_Writing-JavaScript-for-Our-Header-Menu.md)
-- [Revealing Elements on Scroll](./16_Revealing-Elements-on-Scroll.md)
-- [Desktop Sticky Header](./17_Desktop-Sticky-Header.md)
-- [Build Our Own Modal / Lightbox Overlay](./18_Build-Our-Own-Model-Lightbox-Overlay.md)
-- [Finishing Touches](./19_Finishing-Touches.md)
-- [Building and Deploying](./20_Building-and-Deploying.md)
-- [Looking Forward](./21_Looking-Forward.md)
+1. [Welcome!](./01_Welcome/)
+2. [Git Essentials](./02_Git-Essentials/)
+3. [Intro to Node.js & NPM](./03_Intro-to-Nodejs-NPM/)
+4. [Gulp Essentials](./04_Gulp-Essentials/)
+5. [CSS Architecture](./05_CSS-Architecture/)
+6. [Gulp Timeout](./06_Gulp-Timeout/)
+7. [Mobile-first Essentials](./07_Mobile-first-Essentials/)
+8. [Let's Build!](./08-Lets-Build/)
+9. [Git Timeout](./09_Git-Timeout/)
+10. [Building "Our Features" Section](./10_Building-Our-Features-Section/)
+11. [Building "Testimonial" Section](./11_Building-Testimonial-Section/)
+12. [Gulp Timeout (Automated Sprites)](./12_Automated-Sprites/)
+13. [Let's Finish Styling our Site](./13_Lets-Finish-Styling-our-Site/)
+14. [JavaScript Organization](./14_JavaScript-Organization/)
+15. [Writing JavaScript for Our Header Menu](./15_Writing-JavaScript-for-Our-Header-Menu/)
+16. [Revealing Elements on Scroll](./16_Revealing-Elements-on-Scroll/)
+17. [Desktop Sticky Header](./17_Desktop-Sticky-Header/)
+18. [Build Our Own Modal / Lightbox Overlay](./18_Build-Our-Own-Model-Lightbox-Overlay/)
+19. [Finishing Touches](./19_Finishing-Touches/)
+20. [Building and Deploying](./20_Building-and-Deploying/)
+21. [Looking Forward](./21_Looking-Forward/)
 
 # Project Demo
 
