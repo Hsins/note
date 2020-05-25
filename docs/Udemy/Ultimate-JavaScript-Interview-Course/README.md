@@ -1,9 +1,9 @@
 ---
-title: "Ultimate JavaScript Interview Course"
-cover: "https://user-images.githubusercontent.com/26391143/77970107-f206d000-731d-11ea-8bcb-23e0e2b1a71c.png"
-category: "Programming Language"
-instructors: "Eric Traub"
-link: "https://www.udemy.com/course/ultimate-javascript-interview-course/"
+title: 'Ultimate JavaScript Interview Course'
+cover: 'https://user-images.githubusercontent.com/26391143/77970107-f206d000-731d-11ea-8bcb-23e0e2b1a71c.png'
+category: 'Programming Language'
+instructors: 'Eric Traub'
+link: 'https://www.udemy.com/course/ultimate-javascript-interview-course/'
 pageClass: udemy
 ---
 
@@ -20,58 +20,58 @@ pageClass: udemy
 
 ## Course Content
 
-- Section 01 - Course Introduction
-- [Section 02 - Introduction to Data Structures and Important Concepts](./02_Introduction-to-Data-Structures-and-Important-Concepts.md)
-- [Section 03 - Linked Lists](./03_Linked-Lists.md)
-- [Section 04 - Binary Search Trees](./04_Binary-Search-Trees.md)
-- Section 05 - Hash Tables
-- Section 06 - JavaScript Algorithms Introduction
-- Section 07 - Fizz Buzz
-- Section 08 - Harmless Ransom Note
-- Section 09 - Is Palindrome
-- Section 10 - Caesar Cipher
-- Section 11 - Reverse Words
-- Section 12 - Reverse Array In Place
-- Section 13 - Mean Median Mode
-- Section 14 - Two Sum
-- Section 15 - Binary Search
-- Section 16 - Fibonacci
-- Section 17 - Memoized Fibonacci
-- Section 18 - Sieve of Eratosthenes
-- Section 19 - Bubble Sort
-- Section 20 - Merge Sort
-- Section 21 - Max Stock Profit
-- Section 22 - Introduction To Interview Practice Problems
-- Section 23 - Triple Add Function
-- Section 24 - Working With IIFEs
-- Section 25 - Button 5
-- Section 26 - Closures
-- Section 27 - "this" Keyword
-- Section 28 - Hoisting In JavaScript
-- Section 29 - Scope and "self"
-- Section 30 - Equals vs Strict Equals
-- Section 31 - Log Number Function
-- Section 32 - Use Strict
-- Section 33 - Curry Function
-- Section 34 - Counter Function
-- Section 35 - Logging X and Y
-- Section 36 - "call" and "apply" Methods
-- Section 37 - Determine "list2"
-- Section 38 - Singly or Doubly Invoked Function
-- Section 39 - JSON Data
-- Section 40 - Order Logged Out
-- Section 41 - Making an Object
-- Section 42 - Types of Data Types
-- Section 43 - Bind Method
-- Section 44 - Two Objects
-- Section 45 - Array Constructor
-- Section 46 - Array IndexOf
-- Section 47 - Equivalent Numbers
-- Section 48 - Objects and Strings
-- Section 49 - Strings and Arrays
-- Section 50 - Object Properties
-- Section 51 - X and Y
-- Section 52 - Withdraw From Account
+1. [Course Introduction]()
+2. [Introduction to Data Structures and Important Concepts](./02_Introduction-to-Data-Structures-and-Important-Concepts/)
+3. [Linked Lists](./03_Linked-Lists/)
+4. [Binary Search Trees](./04_Binary-Search-Trees/)
+5. Hash Tables
+6. JavaScript Algorithms Introduction
+7. Fizz Buzz
+8. Harmless Ransom Note
+9. Is Palindrome
+10. Caesar Cipher
+11. Reverse Words
+12. Reverse Array In Place
+13. Mean Median Mode
+14. Two Sum
+15. Binary Search
+16. Fibonacci
+17. Memoized Fibonacci
+18. Sieve of Eratosthenes
+19. Bubble Sort
+20. Merge Sort
+21. Max Stock Profit
+22. Introduction To Interview Practice Problems
+23. Triple Add Function
+24. Working With IIFEs
+25. Button 5
+26. Closures
+27. "this" Keyword
+28. Hoisting In JavaScript
+29. Scope and "self"
+30. Equals vs Strict Equals
+31. Log Number Function
+32. Use Strict
+33. Curry Function
+34. Counter Function
+35. Logging X and Y
+36. "call" and "apply" Methods
+37. Determine "list2"
+38. Singly or Doubly Invoked Function
+39. JSON Data
+40. Order Logged Out
+41. Making an Object
+42. Types of Data Types
+43. Bind Method
+44. Two Objects
+45. Array Constructor
+46. Array IndexOf
+47. Equivalent Numbers
+48. Objects and Strings
+49. Strings and Arrays
+50. Object Properties
+51. X and Y
+52. Withdraw From Account
 
 ## Project Demo
 
