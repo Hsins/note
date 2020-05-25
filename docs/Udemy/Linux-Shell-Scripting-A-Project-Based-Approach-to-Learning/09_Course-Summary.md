@@ -1,3 +1,3 @@
-# Section 09 - Course Summary
+# Course Summary
 
-## [Lecture] Summary
+## Summary
