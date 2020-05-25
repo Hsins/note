@@ -1,4 +1,4 @@
-# Section 03 - User and Account Creation - Shell Scripting Project 1
+# User and Account Creation
 
 ## [Lecture] Section Introduction
 

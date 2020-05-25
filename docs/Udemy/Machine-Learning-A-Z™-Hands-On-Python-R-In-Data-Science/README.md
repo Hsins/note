@@ -1,9 +1,9 @@
 ---
-title: "Machine Learning A-Z™: Hands-On Python & R In Data Science"
-cover: "https://user-images.githubusercontent.com/26391143/77970760-90dffc00-731f-11ea-8183-1298afcf5c5e.png"
-category: "Data Science"
-instructors: "Kirill Eremenko, Hadelin de Ponteves"
-link: "https://www.udemy.com/course/machinelearning/"
+title: 'Machine Learning A-Z™: Hands-On Python & R In Data Science'
+cover: 'https://user-images.githubusercontent.com/26391143/77970760-90dffc00-731f-11ea-8183-1298afcf5c5e.png'
+category: 'Data Science'
+instructors: 'Kirill Eremenko, Hadelin de Ponteves'
+link: 'https://www.udemy.com/course/machinelearning/'
 pageClass: udemy
 ---
 
@@ -19,13 +19,13 @@ pageClass: udemy
 
 ## Course Content
 
-- [Section 01: Welcome to the Course!](./01_Welcome-to-the-Course.md)
-- [Section 02: Data Preprocessing](./02_Data-Preprocessing.md)
-- [Section 03: Simple Linear Regression](./03_Simple-Linear-Regression.md)
-- [Section 04: Multiple Linear Regression](./04_Multiple-Linear-Regression.md)
-- [Section 05: Polynomial Regression](./05_Polynomial-Regression.md)
-- [Section 06: Support Vector Regression (SVR)](./06_Support-Vector-Regression.md)
-- [Section 07: Decision Tree Regression](./07_Decision-Tree-Regression.md)
+1. [Welcome to the Course](./01_Welcome-to-the-Course/)
+2. [Data Preprocessing](./02_Data-Preprocessing/)
+3. [Simple Linear Regression](./03_Simple-Linear-Regression/)
+4. [Multiple Linear Regression](./04_Multiple-Linear-Regression/)
+5. [Polynomial Regression](./05_Polynomial-Regression/)
+6. [Support Vector Regression (SVR)](./06_Support-Vector-Regression/)
+7. [Decision Tree Regression](./07_Decision-Tree-Regression/)
 
 Section 8: Decision Tree Regression
 Section 9: Random Forest Regression

@@ -4,7 +4,7 @@ pageClass: udemy
 
 # Course Introduction
 
-## [Lecture] Introduction and Course Overview
+## Introduction and Course Overview
 
 在實體機上安裝 Linux 作業系統，可以採用較輕量化的 Vagrant 環境來處理。在這一門課中將學習到：
 
@@ -18,6 +18,6 @@ pageClass: udemy
 - Mastering I/O
 - Linux programming conventions
 
-## [Lecture] Course Downloads
+## Course Downloads
 
 課程中將使用的檔案可以到 [resources](./resources) 資料夾中獲取。

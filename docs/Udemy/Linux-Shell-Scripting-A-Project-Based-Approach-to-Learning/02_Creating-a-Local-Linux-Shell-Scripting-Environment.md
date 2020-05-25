@@ -1,6 +1,6 @@
-# Section 02 - Creating a Local Linux Shell Scripting Environment
+# reating a Local Linux Shell Scripting Environment
 
-## [Lecture] Creating a Local Lab Environment Using Vagrant and VirtualBox - Background
+## Creating a Local Lab Environment Using Vagrant and VirtualBox - Background
 
 透過 VirtualBox 和 Vagrant 的虛擬化技術可以在不同作業系統上輕量化地安裝其他的 Linux 發行版，在 Vagrant 中將作業系統映像檔視為一個個的盒子（box）概念，透過以下命令來安裝一個虛擬化環境：
 

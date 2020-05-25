@@ -1,1 +1,0 @@
-# Section 08 - Network Scripting and Automation of Distributed Systems, Shell Scripting Project 6
