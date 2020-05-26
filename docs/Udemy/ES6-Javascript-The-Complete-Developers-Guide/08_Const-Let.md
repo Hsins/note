@@ -38,7 +38,7 @@ const dateOfBirth = '900422';
 let age = 25;
 ```
 
-## Coding Exercise 18: Const/Let Refactoring
+## [Exercise] Const/Let Refactoring
 
 ### Question
 
