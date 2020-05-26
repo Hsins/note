@@ -1,4 +1,8 @@
-# Pandas - Beginner to Advanvced
+---
+pageClass: udemy
+---
+
+# Pandas Crash Course
 
 ## Loading Data from a GitHub Source
 
