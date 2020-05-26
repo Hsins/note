@@ -55,7 +55,7 @@ prices;
   <img src="https://i.imgur.com/SwxJe8i.png">
 </p>
 
-## Coding Exercise 3: Plucking Values
+## [Exercise] Plucking Values
 
 ### Question
 
@@ -85,7 +85,7 @@ var heights = images.map(function(image) {
 });
 ```
 
-## Coding Exercise 4: Calculating Values with Map
+## [Exercise] Calculating Values with Map
 
 ### Question
 
@@ -115,7 +115,7 @@ var speeds = trips.map(function(trip) {
 });
 ```
 
-## Coding Exercise 5: Really Hard - Implementing 'Pluck'
+## [Exercise] Implementing `Pluck`
 
 ### Question
 

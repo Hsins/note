@@ -52,7 +52,7 @@ console.log(sum);
 
 簡而言之，如果對於陣列中的元素都要執行相同的方法時，就可以透過 `forEach()` 來完成。
 
-## Coding Exercise 1: Moving Away from For Loops
+## [Exercise] Moving Away from For Loops
 
 ### Question
 
@@ -88,7 +88,7 @@ function handlePosts() {
 }
 ```
 
-## Coding Exercise 2: Processing Values
+## [Exercise] Processing Values
 
 ### Question
 

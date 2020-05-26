@@ -75,7 +75,7 @@ function commentsForPost(post, comments) {
 }
 ```
 
-## Coding Exercise 6: Filtering Values
+## [Exercise] Filtering Values
 
 ### Question
 
@@ -97,7 +97,7 @@ var filteredNumbers = numbers.filter(function(number) {
 });
 ```
 
-## Coding Exercise 7: Handling Permissions with Filter
+## [Exercise] Handling Permissions with Filter
 
 ### Question
 
@@ -131,7 +131,7 @@ var filteredUsers = users.filter(function(user) {
 });
 ```
 
-## Coding Exercise 8: Challenging! Implementing 'reject'.
+## [Exercise] Implementing `reject`.
 
 ### Question
 
