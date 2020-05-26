@@ -1,6 +1,10 @@
-# Section 04 - Binary Search Trees
+---
+pageClass: udemy
+---
 
-## [Lecture] Recursion
+# Binary Search Trees
+
+## Recursion
 
 ```javascript
 // Fractorial (!)
@@ -14,9 +18,9 @@ function factorial(num) {
 }
 ```
 
-## [Lecture] Call Stack
+## Call Stack
 
-## [Lecture] Binary Search Trees Implementation
+## Binary Search Trees Implementation
 
 ```javascript
 function BST(value) {

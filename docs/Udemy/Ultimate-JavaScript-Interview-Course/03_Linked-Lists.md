@@ -1,6 +1,10 @@
-# Section 03 - Linked Lists
+---
+pageClass: udemy
+---
 
-## [Lecture] Linked List Implementation
+# Linked Lists
+
+## Linked List Implementation
 
 ```javascript
 // declare the LinkedList constructor function

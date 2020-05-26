@@ -20,7 +20,7 @@ pageClass: udemy
 
 ## Course Content
 
-1. [Course Introduction]()
+1. [Introduction](./01_Introduction/)
 2. [Introduction to Data Structures and Important Concepts](./02_Introduction-to-Data-Structures-and-Important-Concepts/)
 3. [Linked Lists](./03_Linked-Lists/)
 4. [Binary Search Trees](./04_Binary-Search-Trees/)
