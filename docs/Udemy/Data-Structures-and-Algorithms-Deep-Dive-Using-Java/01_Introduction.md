@@ -12,6 +12,4 @@ pageClass: udemy
 
 ## Big-O Notation
 
-
-
 ## Abstract Data Type

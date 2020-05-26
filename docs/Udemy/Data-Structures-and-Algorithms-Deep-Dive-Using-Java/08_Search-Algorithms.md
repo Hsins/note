@@ -50,8 +50,7 @@ public class Main {
             int midpoint = (start + end) / 2;
             if (input[midpoint] == value) {
                 return midpoint;
-            }
-            else if (input[midpoint] < value) {
+            } else if (input[midpoint] < value) {
                 start = midpoint + 1;
             } else {
                 end = midpoint;
@@ -86,8 +85,7 @@ public class Main {
         int midpoint = (start + end) / 2;
         if (input[midpoint] < value) {
             return BinarySearch(input, midpoint + 1, end, value);
-        }
-        else {
+        } else {
             return BinarySearch(input, start, midpoint, value);
         }
     }

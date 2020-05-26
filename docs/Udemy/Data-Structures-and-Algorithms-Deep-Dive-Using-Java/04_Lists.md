@@ -17,6 +17,8 @@ pageClass: udemy
 
 ## Array Lists
 
+- A resizable array implementation of the list interface.
+
 - [Class `ArrayList<E>`](https://docs.oracle.com/javase/9/docs/api/java/util/ArrayList.html)
 
 ## Vector
