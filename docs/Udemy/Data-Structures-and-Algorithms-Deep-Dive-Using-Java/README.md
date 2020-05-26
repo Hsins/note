@@ -31,7 +31,6 @@ pageClass: udemy
 9. [Trees](./09_Trees/)
 10. [Heaps](./10_Heaps/)
 11. [Course Wrap-Up]()
-12. [Extra Information - Source]()
 
 ## Project Demo
 

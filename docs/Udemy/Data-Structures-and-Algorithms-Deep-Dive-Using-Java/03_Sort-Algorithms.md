@@ -91,11 +91,30 @@ public class Main {
 }
 ```
 
-## Insert Sort
+## Insertion Sort
 
 ### Theory
 
+- In-Place Algorithm
+- $O(n^2)$ Time Complexity
+- Stable Algorithm
+
 ### Implementation
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        int[] intArray = { 20, 35, -15, 7, 55, 1, -22, };
+
+        for (int firstUnsortedIndex = 1; firstUnsortedIndex < intArray.length; firstUnsortedIndex++) {
+            int newElement = intArray(firstUnsortedIndex);
+
+            int i;
+        }
+
+    }
+}
+```
 
 ## Shell Sort
 
