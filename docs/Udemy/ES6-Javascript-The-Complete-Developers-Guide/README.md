@@ -20,7 +20,7 @@ pageClass: udemy
 
 ## Course Content
 
-1. [Before We Get Started](./01_Before-We-Get-Started/)
+1. [Introduction](./01_Introduction/)
 2. [The `forEach` Helper](./02_The-forEach-Helper/)
 3. [The `map` Helper](./03_The-map-Helper/)
 4. [The `filter` Helper](./04_The-filter-Helper/)

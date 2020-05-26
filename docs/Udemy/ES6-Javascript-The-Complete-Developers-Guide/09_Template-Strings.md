@@ -6,32 +6,35 @@ pageClass: udemy
 
 ## Template Strings
 
-**模版字符串（template literals / template strings）** 是 ES6 中提供的語法糖，以下面的代碼為例：
+**樣板字面值（Template Literals）** 允許在字串中嵌入運算式，是 ECMAScript 6 提供的語法糖，又稱為 **模版字符串（Template Strings）**。使用時使用反引號 ``` ` ``` 包裹，在使用到變數時需要以錢字號 `$` 引導並將運算式放置在花括號 `{ }` 內。
 
 ```javascript
+// Use string and add operator
 function getMessage() {
   const year = new Date().getFullYear();
 
   return "The year is " + year;
 }
-```
 
-透過模板字符串可以將變數的使用或運算式一同放入以反引號包裹的字串中：
-
-- 使用模板字符串時必須使用反引號 ``` ` ``` 包裹
-- 使用變數貨運算式時，以錢字號 `$` 引導並將運算式放置在花括號 `{ }` 內
-
-```javascript
+// Use Template Strings
 function get Message() {
   return `The year is ${new Date().getFullYear()}`;
 }
 ```
 
+詳細內容可以參考 [MDN | Template literals (Template strings)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+
 ## When to Reach for Template Strings
 
+```javascript
+const device_id = 4;
+const guid = 20;
+const username = "Hello";
 
+const data = `{ "device_id": "${device_id}", "guid": "${guid}", "username": "${username}", "}`;
+```
 
-## Coding Exercise 19: Template Strings in Practice
+## [Exercise] Template Strings in Practice
 
 ### Question
 
@@ -51,7 +54,7 @@ function doubleMessage(number) {
 }
 ```
 
-## Coding Exercise 20: Name Helpers
+## [Exercise] Name Helpers
 
 ### Question
 
