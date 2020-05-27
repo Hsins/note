@@ -24,7 +24,7 @@ hourlyWage = 45;
 
 ES6 中使用 `const` 和 `let` 作為宣告變數的關鍵字，最主要是在處理使用 `var` 可能延伸出的種種問題，可以參考 [2017 iT 邦鐵人賽 | Day 05: ES6 篇 - let 與 const](https://ithelp.ithome.com.tw/articles/10185142) 這篇文章中的講解會比講師說得更為詳細一些。
 
-## Coding Exercise 17: A Constant Exercise of Letting Variables Be Variables
+## [Exercise] Letting Variables Be Variables
 
 ### Question
 
