@@ -1,8 +1,4 @@
-# Creating Databases and Tables
-
-## [Lecture] Section 3 Introduction
-
-這一小節將會講解如何創建、切換或刪除資料庫？如何創建、切換或刪除表？
+# Create Databases and Tables
 
 ## [Lecture] Creating Databases
 
@@ -22,14 +18,14 @@
 
 ```sql
 -- Start the CLI:
-mysql-ctl cli; 
+mysql-ctl cli;
 
 -- List available databases:
-show databases; 
+show databases;
 
 -- The general command for creating a database:
--- CREATE DATABASE <database_name>; 
-CREATE DATABASE soap_store; 
+-- CREATE DATABASE <database_name>;
+CREATE DATABASE soap_store;
 ```
 
 ## [Lecture] Dropping Databases
