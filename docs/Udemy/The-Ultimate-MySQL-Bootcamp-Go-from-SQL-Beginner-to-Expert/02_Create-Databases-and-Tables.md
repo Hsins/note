@@ -8,7 +8,7 @@ pageClass: udemy
 
 我們在伺服器上所啟動的資料庫服務中，通常會同時包含許多不同的資料庫，因為一個較為複雜的應用程式資料可能來自不同的資料庫：
 
-![Database Server](https://user-images.githubusercontent.com/26391143/82979372-7c676980-a019-11ea-8ed4-27b633bd46af.png)
+![Database Server](https://user-images.githubusercontent.com/26391143/82979372-7c676980-a019-11ea-8ed4-27b633bd46af.png =x300)
 
 ### Create Databases
 
