@@ -64,14 +64,9 @@ pageClass: udemy
    DROP TABLE customers;
    ```
 
-## What's Database?
+## Database and Database Management System
 
-一個例子是電話簿，電話簿中存放了電話號碼和號碼持有人資料，除了存放資料之外還提供了按照字母的降序排列來查找持有人和電話。簡單地來說，所謂的 **資料庫（Database）** 有兩個主要的功能：
-
-- 存放資料
-- 操作資料
-
-大多數人在談及資料庫（database）時，指的是資料庫和資料庫管理系統（DBMs, Database Management System）結合在一起的概念。應用程式必須透過 DBMs 所提供的接口來存取資料庫，常見的 DBMs 有：
+**資料庫（Database）** 有兩個主要的功能：存放資料和操作資料。比如電話簿中記載了電話號碼以及號碼持有人的資料，並且按照字母降序排列來方便查找。大多數人在談及資料庫時，通常指的是資料庫和資料庫管理系統（DBMs, Database Management System）結合在一起的概念。應用程式必須透過資料庫管理系統所提供的應用程式接口（API, Application Programming Interface）來存取資料庫，常見的資料庫管理系統有：
 
 - [MySQL](https://www.mysql.com/)
 - [PostgreSQL](https://www.postgresql.org/)
@@ -79,11 +74,13 @@ pageClass: udemy
 - [SQLite](https://www.sqlite.org/index.html)
 - ...
 
-## SQL Vs. MySQL
+## SQL (Structured Query Language)
 
-操作非關聯式資料庫管理系統如 MySQL、SQLite、PostgreSQL 時，需要使用 **結構化查詢語言（SQL, Structured Query Language）**，由於 SQL 語言有其規範與標準，因此學會 SQL 便可以讓我們無痛地在不同的資料庫系統間使用。我們必須關切的是不同資料庫系統之間的差異，比如資料存取的性能、實現資料庫所使用的資料結構…等，而不僅僅是 SQL 語言。
+以資料表的形式儲存資料並彼此進行關聯的資料庫管理系統稱為關聯式資料庫管理系統（Relational Database Management System），比如  MySQL、SQLite、PostgreSQL…等。
 
-其實 SQL 語言的邏輯並不難理解，比如要從資料表中篩選出所有年紀大於或恰為 18 歲的使用者時，不論在那一個非關聯式資料庫中語句都是：
+操作關聯式資料庫管理系統時，需要使用 **結構化查詢語言（SQL, Structured Query Language）**，由於 SQL 語言有其規範與標準，因此學會 SQL 便可以讓我們無痛地在不同的資料庫系統間使用。我們必須關切的是不同資料庫系統之間的差異，比如資料存取的性能、實現資料庫所使用的資料結構…等，而不僅僅是 SQL 語言。
+
+其實 SQL 語言的邏輯並不難理解，並且十分直觀，比如要從資料表中篩選出所有年紀大於或恰為 18 歲的使用者時，不論在那一個非關聯式資料庫中語句都是：
 
 ```sql
 SELECT * FROM Users WHERE Age >= 18;

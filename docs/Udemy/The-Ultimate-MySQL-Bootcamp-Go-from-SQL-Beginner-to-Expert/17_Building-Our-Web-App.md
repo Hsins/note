@@ -4,14 +4,6 @@ pageClass: udemy
 
 # Building Our Web App
 
-## [Lecture] Section 17 Introduction
-
-在這一門課中將會建置一個實際的網頁應用。
-
-## [Lecture] Join Us Completed CODE
-
-完整的課程代碼可以透過 [連結](../sources/JoinUsCompleteCode.zip) 進行下載。
-
 ## [Lecture] Introducing Express
 
 ## [Lecture] NPM Init and package.json files

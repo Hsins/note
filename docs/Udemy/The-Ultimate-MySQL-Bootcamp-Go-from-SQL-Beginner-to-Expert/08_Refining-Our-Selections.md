@@ -4,8 +4,6 @@ pageClass: udemy
 
 # Refining Our Selections
 
-## 120, Section 8 Introduction
-
 ## 121, Seed Data: Adding A Couple New Books
 
 ## 122, CODE: Seed Data: Adding A Couple New Books

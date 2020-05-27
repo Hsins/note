@@ -4,51 +4,35 @@ pageClass: udemy
 
 # Create Databases and Tables
 
-## [Lecture] Creating Databases
+## Create and Drop Databases
 
-<p align="center">
-  <img src="https://i.imgur.com/OkWgt0c.png">
-</p>
+我們在伺服器上所啟動的資料庫服務中，通常會同時包含許多不同的資料庫，因為一個較為複雜的應用程式資料可能來自不同的資料庫：
 
-如上圖所示，我們在一台伺服器上所啟動的資料庫服務中通常會同時包含了許多不同的資料庫。因為這些資料可能屬於不同的資料庫：
+![Database Server](https://user-images.githubusercontent.com/26391143/82979372-7c676980-a019-11ea-8ed4-27b633bd46af.png)
 
-<p align="center">
-  <img src="https://i.imgur.com/4P0ACwl.png">
-</p>
+### Create Databases
 
-我們使用 `CREATE DATABASE <name>;` 命令在 MySQL 交互式介面下創建資料庫，其中 `<name>` 填入資料庫名稱，命名時建議使用底線 `_` 取代減號 `-`，儘量避免空白並統一命名規則。
-
-## [Lecture] CODE: Creating Databases
+使用 `CREATE DATABASE <database_name>;` 命令創建資料庫，命名時建議使用底線 `_` 取代減號 `-`，儘量避免空白並統一命名規則：
 
 ```sql
--- Start the CLI:
-mysql-ctl cli;
-
--- List available databases:
-show databases;
-
--- The general command for creating a database:
+-- Create databases:
 -- CREATE DATABASE <database_name>;
 CREATE DATABASE soap_store;
 ```
 
-## [Lecture] Dropping Databases
+### Dropping Databases
 
-我們使用 `DROP DATABASE <name>;` 命令在 MySQL 交互式介面下刪除既有的資料庫，其中 `<name>` 填入資料庫名稱。
-
-## [Lecture] CODE: Dropping Databases
+使用 `DROP DATABASE <database_name>;` 命令刪除既有的資料庫：
 
 ```sql
--- To drop a database:
--- DROP DATABASE <database_name>; 
+-- Drop databases:
+-- DROP DATABASE <database_name>;
 DROP DATABASE hello_world_db;
 ```
 
-## [Lecture] Using Databases
+## Use Databases
 
-創建好資料庫之後，我們使用 `USE <database name>;` 命令在選擇要使用的資料庫；而 `SELECT database();` 命令可以告知我們當前選擇的是哪一個資料庫。
-
-## [Lecture] CODE: Using Databases
+創建好資料庫之後，我們使用 `USE <database name>;` 命令在選擇要使用的資料庫，而 `SELECT database();` 命令可以告知我們當前選擇的是哪一個資料庫：
 
 ```sql
 -- Choose what database to be used:
@@ -110,11 +94,11 @@ SELECT database();
 
 ```sql
 -- To Create a Table
--- CREATE TABLE tablename 
---  ( 
---     column_name data_type, 
+-- CREATE TABLE tablename
+--  (
+--     column_name data_type,
 --     column_name data_type
---  ); 
+--  );
 -- Create a cats Table
 CREATE TABLE cats
   (
@@ -131,9 +115,9 @@ CREATE TABLE cats
 
 ```sql
 SHOW TABLES;
- 
+
 SHOW COLUMNS FROM tablename;
- 
+
 DESC tablename;
 ```
 
@@ -145,8 +129,8 @@ DESC tablename;
 
 ```SQL
 -- Dropping Tables
--- DROP TABLE <tablename>; 
-DROP TABLE cats; 
+-- DROP TABLE <tablename>;
+DROP TABLE cats;
 ```
 
 ## [Lecture] Creating Your Own Tables Challenge
