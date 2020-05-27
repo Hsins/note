@@ -1,3 +1,7 @@
+---
+pageClass: udemy
+---
+
 # CRUD Commmands
 
 ## [Lecture] Introduction to CRUD

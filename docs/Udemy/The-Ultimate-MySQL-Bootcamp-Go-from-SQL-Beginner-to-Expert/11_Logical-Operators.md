@@ -1,4 +1,4 @@
-# The Power of Logical Operators
+# Logical Operators
 
 ## 178, Not Equal
 

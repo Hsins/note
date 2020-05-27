@@ -1,4 +1,8 @@
-# The World Of String Functions
+---
+pageClass: udemy
+---
+
+# String Functions
 
 ## [Lecture] Running SQL Files
 

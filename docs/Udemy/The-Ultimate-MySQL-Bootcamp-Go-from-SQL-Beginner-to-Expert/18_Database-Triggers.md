@@ -1,1 +1,5 @@
+---
+pageClass: udemy
+---
+
 # Database Triggers

@@ -1,4 +1,8 @@
-# Inserting Data
+---
+pageClass: udemy
+---
+
+# Insert Data
 
 ## [Lecture] Section 4 Introduction
 

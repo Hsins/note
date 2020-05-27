@@ -1,4 +1,8 @@
-# The Magic of Aggregate Functions
+---
+pageClass: udemy
+---
+
+# Aggregate Functions
 
 ## 137, The Count Function
 

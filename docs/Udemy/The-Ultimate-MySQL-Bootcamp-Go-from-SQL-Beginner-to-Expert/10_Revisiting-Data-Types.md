@@ -1,6 +1,8 @@
-# Revisiting Data Types
+---
+pageClass: udemy
+---
 
-## 154, Section 10 Introduction
+# Revisiting Data Types
 
 ## 155, CHAR and VARCHAR
 

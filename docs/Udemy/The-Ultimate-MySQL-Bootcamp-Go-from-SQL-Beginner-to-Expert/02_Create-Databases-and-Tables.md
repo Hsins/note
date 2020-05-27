@@ -1,3 +1,7 @@
+---
+pageClass: udemy
+---
+
 # Create Databases and Tables
 
 ## [Lecture] Creating Databases

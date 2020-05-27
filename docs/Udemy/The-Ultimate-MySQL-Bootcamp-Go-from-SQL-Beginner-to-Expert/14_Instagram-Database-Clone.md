@@ -1,3 +1,7 @@
+---
+pageClass: udemy
+---
+
 # Instagram Database Clone
 
 ## Introduction To Instagram Clone Schema
