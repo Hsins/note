@@ -23,27 +23,20 @@ pageClass: udemy
 
 ## Course Content
 
-- Course Overview
-- Python Setup
-- Python Object and Data Structure Basics
-- Python Comparison Operators
-- Python Statements
-- Methods and Functions
-- Milestone Project - 1
-- Object Oriented Programming
-- Modules and Packages
-- Errors and Exceptions Handling
-- Milestone Project - 2
-- Python Decorators
-- Python Generators
-- Final Capstone Python Project
-- Advanced Python Modules
-- Advanced Python Objects and Data Structures
-- Bonus Material - Introduction to GUIs
-- BONUS SPECIAL OFFERS
-- APPENDIX: OLDER PYTHON 2 MATERIAL
-- BONUS COUPONS FOR OTHER COURSES
+1. Introduction
+2. Object and Data Structure
+3. Comparison Operators
+4. Statements
+5. Methods and Functions
+6. Milestone Project - 1
+7. Object Oriented Programming
+8. Modules and Packages
+9. Errors and Exceptions Handling
+10. Milestone Project - 2
+11. Decorators
+12. Generators
+13. Final Capstone Python Project
+14. Advanced Python Modules
+15. Advanced Python Objects and Data Structures
+16. Bonus Material - Introduction to GUIs
 
-## Project Demo
-
-## Review
