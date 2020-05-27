@@ -20,7 +20,7 @@ pageClass: udemy
 
 ## Course Content
 
-1. [Course Introduction](./01_Course-Introduction/)
+1. [Introduction](./01_Introduction/)
 2. [Creating a Local Linux Shell Scripting Environment](./02_Creating-a-Local-Linux-Shell-Scripting-Environment/)
 3. [User and Account Creation](./03_User-and-Account-Creation/)
 4. [Password Generation and Shell Script Arguments](./04_Password-Generation-and-Shell-Script-Arguments/)

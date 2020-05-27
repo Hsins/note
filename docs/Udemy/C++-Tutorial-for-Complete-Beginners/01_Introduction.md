@@ -2,7 +2,7 @@
 pageClass: udemy
 ---
 
-# Course Introduction
+# Introduction
 
 ## Pros and Cons
 

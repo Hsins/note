@@ -2,9 +2,9 @@
 pageClass: udemy
 ---
 
-# Course Introduction
+# Introduction
 
-## Introduction and Course Overview
+## Course Overview
 
 在實體機上安裝 Linux 作業系統，可以採用較輕量化的 Vagrant 環境來處理。在這一門課中將學習到：
 

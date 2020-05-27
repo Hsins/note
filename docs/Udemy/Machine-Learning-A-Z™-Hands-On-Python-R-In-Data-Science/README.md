@@ -19,7 +19,7 @@ pageClass: udemy
 
 ## Course Content
 
-1. [Welcome to the Course](./01_Course-Introduction/)
+1. [Introduction](./01_Introduction/)
 2. [Data Preprocessing](./02_Data-Preprocessing/)
 3. [Simple Linear Regression](./03_Simple-Linear-Regression/)
 4. [Multiple Linear Regression](./04_Multiple-Linear-Regression/)

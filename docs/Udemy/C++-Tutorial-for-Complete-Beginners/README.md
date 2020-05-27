@@ -21,16 +21,16 @@ pageClass: udemy
 
 ## Course Content
 
-1. [Course Introduction](./01_Course-Introduction/)
+1. [Introduction](./01_Introduction/)
 2. [Basic Syntax](./02_Basic-Syntax/)
 3. [Subroutine](./03_Subroutine/)
 4. [Object Oriented Coding](./04_Object-Oriented-Coding/)
 5. [Pointer and Memory]()
 6. [Inheritance]()
 7. [Odds and Ends: Twos Complement and Static Variables]()
-8. [Developing a Program: The Particle Fire Simulation](./08_Developing-a-Program-The-Particle-Fire-Simulation.md)
-9. [Conclusion](./09_Conclusion.md)
-10. [Bonus](./10_Bonus.md)
+8. [Developing a Program: The Particle Fire Simulation](./08_Developing-a-Program-The-Particle-Fire-Simulation/)
+9. [Conclusion](./09_Conclusion/)
+10. [Bonus](./10_Bonus/)
 
 ## Project Demo
 

@@ -21,7 +21,7 @@ pageClass: udemy
 
 ## Course Content
 
-1. [Welcome to the Course!](./01_Welcome-to-the-Course/)
+1. [Introduction](./01_Introduction/)
 2. [Q-Learning Intuition](./02_Q-Learning-Intuition/)
 3. [Q-Learning Visualization](./03_Q-Learning-Visualization/)
 4. [Deep Q-Learning Intuition]()

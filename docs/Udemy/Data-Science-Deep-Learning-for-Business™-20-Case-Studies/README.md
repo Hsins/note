@@ -20,7 +20,7 @@ pageClass: udemy
 
 ## Course Content
 
-1. [Course Introduction](./01_Course-Introduction/)
+1. [Introduction](./01_Introduction/)
 2. [Python Crash Course](./02_Python-Crash-Course/)
 3. [Pandas Crash Course](./03_Pandas-Crash-Course/)
 4. [Statistics and Probability](./04_Statistics-and-Probability/)

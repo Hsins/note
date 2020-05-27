@@ -26,7 +26,7 @@ pageClass: udemy
 
 ## Course Content
 
-1. [Course Introduction](./01_Course-Introduction/)
+1. [Introduction](./01_Introduction/)
 2. [HTML and CSS](./02_HTML-and-CSS/)
 3. [Bootstrap](./03_Bootstrap/)
 4.  [JavaScript](./04_JavaScript/)

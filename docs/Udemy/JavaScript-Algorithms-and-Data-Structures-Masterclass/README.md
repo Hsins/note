@@ -31,7 +31,7 @@ pageClass: udemy
 16. [Graphs]()
 17. [Graph Traversal]()
 18. [Dijkstra's Algorithm!]()
-19. [Dynamic Programming](./29_Dynamic-Programming.md)
+19. [Dynamic Programming](./29_Dynamic-Programming/)
 20. [Challenges]()
 
 ## Reference

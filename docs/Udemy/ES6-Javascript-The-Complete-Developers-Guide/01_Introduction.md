@@ -2,7 +2,7 @@
 pageClass: udemy
 ---
 
-# Course Introduction
+# Introduction
 
 ## How to Take This Course
 

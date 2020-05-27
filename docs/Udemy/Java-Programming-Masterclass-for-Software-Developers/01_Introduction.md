@@ -2,7 +2,7 @@
 pageClass: udemy
 ---
 
-# Course Introduction
+# Introduction
 
 ## The No. 1 Skill You Need to Have
 

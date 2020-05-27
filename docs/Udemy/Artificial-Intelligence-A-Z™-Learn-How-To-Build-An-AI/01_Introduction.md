@@ -2,7 +2,7 @@
 pageClass: udemy
 ---
 
-# Welcome to the Course!
+# Introduction
 
 ## Course Structure
 

@@ -20,7 +20,7 @@ pageClass: udemy
 
 # Course Content
 
-1. [Welcome!](./01_Welcome/)
+1. [Introduction](./01_Introduction/)
 2. [Git Essentials](./02_Git-Essentials/)
 3. [Intro to Node.js & NPM](./03_Intro-to-Nodejs-NPM/)
 4. [Gulp Essentials](./04_Gulp-Essentials/)

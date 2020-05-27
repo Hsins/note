@@ -20,7 +20,7 @@ pageClass: udemy
 
 ## Course Content
 
-1. [Introduction to Course]()
+1. [Introduction]()
 2. [Java Platform]()
 3. [Wrapper Classes]()
 4. [Strings]()
