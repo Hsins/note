@@ -1,4 +1,8 @@
-# Section 06 - Async Foundations
+---
+pageClass: udemy
+---
+
+# AJAX
 
 ## [Note] Callback Function and High-Order Function
 

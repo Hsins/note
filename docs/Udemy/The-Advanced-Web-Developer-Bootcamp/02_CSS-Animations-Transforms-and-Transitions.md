@@ -1,4 +1,8 @@
-# Section 02 - CSS Animations: Transforms and Transitions
+---
+pageClass: udemy
+---
+
+# CSS Animations
 
 ## [Note] Animations with CSS
 
