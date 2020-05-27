@@ -2,6 +2,22 @@
 
 ## Processes
 
+### Process Classification
+
+根據進程所執行的程式碼可以分成三類：
+
+- 系統進程，執行系統程式碼
+- 用戶進程，執行用戶程式碼
+- 用戶進程，執行系統程式碼
+
+### Example: Special Processes in Unix
+
+- `PID 0`
+- `PID 1`
+- `PID 2`
+
+## Process States
+
 ## Process Scheduling
 
 ## Process Scheduling - A Queueing Diagram
