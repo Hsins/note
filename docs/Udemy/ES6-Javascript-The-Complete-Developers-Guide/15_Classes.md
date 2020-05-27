@@ -7,6 +7,7 @@ pageClass: udemy
 ## Inheritance with Prototype Chain
 
 ```javascript
+// Create the parent class
 function Car(options) {
   this.title = options.title;
 }
@@ -17,6 +18,7 @@ Car.prototype.drive = function() {
 
 const car = new Car({ title: 'Focus' });
 
+// Create the subclass
 function Toyota(options) {
   Car.call(this, options);
   this.color = options.color;
@@ -29,12 +31,13 @@ Toyota.prototype.honk = function() {
   return 'beep';
 }
 
-const toyota = new Toyota({ color: 'red', title: 'Daily Driver' })
+const toyota = new Toyota({ color: 'red', title: 'Daily Driver' });
 ```
 
 ## Inheritance with Classes
 
 ```javascript
+// Create the parent class
 class Car {
   constructor({ title }) {
     this.title = title;
@@ -46,6 +49,20 @@ class Car {
 }
 
 const car = new Car({ title: 'Focus' });
+
+// Create the subclass
+class Toyoga extends Car {
+  constructor(options) {
+    super(options);              // Car.constructor();
+    this.color = options.color;
+  }
+
+  honk() {
+    return 'beep';
+  }
+}
+
+const toyota = new Toyota({ color: 'red', title: 'Daily Driver' });
 ```
 
 ## When to Use Classes
@@ -82,4 +99,20 @@ Now that you have a monster created, create a subclass of the Monster called `Sn
 ### Solution
 
 ```javascript
+class Monster {
+  constructor({ name }) {
+    this.health = 100;
+    this.name = name;
+  }
+}
+
+class Snake extends Monster {
+  constructor(options) {
+    super(options);
+  }
+
+  bite(snake) {
+    snake.health -= 10;
+  }
+}
 ```

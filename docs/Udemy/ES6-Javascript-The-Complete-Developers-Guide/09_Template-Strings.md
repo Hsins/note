@@ -6,7 +6,10 @@ pageClass: udemy
 
 ## Template Strings
 
-**樣板字面值（Template Literals）** 允許在字串中嵌入運算式，是 ECMAScript 6 提供的語法糖，又稱為 **模版字符串（Template Strings）**。使用時使用反引號 ``` ` ``` 包裹，在使用到變數時需要以錢字號 `$` 引導並將運算式放置在花括號 `{ }` 內。
+**樣板字面值（Template Literals）** 允許在字串中嵌入運算式，是 ECMAScript 6 提供的語法糖，又稱為 **模版字符串（Template Strings）**：
+
+- 使用反引號 ``` ` ``` 包裹字串
+- 變數換運算式以錢字號 `$` 引導並將運算式放置在花括號 `{ }` 內。
 
 ```javascript
 // Use string and add operator
