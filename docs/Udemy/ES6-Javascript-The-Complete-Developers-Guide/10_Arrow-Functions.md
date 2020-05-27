@@ -24,8 +24,6 @@ const add = (a, b) => {
 
 ## When to Use Arrow Functions
 
-## When to Use Arrow Functions Continued
+## [Exercise] Refactoring Keyword Functions
 
-## Coding Exercise 21: Refactoring Keyword Functions
-
-## Coding Exercise 22: Arrow Functions Aren't Always a Solution
+## [Exercise] Arrow Functions Aren't Always a Solution

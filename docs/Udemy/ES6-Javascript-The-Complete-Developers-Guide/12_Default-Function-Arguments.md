@@ -43,7 +43,7 @@ function createAdminUser(user = new User(generateID())) {
 }
 ```
 
-## Coding Exercise 27: Using Default Arguments
+## [Exercise] Using Default Arguments
 
 ### Question
 
@@ -71,7 +71,7 @@ function sum(a = 0, b = 0) {
 }
 ```
 
-## Coding Exercise 28: Dumping Unused Code
+## [Exercise] Dumping Unused Code
 
 ### Question
 

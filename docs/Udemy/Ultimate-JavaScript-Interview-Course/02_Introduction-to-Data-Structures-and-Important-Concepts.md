@@ -1,4 +1,4 @@
-# Section 02 - Introduction to Data Structures and Important Concepts
+# Introduction to Data Structures and Important Concepts
 
 ## Constructor Functions and `this` Keyword
 
