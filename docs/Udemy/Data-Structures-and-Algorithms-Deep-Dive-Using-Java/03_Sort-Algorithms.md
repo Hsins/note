@@ -60,7 +60,7 @@ public class Main {
 
 ### Theory
 
-冒泡排序（Bubble Sort）會重複遍歷待排序的數列，找出最小值或最大值並挪至最前方，直到排序完成。
+選擇排序（Selection Sort）會重複遍歷待排序的數列，找出最小值或最大值並挪至最前方，直到排序完成。
 
 - 屬於原地置換（In-Place Algorithms），不需要額外的空間。
 - 屬於不穩定排序，排序前後相同鍵值元素會改變其相對位置。
@@ -111,24 +111,37 @@ public class Main {
 
 ### Theory
 
-- In-Place Algorithm
-- $O(n^2)$ Time Complexity
-- Stable Algorithm
+插入排序（Insertion Sort）會從未排序的部份中逐一取出元素，並在已排序的部份中找到適當的位置插入，直到排序完成。
+
+- 屬於原地置換（In-Place Algorithms），不需要額外的空間。
+- 屬於穩定排序，排序前後相同鍵值元素不改變其相對位置。
+- 最優時間複雜度 $O(n)$
+- 平均時間複雜度 $O(n^2)$
+- 最差時間複雜度 $O(n^2)$
 
 ### Implementation
 
 ```java
 public class Main {
-    public static void main(String[] args) {
-        int[] intArray = { 20, 35, -15, 7, 55, 1, -22, };
 
-        for (int firstUnsortedIndex = 1; firstUnsortedIndex < intArray.length; firstUnsortedIndex++) {
-            int newElement = intArray(firstUnsortedIndex);
+  public static void main(String[] args) {
+    int[] intArray = {20, 35, -15, 7, 55, 1, -22};
 
-            int i;
-        }
+    for (int firstUnsortedIndex = 1; firstUnsortedIndex < intArray.length; firstUnsortedIndex++) {
+      int newElement = intArray[firstUnsortedIndex];
 
+      int i;
+      for (i = firstUnsortedIndex; i > 0 && intArray[i - 1] > newElement; i--) {
+        intArray[i] = intArray[i - 1];
+      }
+
+      intArray[i] = newElement;
     }
+
+    for (int i = 0 ;i < intArray.length; i++) {
+      System.out.println(intArray[i]);
+    }
+  }
 }
 ```
 
