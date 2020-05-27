@@ -18,8 +18,9 @@ pageClass: udemy
 
 ```java
 public class Main {
+
   public static void main(String[] args) {
-    int[] inArray = { 20, 35, -15, 7, 55, -1, -22 };
+    int[] intArray = {20, 35, -15, 7, 55, -1, -22};
 
     System.out.println(linearSearch(intArray, -15));
     System.out.println(linearSearch(intArray, 888));
@@ -28,7 +29,9 @@ public class Main {
   public static int linearSearch(int[] input, int value) {
     // check the elements one by one
     for (int i = 0; i < input.length; i++) {
-        if (input[i] == value) return i;
+      if (input[i] == value) {
+        return i;
+      }
     }
 
     return -1;
@@ -50,8 +53,9 @@ public class Main {
 
 ```java
 public class Main {
+
   public static void main(String[] args) {
-    int[] inArray = { -22, -15, -1, 7, 20, 35, 55 };
+    int[] intArray = {-22, -15, -1, 7, 20, 35, 55};
 
     System.out.println(BinarySearch(intArray, -15));
     System.out.println(BinarySearch(intArray, 888));
@@ -83,8 +87,9 @@ public class Main {
 
 ```java
 public class Main {
+
   public static void main(String[] args) {
-    int[] inArray = { -22, -15, -1, 7, 20, 35, 55 };
+    int[] intArray = {-22, -15, -1, 7, 20, 35, 55};
 
     System.out.println(BinarySearch(intArray, -15));
     System.out.println(BinarySearch(intArray, 888));
@@ -95,7 +100,9 @@ public class Main {
   }
 
   public static int BinarySearch(int[] input, int start, int end, int value) {
-    if (start >= end) return -1;
+    if (start >= end) {
+      return -1;
+    }
 
     int midpoint = (start + end) / 2;
     if (input[midpoint] < value) {
@@ -105,4 +112,5 @@ public class Main {
     }
   }
 }
+
 ```
