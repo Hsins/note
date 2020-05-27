@@ -19,7 +19,7 @@ pageClass: udemy
 
 ## Course Content
 
-1. [Getting Started](./01_Getting-Started/)
+1. [Course Introduction](./01_Course-Introduction/)
 2. [Execution Contexts and Lexical Environments](./02_Execution-Contexts-and-Lexical-Environments/)
 3. [Types and Operators](./03_Types-and-Operators/)
 4. [Objects and Functions](./04_Objects-and-Functions/)

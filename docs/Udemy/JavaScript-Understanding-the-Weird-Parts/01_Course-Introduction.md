@@ -2,7 +2,7 @@
 pageClass: udemy
 ---
 
-# Getting Started
+# Course Introduction
 
 ## Course Contents and Environemnt Setup
 
