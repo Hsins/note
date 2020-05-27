@@ -4,7 +4,7 @@ pageClass: udemy
 
 # CRUD Commmands
 
-## [Lecture] Introduction to CRUD
+## CRUD: Create, Read, Update and Delete
 
 我們經常要對資料進行 CRUD 操作，他是以下四個操作的縮寫：
 
@@ -26,25 +26,23 @@ VALUES(‘Taco’, 14);
 
 首先要刪除原有的資料表並創建這一節需要的資料表，詳見下一則筆記。
 
-## [Lecture] CODE: Preparing Our Data
-
 ```sql
 -- Drop Table
-DROP TABLE cats; 
+DROP TABLE cats;
 
 -- Recreate a new cats table:
-CREATE TABLE cats 
-  ( 
-     cat_id INT NOT NULL AUTO_INCREMENT, 
-     name   VARCHAR(100), 
-     breed  VARCHAR(100), 
-     age    INT, 
-     PRIMARY KEY (cat_id) 
-  ); 
-DESC cats; 
+CREATE TABLE cats
+  (
+     cat_id INT NOT NULL AUTO_INCREMENT,
+     name   VARCHAR(100),
+     breed  VARCHAR(100),
+     age    INT,
+     PRIMARY KEY (cat_id)
+  );
+DESC cats;
 
 -- Insert some new cats:
-INSERT INTO cats(name, breed, age) 
+INSERT INTO cats(name, breed, age)
 VALUES ('Ringo', 'Tabby', 4),
        ('Cindy', 'Maine Coon', 10),
        ('Dumbledore', 'Maine Coon', 11),
@@ -54,7 +52,7 @@ VALUES ('Ringo', 'Tabby', 4),
        ('Jackson', 'Sphynx', 7);
 ```
 
-## [Lecture] Official Introduction to SELECT
+## The `SELECT` Statement
 
 這一節介紹的是 `READ` 操作，也就是我們如何從資料表中取得或搜尋資料。這個操作透過 `SELECT` 命令完成，比如取得一張表中的所有欄位時，我們可以使用萬用字元 `*` 來作為要查找的表格名稱：
 
@@ -66,7 +64,7 @@ SELECT * FROM cats;
 
 ```sql
 -- Select column `name` from cats table
-SELECT name FROM cats; 
+SELECT name FROM cats;
 
 -- Select columns `age`, `breed` and `cat_id` from cats table
 SELECT age, breed, name, cat_id FROM cats;
@@ -100,7 +98,7 @@ SELECT age, breed, name, cat_id FROM cats;
 SELECT cat_id, name, age, breed FROM cats;
 ```
 
-## [Lecture] Introduction to WHERE
+## The `WHERE` Clause
 
 如果要取得表中滿足某一條件的列，可以加上 `WHERE` 語句：
 
@@ -130,7 +128,9 @@ SELECT * FROM cats WHERE name='Egg';
 SELECT * FROM cats WHERE name='egG';
 ```
 
-## [Lecture] SELECT Challenges
+## [Exercise] The `SELECT` Statement
+
+### Question
 
 1. Write the SQL that selects the following:
   ```
@@ -179,28 +179,24 @@ SELECT * FROM cats WHERE name='egG';
   +--------+------+
   ```
 
-## [Lecture] SELECT Challenges Solution
-
-詳見下一則筆記。
-
-## [Lecture] CODE: SELECT Challenges Solution
+### Solution
 
 ```sql
 -- Exercise 01
-SELECT cat_id FROM cats; 
+SELECT cat_id FROM cats;
 
 -- Exercise 02
-SELECT name, breed FROM cats; 
+SELECT name, breed FROM cats;
 
 -- Exercise 03
-SELECT name, age FROM cats WHERE breed='Tabby'; 
+SELECT name, age FROM cats WHERE breed='Tabby';
 
 -- Exercise 04
-SELECT cat_id, age FROM cats WHERE cat_id=age; 
-SELECT * FROM cats WHERE cat_id=age; 
+SELECT cat_id, age FROM cats WHERE cat_id=age;
+SELECT * FROM cats WHERE cat_id=age;
 ```
 
-## [Lecture] Introduction to Aliases
+## Aliases
 
 如果要更改顯示的欄位名稱，可以使用 `AS` 命令來建立別名（Alias），比如以下的代碼會將源自於 `cats` 表格中 `cat_id` 欄位顯示為 `id` 欄位：
 
@@ -212,13 +208,13 @@ SELECT cat_id AS id, name FROM cats;
 
 ```sql
 SELECT cat_id AS id, name FROM cats;
- 
+
 SELECT name AS 'cat name', breed AS 'kitty breed' FROM cats;
- 
+
 DESC cats;
 ```
 
-## [Lecture] The UPDATE Command
+## The `UPDATE` Command
 
 我們經常要對資料庫中的內容進行修改，比如更新使用者名稱、資訊或是修改密碼…等，此時必須使用 `UPDATE` 操作更新資料庫中的內容。比如以下代碼將會把 `cat` 表格中 `name` 欄位為 `Misty` 的 `age` 欄位修改成 14：
 
@@ -231,23 +227,21 @@ WHERE name='Misty';
 
 ```sql
 -- Change tabby cats to shorthair:
-UPDATE cats SET breed='Shorthair' WHERE breed='Tabby'; 
+UPDATE cats SET breed='Shorthair' WHERE breed='Tabby';
 
 -- Another update:
 UPDATE cats SET age=14 WHERE name='Misty';
 ```
 
-## [Lecture] UPDATE Challenges
+## [Exercise] Update Command
+
+### Question
 
 1. Change Jackson's name to `"Jack"`
 2. Change Ringo's breed to `"British Shorthair"`
 3. Update both Maine Coons' ages to be `12`
 
-## [Lecture] UPDATE Challenges Solution
-
-詳見下一則筆記。
-
-## [Lecture] CODE: UPDATE Challenges Solution
+## Solution
 
 ```sql
 -- Exercise 01
@@ -263,7 +257,7 @@ UPDATE cats SET age=12
 WHERE breed='Maine Coon';
 ```
 
-## [Lecture] Introduction to DELETE
+## The `DELETE` Command
 
 如果要從資料表中移除資料，必須進行 `DELETE` 操作，比如以下代碼將會從 `cats` 資料表中將 `name` 欄位為 `'EGG'` 的資料刪除：
 
@@ -280,23 +274,21 @@ DELETE FROM cats
 WHERE name='Egg';
 ```
 
-## [Lecture] DELETE Challenges
+## [Exercise] The DELETE Command
+
+### Question
 
 1. DELETE all 4 year old cats
 2. DELETE cats whose age is the same as their cat_id
 3. DELETE all cats
 
-## [Lecture] DELETE Challenges Solution
-
-詳見下一則筆記。
-
-## [Lecture] CODE: DELETE Challenges Solution
+### Solution
 
 ```sql
 -- Exercise 01
 DELETE FROM cats
 WHERE age=4;
- 
+
 -- Exercise 02
 DELETE FROM cats
 WHERE cat_id=age;
@@ -327,7 +319,7 @@ DELETE FROM cats;
     ('tank top', 'white', 'S', 200),
     ('tank top', 'blue', 'M', 15)
     ```
-    
+
 4. Add A New Shirt: Purple polo shirt, size M last worn 50 days ago
 5. SELECT all shirts: But Only Print Out Article and Color
 6. SELECT all medium shirts: Print Out Everything But shirt_id
@@ -338,11 +330,11 @@ DELETE FROM cats;
 11. Delete all shirts: Catastrophe!
 12. Drop the entire shirts table: Catastrophe Again!
 
-## [Lecture] CRUD Exercise Create Solution
+## [Exercise] CRUD: Create
 
-詳見下一則筆記。
+### Question
 
-## [Lecture] CODE: CRUD Exercise Create Solution
+### Solution
 
 ```sql
 -- Exercise 01
@@ -373,17 +365,17 @@ INSERT INTO shirts(article, color, shirt_size, last_worn) VALUES
 ('polo shirt', 'red', 'M', 5),
 ('tank top', 'white', 'S', 200),
 ('tank top', 'blue', 'M', 15);
- 
+
 -- Exercise 04
-INSERT INTO shirts(color, article, shirt_size, last_worn) 
+INSERT INTO shirts(color, article, shirt_size, last_worn)
 VALUES('purple', 'polo shirt', 'medium', 50);
 ```
 
-## [Lecture] CRUD Exercise Read Solution
+## [Exercise] CRUD: Read
 
-詳見下一則筆記。
+### Question
 
-## [Lecture] CODE: CRUD Exercise Read Solution
+### Solution
 
 ```sql
 -- Exercise 05
@@ -394,40 +386,40 @@ SELECT * FROM shirts WHERE shirt_size='M';
 SELECT article, color, shirt_size, last_worn FROM shirts WHERE shirt_size='M';
 ```
 
-## [Lecture] CRUD Exercise Update Solution
+## [Exercise] CRUD: Update
 
-詳見下一則筆記。
+### Question
 
-## [Lecture] CODE: CRUD Exercise Update Solution
+### Solution
 
 ```sql
 -- Exercise 07
 UPDATE shirts SET last_worn=0
 WHERE last_worn=15;
- 
+
 -- Exercise 08
 UPDATE shirts SET color='off white', shirt_size='XS'
 WHERE color='white';
 ```
 
-## [Lecture] CRUD Exercise Delete Solution
+## [Exercise] CRUD: Delete
 
-詳見下一則筆記。
+### Question
 
-## [Lecture] CODE: CRUD Exercise Delete Solution
+### Solution
 
 ```sql
 -- Exercise 09
 DELETE FROM shirts
 WHERE last_worn=200;
- 
+
 -- Exercise 10
 DELETE FROM shirts
 WHERE article='tank top';
- 
+
 -- Exercise 11
 DELETE FROM shirts;
- 
+
 -- Exercise 12
 DROP TABLE shirts;
 ```

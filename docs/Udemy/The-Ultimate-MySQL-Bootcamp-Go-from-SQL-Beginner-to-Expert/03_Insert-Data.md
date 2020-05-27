@@ -31,21 +31,21 @@ VALUES ('Jetson', 7);
 SELECT * FROM cats;
 ```
 
-## [Lecture] Multiple INSERT
+## Multiple `INSERT`
 
-當我們要大量插入資料時，使用 `,` 將不同資料列分開。
-
-## [Lecture] CODE: Multiple Insert
+當我們要大量插入資料時，需要使用 `,` 將不同資料列分開：
 
 ```sql
-INSERT INTO table_name 
-            (column_name, column_name) 
-VALUES      (value, value), 
-            (value, value), 
+INSERT INTO table_name
+            (column_name, column_name)
+VALUES      (value, value),
+            (value, value),
             (value, value);
 ```
 
-## [Lecture] INSERT Challenges
+## [Exercise] INSERT
+
+### Question
 
 1. 練習建置一個名為 `people` 的資料表，包含三個欄位：
     - `first_name` (20 char limit)
@@ -71,11 +71,7 @@ VALUES      (value, value),
     | 'Phillip' | 'Frond' | 38 |
     | 'Calvin' | 'Fischoeder' | 70 |
 
-## [Lecture] INSERT Challenges Solution
-
-略，見下一則筆記。
-
-## [Lecture] CODE: INSERT Challenges Solution
+### Solution
 
 ```sql
 -- Create Table
@@ -114,14 +110,14 @@ SELECT * FROM people;
 
 ```sql
 -- Check cats Table
-DESC cats; 
+DESC cats;
 
 -- Try Inserting a cat with a super long name:
 INSERT INTO cats(name, age)
 VALUES('This is some text blah blah blah blah blah text text text something about cats lalalalal meowwwwwwwwwww', 10);
 
 -- Show Warnings
-SHOW WARNINGS; 
+SHOW WARNINGS;
 ```
 
 ## [Lecture] NULL and NOT_NULL
@@ -158,14 +154,14 @@ CREATE TABLE cats
     name VARCHAR(100),
     age INT
   );
-DESC cats; 
+DESC cats;
 
 -- Try inserting a cat without an age:
-INSERT INTO cats(name) VALUES('Alabama'); 
-SELECT * FROM cats; 
+INSERT INTO cats(name) VALUES('Alabama');
+SELECT * FROM cats;
 
 -- Try inserting a nameless and ageless cat:
-INSERT INTO cats() VALUES(); 
+INSERT INTO cats() VALUES();
 ```
 
 設定為 `NOT NULL`：
@@ -177,18 +173,18 @@ CREATE TABLE cats2
     name VARCHAR(100) NOT NULL,
     age INT NOT NULL
   );
-DESC cats2; 
+DESC cats2;
 
 -- Try inserting an ageless cat:
-INSERT INTO cats2(name) VALUES('Texas'); 
+INSERT INTO cats2(name) VALUES('Texas');
 
 -- View the new warnings:
-SHOW WARNINGS; 
-SELECT * FROM cats2; 
+SHOW WARNINGS;
+SELECT * FROM cats2;
 
 -- Do the same for a nameless cat:
-INSERT INTO cats2(age) VALUES(7); 
-SHOW WARNINGS; 
+INSERT INTO cats2(age) VALUES(7);
+SHOW WARNINGS;
 ```
 
 ## [Lecture] Setting Default Values
@@ -197,20 +193,20 @@ SHOW WARNINGS;
 
 ```sql
 CREATE TABLE cats3
-  ( 
+  (
      name VARCHAR(100) DEFAULT 'unnamed',
      age  INT DEFAULT 99
-  ); 
+  );
 ```
 
 使用 `DEFAULT` 設定預設值時可能會和 `NOT NULL` 搭配使用，因為如果沒有特別聲明 `NOT NULL` 時，可以特別指定數值為 `NULL`：
 
 ```sql
 CREATE TABLE cats4
-  ( 
+  (
      name VARCHAR(100) NOT NULL DEFAULT 'unnamed',
      age  INT NOT NULL DEFAULT 99
-  ); 
+  );
 ```
 
 ## [Lecture] CODE: Setting Default Values
@@ -222,11 +218,11 @@ CREATE TABLE cats3
     name VARCHAR(20) DEFAULT 'no name provided',
     age INT DEFAULT 99
   );
-DESC cats3; 
+DESC cats3;
 
 -- Insert a nameless, ageless cat:
-INSERT INTO cats3(age) VALUES(13); 
-INSERT INTO cats3() VALUES(); 
+INSERT INTO cats3(age) VALUES(13);
+INSERT INTO cats3() VALUES();
 ```
 
 ```sql
@@ -236,7 +232,7 @@ CREATE TABLE cats4
     name VARCHAR(20) NOT NULL DEFAULT 'unnamed',
     age INT NOT NULL DEFAULT 99
   );
-  
+
 -- Notice The Difference:
 INSERT INTO cats() VALUES();
 SELECT * FROM cats;
@@ -247,11 +243,9 @@ SELECT * FROM cats3;
 INSERT INTO cats4(name, age) VALUES('Cali', NULL);
 ```
 
-## [Lecture] A Primer On Primary Keys
+## Primary Keys
 
 為了避免資料重複，我們會指派某一個欄位為 **主鍵（Primary Key）** 來進行區分，比如在申請帳號時，通常會將 username 設為主鍵來避免重複申請帳號。在聲明資料型態時可以透過 `PRIMARY KEY (column_name)` 來設定主鍵，在許多狀況下會將主鍵設置為一串編號，透過添加 `AUTO_INCREMENT` 標籤可以使資料庫添加資料列時自動進行編號。
-
-## [Lecture] CODE: A Primer on Primary Keys
 
 ```sql
 -- Define a table with a PRIMARY KEY constraint:
@@ -262,14 +256,14 @@ CREATE TABLE unique_cats
     age INT,
     PRIMARY KEY (cat_id)
   );
-DESC unique_cats; 
+DESC unique_cats;
 
 -- Insert some new cats:
 INSERT INTO unique_cats(cat_id, name, age) VALUES(1, 'Fred', 23);
 INSERT INTO unique_cats(cat_id, name, age) VALUES(2, 'Louise', 3);
 INSERT INTO unique_cats(cat_id, name, age) VALUES(1, 'James', 3);
 
-SELECT * FROM unique_cats; 
+SELECT * FROM unique_cats;
 ```
 
 ```sql
@@ -288,7 +282,7 @@ INSERT INTO unique_cats2(name, age) VALUES('Jiff', 3);
 INSERT INTO unique_cats2(name, age) VALUES('Jiff', 3);
 INSERT INTO unique_cats2(name, age) VALUES('Skippy', 4);
 
-SELECT * FROM unique_cats2; 
+SELECT * FROM unique_cats2;
 ```
 
 ## [Lecture] Table Constraints Exercise
