@@ -60,42 +60,51 @@ public class Main {
 
 ### Theory
 
-- 屬於原地置換（In-Place Algorithms）
-- 複雜度 $O(n^2)$
+冒泡排序（Bubble Sort）會重複遍歷待排序的數列，找出最小值或最大值並挪至最前方，直到排序完成。
+
+- 屬於原地置換（In-Place Algorithms），不需要額外的空間。
+- 屬於不穩定排序，排序前後相同鍵值元素會改變其相對位置。
 - 交換次數少於冒泡排序
-- 不穩定排序
+- 最優時間複雜度 $O(n^2)$
+- 平均時間複雜度 $O(n^2)$
+- 最差時間複雜度 $O(n^2)$
 
 ### Implementation
 
 ```java
 public class Main {
 
-    public static void main(String[] args) {
-        int[] intArray = {20, 35, -15, 7, 55, 1, -22};
+  public static void main(String[] args) {
+    int[] intArray = {20, 35, -15, 7, 55, 1, -22};
 
-        for (int lastUnsortedIndex = intArray.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
-            int largest = 0;
+    for (int lastUnsortedIndex = intArray.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
+      int largest = 0;
 
-            for (int i = 1; i <= lastUnsortedIndex; i++) {
-                if (intArray[i] > intArray[largest]) largest = i;
-            }
-
-            swap(intArray, largest, lastUnsortedIndex);
+      for (int i = 1; i <= lastUnsortedIndex; i++) {
+        if (intArray[i] > intArray[largest]) {
+          largest = i;
         }
+      }
 
-        for (int i = 0; i < intArray.length; i++) {
-            System.out.println(intArray[i]);
-        }
+      swap(intArray, largest, lastUnsortedIndex);
     }
 
-    public static void swap(int[] array, int i, int j) {
-        if (i == j) return;
-
-        int temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
+    for (int i = 0; i < intArray.length; i++) {
+      System.out.println(intArray[i]);
     }
+  }
+
+  public static void swap(int[] array, int i, int j) {
+    if (i == j) {
+      return;
+    }
+
+    int temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
 }
+
 ```
 
 ## Insertion Sort
