@@ -1,12 +1,26 @@
-# Introduction to Front End Development
+---
+pageClass: udemy
+---
 
-## [Note] Development Enviroment and Tool
+# Course Introduction
+
+## Share the Codes
+
+- [Codepen](http://codepen.io/)
+- [JS Bin](https://jsbin.com/)
+- [Github Gists](https://gist.github.com/)
+
+## Share the Screenshot
+
+- [Gyazo](https://gyazo.com/download)
+
+## Development Enviroment and Tool
 
 - [Sublime Text 3](https://www.sublimetext.com/)
 - [Emmet](https://docs.emmet.io/)
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
 
-## [Note] How Does the Internet Work?
+## How Does the Internet Work?
 
 講師透過影片 [YouTube | There and Back Again: A Packet's Tale. How Does the Internet Work?](http://www.youtube.com/watch?v=ewrBalT_eBM) 簡單介紹了網際網路實際上的運作情形，並舉例當使用者透過瀏覽器在網址列輸入 `https://www.udemy.com/` 並按下 <kbd>Enter</kbd> 鍵後發生了什麼事：
 

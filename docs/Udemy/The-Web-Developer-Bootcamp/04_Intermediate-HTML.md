@@ -1,3 +1,0 @@
-# Intermediate HTML
-
-## [Note]

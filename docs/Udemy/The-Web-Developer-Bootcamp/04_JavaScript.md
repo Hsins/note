@@ -1,4 +1,8 @@
-# JavaScript Basics: Objects
+---
+pageClass: udemy
+---
+
+# JavaScript
 
 ## [Lecture] Introduction to Objects
 
