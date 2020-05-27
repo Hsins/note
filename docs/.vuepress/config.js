@@ -15,8 +15,8 @@ module.exports = {
     logo: '/favicon.svg',
     nav: [
       { text: 'Home', link: '/' },
-      { text: '開放課程', link: '/Course/' },
-      { text: '教育平台', items: [
+      { text: 'Open Courses', link: '/Course/' },
+      { text: 'Platforms', items: [
         { text: 'iMOOC', link: '/iMOOC/' },
         { text: 'Lynda', link: '/Lynda/' },
         { text: 'Udemy', link: '/Udemy/' },
