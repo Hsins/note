@@ -1,4 +1,4 @@
-# Inserting Data (and a couple other things)
+# Inserting Data
 
 ## [Lecture] Section 4 Introduction
 
