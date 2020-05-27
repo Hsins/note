@@ -1,3 +1,7 @@
+---
+pageClass: udemy
+---
+
 # User and Account Creation
 
 ## [Lecture] Section Introduction
@@ -15,3 +19,4 @@
 ## [Lecture] Exit Statuses, Return Codes, String Test Conditionals, More Special Variables.
 
 ## [Lecture] Reading Standard Input, Creating Accounts, Username Conventions, More Quoting.
+

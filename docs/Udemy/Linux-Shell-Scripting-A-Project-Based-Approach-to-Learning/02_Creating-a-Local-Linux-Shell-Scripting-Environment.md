@@ -1,4 +1,8 @@
-# reating a Local Linux Shell Scripting Environment
+---
+pageClass: udemy
+---
+
+# Creating a Local Linux Shell Scripting Environment
 
 ## Creating a Local Lab Environment Using Vagrant and VirtualBox - Background
 

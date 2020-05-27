@@ -21,7 +21,7 @@ pageClass: udemy
 
 ## Course Content
 
-1. [Getting Started](./01_Getting-Started/)
+1. [Course Introduction](./01_Course-Introduction/)
 2. [Basic Syntax](./02_Basic-Syntax/)
 3. [Subroutine](./03_Subroutine/)
 4. [Object Oriented Coding](./04_Object-Oriented-Coding/)

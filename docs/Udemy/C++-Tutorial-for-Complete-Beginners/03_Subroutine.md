@@ -4,7 +4,7 @@ pageClass: udemy
 
 # Subroutine
 
-## Function
+## Functions
 
 當要實踐的功能越來越多時，程式也會越來越複雜，因此我們不可能將所有程式都寫在 `main()` 區塊中。為了更為有效率地進行程式的開發與管理，誕生了各式各樣的編成範式（Programming Paradigm），比如：物件導向程式設計、函數式程式設計、過程式程式設計…等。
 
@@ -97,6 +97,6 @@ int main() {
 }
 ```
 
-## [Lecture] Function Parameters
+## Function Parameters
 
-## [Lecture] Headers and Prototypes
+## Headers and Prototypes
