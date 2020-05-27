@@ -21,7 +21,7 @@ pageClass: udemy
 
 # Course Content
 
-1. [Getting Started](./01_Getting-Started/)
+1. [Introduction](./01_Introduction/)
 2. [A Simple Start](./02_A-Simple-Start/)
 3. [Deeper Into Go](./03_Deeper-Into-Go/)
 4. [Organizing Data With Structs](./04_Organizing-Data-With-Structs/)
