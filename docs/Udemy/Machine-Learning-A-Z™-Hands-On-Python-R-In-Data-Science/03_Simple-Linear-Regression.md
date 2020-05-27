@@ -1,4 +1,8 @@
-# Section 03 - Simple Linear Regression
+---
+pageClass: udemy
+---
+
+# Simple Linear Regression
 
 ## Theory
 

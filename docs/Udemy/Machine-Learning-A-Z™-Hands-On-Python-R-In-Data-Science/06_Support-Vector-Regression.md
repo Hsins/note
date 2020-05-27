@@ -1,1 +1,5 @@
-# Section 06 - Support Vector Regression (SVR)
+---
+pageClass: udemy
+---
+
+# Support Vector Regression (SVR)

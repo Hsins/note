@@ -1,4 +1,8 @@
-# Section 01 - Welcome to the Course!
+---
+pageClass: udemy
+---
+
+# Course Introduction
 
 ## Course Structure
 
