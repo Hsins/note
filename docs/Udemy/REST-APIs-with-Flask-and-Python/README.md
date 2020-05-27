@@ -15,7 +15,7 @@ pageClass: udemy
 
 ## Course Content
 
-1. [Welcome!](./01_Welcome/)
+1. [Course Introduction](./01_Course-Introduction/)
 2. [Your First REST API](./02_Your-First-REST-API/)
 3. [Flask RESTful for More Efficient Development](./03_Flask-RESTful-for-More-Efficient-Development/)
 4. [Storing Resources in SQL Database](./04_Storing-Resources-in-SQL-Database/)

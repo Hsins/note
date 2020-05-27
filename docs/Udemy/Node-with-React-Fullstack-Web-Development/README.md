@@ -20,19 +20,19 @@ pageClass: udemy
 
 ## Course Content
 
-- Section 01 - Course Overview - Start Here!
-- Section 02 - Server Side Architecture
-- Section 03 - Authentication with Google OAuth
-- Section 04 - Adding MongoDB
-- Section 05 - Dev vs Prod Environments
-- Section 06 - Moving to the Client Side
-- Section 07 - Developing the Client Side
-- Section 08 - Handling Payments
-- Section 09 - Back End to Front End Routing in Production
-- Section 10 - Mongoose for Survey Creation
-- Section 11 - Back to the Client!
-- Section 12 - Handling Webhook Data
-- Section 13 - The Home Stretch!
+- Course Overview - Start Here!
+- Server Side Architecture
+- Authentication with Google OAuth
+- Adding MongoDB
+- Dev vs Prod Environments
+- Moving to the Client Side
+- Developing the Client Side
+- Handling Payments
+- Back End to Front End Routing in Production
+- Mongoose for Survey Creation
+- Back to the Client!
+- Handling Webhook Data
+- The Home Stretch!
 
 ## Project Demo
 

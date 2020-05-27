@@ -2,7 +2,7 @@
 pageClass: udemy
 ---
 
-# Welcome!
+# Course Introduction
 
 ## Discord Community
 
