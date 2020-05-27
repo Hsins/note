@@ -15,37 +15,44 @@ pageClass: udemy
 
 ### Theory
 
-- 屬於原地置換（In-Place Algorithms）
-- 複雜度 $O(n^2)$
-- 穩定排序
+冒泡排序（Bubble Sort）會重複遍歷待排序的數列，一次比較兩個元素並進行交換，直到排序完成。
+
+- 屬於原地置換（In-Place Algorithms），不需要額外的空間。
+- 屬於穩定排序，排序前後相同鍵值元素不改變其相對位置。
+- 最優時間複雜度 $O(n)$
+- 平均時間複雜度 $O(n^2)$
+- 最差時間複雜度 $O(n^2)$
 
 ### Implementation
 
 ```java
 public class Main {
 
-    public static void main(String[] args) {
-        int[] intArray = {20, 35, -15, 7, 55, 1, -22};
-        for (int lastUnsortedIndex = intArray.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
-            for (int i = 0; i < lastUnsortedIndex; i++) {
-                if (intArray[i] > intArray[i + 1]) {
-                    swap(intArray, i, i + 1);
-                }
-            }
-        }
+  public static void main(String[] args) {
+    int[] intArray = {20, 35, -15, 7, 55, 1, -22};
 
-        for (int i = 0; i < intArray.length; i++) {
-            System.out.println(intArray[i]);
+    for (int lastUnsortedIndex = intArray.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
+      for (int i = 0; i < lastUnsortedIndex; i++) {
+        if (intArray[i] > intArray[i + 1]) {
+          swap(intArray, i, i + 1);
         }
+      }
     }
 
-    public static void swap(int[] array, int i, int j) {
-        if (i == j) return;
-
-        int temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
+    for (int i = 0; i < intArray.length; i++) {
+      System.out.println(intArray[i]);
     }
+  }
+
+  public static void swap(int[] array, int i, int j) {
+    if (i == j) {
+      return;
+    }
+
+    int temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
 }
 ```
 
