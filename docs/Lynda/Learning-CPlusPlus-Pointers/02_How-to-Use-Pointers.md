@@ -107,3 +107,36 @@ int main() {
 ## Pointing to a Pointer
 
 - Besides having a pointer that points to a number or a character, pointers can point to other pointers.
+- A commonly used example for this type of arrangement is **using an arroy of pointers**. (Since the array name points to the elements in array, then each element can contain a pointer to the data)
+
+```cpp
+#include "stdafx.h"
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  // Pointing to Pointer
+  int num = 10;
+  int* pNum = &num;
+  int** p2Num = &pNum;
+
+  cout << "Address of num: " << &num << endl;
+  cout << "Address stored in pNum: " << pNum << endl;
+  cout << "Address of pNum: " << &pNum << endl;
+  cout << "Address stored in p2Num: " << p2Num << endl;
+
+  // Array of Pointers
+  int testScores[5] {100, 95, 99, 85, 83};
+  int* pointerArray[5];
+  for (int i = 0; i < 5; i++) {
+    pointerArray[i] = &(testScores[i]);
+    cout << pointerArray[i] << endl;
+    cout << *(pointerArray[i]) << endl;   // 100, 95, 99, 85, 83
+    cout << *(pointerArray + i) << endl;
+    cout << **(pointerArray + i) << endl; // 100, 95, 99, 85, 83
+
+  }
+  return 0;
+}
+```
