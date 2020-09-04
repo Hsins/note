@@ -9,7 +9,7 @@ Pointer is a variable which is used for storing the address of data. Base on thi
 1. data variable: storing data, we can use `&` operator to get its address
 2. address variable: storing address, we can use `*` operator to get its value
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
