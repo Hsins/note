@@ -13,4 +13,4 @@ pageClass: lynda
 
 1. [Pointer Basics](./01_Pointer-Basics/)
 2. [How to Use Pointers](./02_How-to-Use-Pointers/)
-3. [More on Pointer Uses]()
+3. [More on Pointer Uses](./03_More-on-Pointer-Uses/)
