@@ -2,7 +2,7 @@
 pageClass: udemy
 ---
 
-# Searching Algorithms
+# Searching
 
 ## Linear Search
 

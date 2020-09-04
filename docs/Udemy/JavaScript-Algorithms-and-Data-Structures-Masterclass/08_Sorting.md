@@ -2,7 +2,7 @@
 pageClass: udemy
 ---
 
-# Sorting Algorithms
+# Sorting
 
 ## What is Sorting?
 

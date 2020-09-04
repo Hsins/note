@@ -2,7 +2,7 @@
 pageClass: udemy
 ---
 
-# Problem Solving Approach
+# Problem Solving
 
 在現實生活中，我們需要藉由撰寫程式來完成特定任務，而所謂的演算法（Algorithms）可以視為完成特定任務的一系列步驟或過程。那麼該怎麼提昇我們解決問題的能力呢？這裡提出了兩個主要的建議：
 
@@ -37,3 +37,17 @@ pageClass: udemy
 ## Solve and Simplify
 
 ## Look Back and Refactor
+
+## Frequency Counter
+
+This pattern uses objects or sets to collect values/frequencies of values. This can oftern avoid the need for nested loops or $O(n^2)$ operations with arrays or strings.
+
+## Multiple Pointers
+
+## Sliding Window
+
+## Divide And Conquer
+
+## Greedy
+
+## Backtracking
