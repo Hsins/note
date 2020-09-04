@@ -1,6 +1,6 @@
 ---
 title: "作業系統（Operatings Systems）"
-cover: "https://user-images.githubusercontent.com/26391143/78984221-4f89f080-7b58-11ea-9bc8-a15b1ed32071.png"
+cover: "https://user-images.githubusercontent.com/26391143/92204094-4e65b100-eeb5-11ea-8373-7313f584af8a.png"
 category: "Computer Science"
 instructors: "郭大維"
 link: "https://www.csie.ntu.edu.tw/~ktw/os.htm"
