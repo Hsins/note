@@ -11,3 +11,5 @@ pageClass: lynda
 
 ## Contents
 
+1. [Parallel Computing Hardware](./01_Parallel-Computing-Hardware.md)
+

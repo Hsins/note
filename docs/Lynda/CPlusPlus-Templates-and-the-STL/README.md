@@ -7,7 +7,7 @@ link: "https://www.linkedin.com/learning/c-plus-plus-templates-and-the-stl"
 pageClass: lynda
 ---
 
-# First Look: Rust
+# C++ Templates and the STL
 
 ## Contents
 
