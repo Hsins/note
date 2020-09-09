@@ -15,14 +15,16 @@ module.exports = {
     logo: '/favicon.svg',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Open Courses', link: '/Course/' },
-      { text: 'Platforms', items: [
+      { text: 'Book', link: '/Book/' },
+      { text: 'Course', items: [
+        { text: 'Online Course', link: '/Course/' },
         { text: 'iMOOC', link: '/iMOOC/' },
         { text: 'Lynda', link: '/Lynda/' },
         { text: 'Udemy', link: '/Udemy/' },
         { text: 'Coursera', link: '/Coursera/' },
         { text: 'GeekTime', link: '/GeekTime/' },
-        { text: 'Pluralsight', link: '/Pluralsight/' }]}
+        { text: 'Pluralsight', link: '/Pluralsight/' }]},
+      { text: 'About', link: '/About/' },
     ],
     sidebar: utils.sidebars,
     lastUpdated: 'Last Updated',
