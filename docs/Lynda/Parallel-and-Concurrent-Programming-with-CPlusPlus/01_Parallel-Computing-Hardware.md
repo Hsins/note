@@ -29,7 +29,11 @@ One of the most widely used systems for classifying multiprocessor architectures
  
 ## Shared Memory v.s Distributed Memory
 
-Computer memory usually operates at a much slower speed than processors do. When one processor is reading or writing the memory, that often prevents any other processors from accessing that same memory element. There are two main memory architectures that exist for parallel computing:
+Computer memory usually operates at a much slower speed than processors do. When one processor is reading or writing the memory, that often prevents any other processors from accessing that same memory element.
 
-- **Shared Memory**: 
-- **Distributed Memory**: 
+There are two main memory architectures that exist for parallel computing:
+
+- **Shared Memory**: All processors access the same memory with global address space. Although each processor operates independently, if one processor changes a memory location, all of the other processors will see that change. Note that it doesn't necessarily mean all of this data exists on the same physical device. The key is that both of our processors see everything that happens in the shared memory space.
+    - Uniform Memory Access (UMA): All of the processors have equal access to the memory (They can access it equally fast.). The most common type is the Symmetric Multi-Processing System (SMP). An SMP System has two or more identical processors which are connected to a single-shared memory through a system bus.
+    - Non-uniform Memory Access (NUMA): Often made by physically connecting multiple SMP systems together. The access is non-uniform because some processors will have quicker access to certain parts of memory than others.
+- **Distributed Memory**: Each processor has its own local memory with its own address space, so the concept of a global address space doesn't exist. All of the processors are connected through some sort of network and each processor operates independently and makes changes to its local memory (not automatically reflected in the memory of other processors). It's up to programmer to explicitly define how and when data is communicated between the nodes in a distributed system. The advantage of a distributed memory architecture is that it's scalable.
