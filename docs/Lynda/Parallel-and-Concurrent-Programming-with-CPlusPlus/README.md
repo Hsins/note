@@ -11,5 +11,6 @@ pageClass: lynda
 
 ## Contents
 
-1. [Parallel Computing Hardware](./01_Parallel-Computing-Hardware.md)
+1. [Parallel Computing Hardware](./01_Parallel-Computing-Hardware/)
+2. [Threads and Processes](./02_Threads-and-Processes/)
 
