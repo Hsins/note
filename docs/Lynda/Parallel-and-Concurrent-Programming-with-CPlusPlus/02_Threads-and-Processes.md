@@ -82,10 +82,72 @@ From the result of the program above, we can know that:
 
 So our program should not rely on execution scheduling for correctness.
 
-
-
 ## Thread Life Cycle
 
+```cpp
+/**
+ * Two threads cooking soup
+ */
+#include <thread>
+#include <chrono>
 
+void chef_olivia() {
+  printf("Olivia started & waiting for sausage to thaw...\n");
+  std::this_thread::sleep_for(std::chrono::seconds(3));
+  printf("Olivia is done cutting sausage.\n");
+}
+
+int main() {
+  printf("Barron requests Olivia's help.\n");
+  std::thread olivia(chef_olivia);
+  printf("Olivia is joinable? %s\n", olivia.joinable() ? "true" : "false");
+
+  printf("Barron continues cooking soup.\n");
+  std::this_thread::sleep_for(std::chrono::seconds(1));
+  printf("Olivia is joinable? %s\n", olivia.joinable() ? "true" : "false");
+
+  printf("Barron patiently waits for Olivia to finish and join...\n");
+  olivia.join();
+  printf("Olivia is joinable? %s\n", olivia.joinable() ? "true" : "false");
+
+  printf("Barron and Olivia are both done!\n");
+}
+```
+
+While C++ doesn't give us a view into a thread state, in regard to whether it's blocked or running in the operating system, we can check whether or not a thread is still considered active by using the `joinable()` function, which returns a `Boolean` indicating whether or not that thread is alive.
+
+![image-20200909162632843](https://i.imgur.com/aLye7wV.png)
 
 ## Detached Thread
+
+Garbage Collection is sort of service performing  a periodic task in support of the main program. A garbage collector is a form of automatic memory management that runs in the background and attempts to reclaim garbage or memory that's no longer being used by the program.
+
+Threads that are performing background tasks like garbage collection can be detached from the main program by making them what's called a **Daemon Thread** that will not prevent the process from terminating. Threads are created as non-daemon by default, so we have to explicitly turn a thread into a daemon thread.
+
+Note that the daemon thread will be terminated when the main thread is finished executing (and there aren't any non-daemon thread left running). Since daemon threads will be terminated abruptly with the process, they don't have a change to gracefully shutdown and could end up corrupting data when doing I/O task.
+
+```cpp
+/**
+ * Barron finishes cooking while Olivia cleans
+ */
+#include <thread>
+#include <chrono>
+
+void kitchen_cleaner() {
+  while (true) {
+    printf("Olivia cleaned the kitchen.\n");
+    std::this_thread::sleep_for(std::chrono::seconds(1));
+  }
+
+  int main() {
+    std::thread olivia(kitchen_cleaner);
+    olivia.detach();
+    for (int i = 0; i < 3; i++) {
+      printf("Barron is cooking...\n");
+      std::this_thread:;sleep_for(std::chrono::milliseconds(600));
+    }
+    printf("Barron is done!\n");
+  }
+}
+```
+
