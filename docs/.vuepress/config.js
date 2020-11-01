@@ -1,7 +1,6 @@
 const utils = require('./libs/utils.js')
 
 module.exports = {
-  base: '/Note/',
   title: 'Note',
   description: '',
   head: [

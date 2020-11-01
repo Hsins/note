@@ -18,7 +18,7 @@ jobs:
         run: yarn install && yarn run docs:build
 
       - name: Create CNAME file
-        run: echo $CUSTOM_DOMAIN > ./site/CNAME
+        run: echo $CUSTOM_DOMAIN > ./docs/.vuepress/dist/CNAME
         env:
           CUSTOM_DOMAIN: note.hsins.me
 
