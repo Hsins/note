@@ -1,7 +1,7 @@
 const utils = require('./libs/utils.js')
 
 module.exports = {
-  title: 'Note',
+  title: "Hsins' Note",
   description: '',
   head: [
     ['link', { rel: 'stylesheet', href: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" }],
@@ -14,7 +14,7 @@ module.exports = {
     logo: '/favicon.svg',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Book', link: '/Book/' },
+      { text: 'Book', link: '/book/' },
       { text: 'Course', items: [
         { text: 'Online Course', link: '/Course/' },
         { text: 'iMOOC', link: '/iMOOC/' },
@@ -23,7 +23,8 @@ module.exports = {
         { text: 'Coursera', link: '/Coursera/' },
         { text: 'GeekTime', link: '/GeekTime/' },
         { text: 'Pluralsight', link: '/Pluralsight/' }]},
-      { text: 'About', link: '/About/' },
+      { text: 'Paper', link: '/paper/' },
+      { text: 'About', link: '/about/' },
     ],
     sidebar: utils.sidebars,
     lastUpdated: 'Last Updated',
