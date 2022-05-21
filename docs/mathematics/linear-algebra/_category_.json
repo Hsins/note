@@ -1,0 +1,8 @@
+{
+  "label": "線性代數",
+  "position": 2,
+  "link": {
+    "id": "mathematics/linear-algebra/index",
+    "type": "doc"
+  }
+}

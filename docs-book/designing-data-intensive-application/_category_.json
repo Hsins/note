@@ -1,0 +1,8 @@
+{
+  "label": "DDIA",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "designing-data-intensive-application/index"
+  }
+}
